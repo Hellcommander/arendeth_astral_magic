@@ -16,4 +16,28 @@
 		"apply_caster": false,
 		"description": "Pressure surges unnaturally. Each stack intensifies internal strain building up to cap of 15 stacks where it bursts, striking nearby enemies with a retaliatory shockwave that applies stun, fear, immobilize, expose while ignoring dodge, and damage equal to the they suffered in the last 5 hits (ignores harming party members)."
 	}
+	    {
+        "id": "arendeth_astral_magic_frostburn",
+        "name": "Frostburn",
+        "image": 2,
+        "effects": [
+            {
+                "effect": "frostbite",
+                "value": 1
+            },
+			{
+                "effect": "ignore_party"
+                "value": 1
+            },
+		    {
+                "effect": "increase_effect",
+                "value": "frostbite",
+                "secondary_value": 0.01
+            }
+        ],
+        "max_stacks": 9999,
+        "duration": 8,
+        "apply_caster": false,
+        "description": "The cold of the astral gets harsher the more it stacks up"
+    },
 ]

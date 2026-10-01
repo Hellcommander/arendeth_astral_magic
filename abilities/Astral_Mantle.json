@@ -13,7 +13,7 @@
 		"movement_speed": -0.25,
 		"parry_chance": 30,
 		"power_up": 1,
-		"stacker": "arendeth_astral_magic_Astral_Overdrawn"
+		"stacker": "arendeth_astral_astral_fatigue"
 	},
 	"effects_keys": {
 		"magic_power_per_entity": "arendeth_astral_magic_astral_wisp"

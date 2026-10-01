@@ -12,7 +12,7 @@
 		"attack_speed": 0.25,
 		"deflection": 1.0,
 		"frostbite": 1,
-		"stacker": "arendeth_astral_magic_Astral_Overdrawn",
+		"stacker": "arendeth_astral_astral_fatigue",
 		"stacker_count": 1
 	},
 	"effects_keys": {

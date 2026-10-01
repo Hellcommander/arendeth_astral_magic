@@ -249,38 +249,71 @@
 		"description": "+1 aoe range.",
 		"duration": 1.0
 	},
-	{
-		"id": "sanguimancy_crimson_jump",
-		"name": "Crimson Jump",
-		"type": "offensive",
-		"image": 2,
-		"bonuses": [
-			{
-				"effect": "chain",
-				"value": 1
-			},
-			{
-				"effect": "bleed_per_damage",
-				"value": 1
-			},
-			{
-				"effect": "damage",
-				"value": -1
-			},
-			{
-				"effect": "turn_damage_to_stacks",
-				"value": "Sanguimancy_Blood_Laceration_Bleed",
-				"secondary_value": 0.7
-			},
-			{
-				"effect": "stacker_to_dot",
-				"value": "Sanguimancy_Blood_Laceration_Bleed"
-			}
-		],
-		"description": "+1 chain + 1 bleed per damage but converts 70% of your damage to blood laceration stacks and reduces the damage by 1.",
-		"duration": 1.0
-	},
-{
+	
+    {
+         "id": "Astral_Clarity_Surge",
+         "name": "Astral Clarity Surge",
+         "type": "utility",
+         "image": 3,
+         "bonuses": [
+        {
+            "effect": "cast_time",
+            "value": -0.6
+        },
+        {
+            "effect": "cooldown",
+            "value": -5.0
+        },
+        {
+            "effect": "reduce_random_cooldown",
+            "value": 1
+        },
+        {
+            "effect": "damage_as_life",
+            "value": 0.4
+        },
+        {
+            "effect": "distance_damage",
+            "value": 1
+        }
+   ],
+    "description": "You fracture astral flow to accelerate your casting rhythm, unleashing your next spell with greatly reduced cast time and cooldown. The surge restores a random ability’s cooldown, converts a portion of your damage into life, and empowers distant attacks through astral resonance.",
+    "range": 3.0,
+    "duration": 1.0
+   }
+
+   {
+    "id": "Astral_Clarity_Surge",
+    "name": "Astral Clarity Surge",
+    "type": "utility",
+    "image": 3,
+    "bonuses": [
+        {
+            "effect": "cast_time",
+            "value": -0.6
+        },
+        {
+            "effect": "cooldown",
+            "value": -5.0
+        },
+        {
+            "effect": "reduce_random_cooldown",
+            "value": 1
+        },
+        {
+            "effect": "damage_as_life",
+            "value": 0.4
+        },
+        {
+            "effect": "distance_damage",
+            "value": 1
+        }
+    ],
+    "description": "You fracture astral flow to accelerate your casting rhythm, unleashing your next spell with greatly reduced cast time and cooldown while briefly extending its duration. The surge restores a random ability’s cooldown and converts a portion of your damage into life, empowering distant attacks through astral resonance.",
+    "range": 3.0,
+    "duration": 1.0
+}
+    {
     "id": "Astral_Overdrawn",
     "name": "Astral Overdrawn",
     "type": "utility",
@@ -311,21 +344,31 @@
     "description": "You force unstable astral power through your channels, causing your next spell to strike twice and inflicting heavy Overdrawn strain on yourself. Any effects applied by that spell—whether to you or your target—collapse instantly when you cast another ability, and the surge sharply increases the spell’s cooldown before burning out.",
     "range": 8.0,
     "duration": 1.0
-}
-
-	{
-		"id": "sanguimancy_systolic_trickle",
-		"name": "Systolic Trickle",
-		"type": "utility",
-		"image": 3,
-		"bonuses": [
-			{
-				"effect": "health_for_stamina",
-				"value": 0.01
-			}
-		],
-		"health_for_stamina": 0.01,
-		"stamina": 2,
-		"description": "The heart pays a little of the cost. 1% of stamina cost is returned as health, -1 stamina and +2 stamina."
-	}
+    },
+    {
+    "id": "Astral_Tempo_Break",
+    "name": "Astral Tempo Break",
+    "type": "utility",
+    "image": 3,
+    "bonuses": [
+        {
+            "effect": "cast_time",
+            "value": -0.7
+        },
+        {
+            "effect": "cooldown",
+            "value": -3.0
+        },
+        {
+            "effect": "duration",
+            "value": 4.0
+        },
+        {
+            "effect": "reduce_random_cooldown",
+            "value": 2
+        }
+    ],
+    "description": "You fracture astral flow to accelerate your casting rhythm, nearly instantaneously unleashing your next spell while sharply reducing its cooldown and extending its duration. The surge restores two random ability cooldowns, making this augment ideal for regaining tempo in critical moments.",
+    "duration": 1.0
+   }
 ]

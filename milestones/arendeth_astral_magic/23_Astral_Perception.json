@@ -1,0 +1,16 @@
+    {
+      "id": "arendeth_astral_magic_Astral_Perception",
+      "name": "Astral_Perception",
+      "requirements": {
+        "milestones": [],
+        "skill": 24
+      },
+      "rewards": [
+        {
+          "passive": "arendeth_astral_magic_Astral_Perception"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0
+    }

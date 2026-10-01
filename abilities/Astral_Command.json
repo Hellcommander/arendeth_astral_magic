@@ -9,14 +9,14 @@
 	"description": "",
 	"duration": 0.0,
 	"effects": {
-		"full_vision": 1,
+		"ally_command": 1,
+		"health_for_stamina": 0.30000001192092896,
 		"repeat_ability_second_weapon": 0.10000000149011612,
-		"stamina": 50,
-		"stamina_regen": ""
+		"sight": 2
 	},
-	"id": "arendeth_astral_magic_",
-	"name": "",
+	"id": "arendeth_astral_magic_Astral_Command",
+	"name": "Astral Command",
 	"range": 0,
-	"skill": "",
+	"skill": "arendeth_astral_magic",
 	"target": ""
 }

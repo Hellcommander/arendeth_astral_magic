@@ -25,7 +25,7 @@
 		"immobilize": 1,
 		"knockback": 1,
 		"magic_power_damage": 0.8999999761581421,
-		"stacker": "arendeth_astral_magic_Astral_Overdrawn"
+		"stacker": "arendeth_astral_astral_fatigue"
 	},
 	"id": "arendeth_astral_magic_Astral_Collapse",
 	"image": 2,

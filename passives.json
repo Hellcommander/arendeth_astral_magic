@@ -1,76 +1,101 @@
 [
 	{
-		"id": "sanguimancy_hemorrhagic_cascade",
-		"name": "Hemorrhagic Cascade",
-		"image": 0,
-		"effects": [
-			{
-				"effect": "increase_effect_value",
-				"value": "bleed",
-				"secondary_value": 0.25
-			},
-			{
-				"effect": "death_under_effect_gain_stamina",
-				"value": "bleed",
-				"secondary_value": 5
-			}
-		]
-	},
-	{
-		"id": "sanguimancy_internal_fortitude",
-		"name": "Internal Fortitude",
-		"image": 1,
-		"effects": [
-			{
-				"effect": "damage_negation",
-				"value": "bleed",
-				"secondary_value": 0.25
-			},
-			{
-				"effect": "health_bonus_percent",
-				"value": 0.1
-			},
-			{
-				"effect": "regeneration_low_health",
-				"value": 0.2
-			}
-		]
-	},
-	{
-		"id": "sanguimancy_pulse_pact",
-		"name": "Pulse Pact",
-		"image": 2,
-		"effects": [
-			{
-				"effect": "on_attack_cast",
-				"value": "arendeth_sanguimancy_Pressure_Spike",
-				"secondary_value": 1.0
-			}
-		]
-	},
-	{
-		"id": "sanguimancy_bloodthirst",
-		"name": "Bloodthirst",
+		"id": "arendeth_astral_magic_Astral_Command_Nexus",
+		"name": "Astral Command Nexus",
 		"image": 3,
 		"effects": [
 			{
-				"effect": "heal_on_kill",
+				"effect": "see_stamina",
+				"value": 1
+			},
+			{
+				"effect": "increase_effect_value",
+				"value": "frostbite",
+				"secondary_value": 0.25
+			},
+			{
+				"effect": "target_resistance",
+				"value": "frost",
+				"secondary_value": -0.25
+			},
+			{
+				"effect": "trigger_ability_on_cast",
+				"value": "core_2_Spectral_Chain",
+				"secondary_value": 15,
+				"third_value": 1.0
+			},
+			{
+				"effect": "companion",
+				"value": 1
+			}
+		]
+	},
+    {
+		"id": "arendeth_astral_magic_Astral_Command",
+		"name": "Astral Command",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "ally_command",
+				"value": 1
+			},
+			{
+				"effect": "health_for_stamina",
+				"value": 0.3
+			},
+			{
+				"effect": "repeat_ability_second_weapon",
 				"value": 0.1
 			},
 			{
-				"effect": "death_under_effect_gain_health",
-				"value": "bleed",
-				"secondary_value": 8
+				"effect": "sight",
+				"value": 2
 			},
 			{
-				"effect": "stamina_percent_on_kill",
+				"effect": "range",
+				"value": 2
+			}
+		],
+		"range": 2.0,
+		"description": "Your astral authority strengthens, granting command over an additional companion while expanding your sight and spell range. A portion of health loss is converted into stamina, and your abilities have a small chance to echo through your off‑hand focus."
+	},
+	{
+		"id": "arendeth_astral_magic_Astral_Insight",
+		"name": "Astral Insight",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "full_vision",
+				"value": 1
+			},
+			{
+				"effect": "repeat_ability_second_weapon",
 				"value": 0.1
+			},
+			{
+				"effect": "stamina",
+				"value": 50
+			},
+			{
+				"effect": "stamina_regen",
+				"value": 1.0
+			}
+		]
+	}
+	{
+		"id": "Astral_Perception",
+		"name": "Astral Perception",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "Sense",
+				"value": "Magic"
 			}
 		]
 	},
 	{
-		"id": "sanguimancy_mastery",
-		"name": "Sanguimancy Mastery",
+		"id": "Astral_Magic_mastery",
+		"name": "Astral Magic Mastery",
 		"image": 4,
 		"effects": [
 			{
