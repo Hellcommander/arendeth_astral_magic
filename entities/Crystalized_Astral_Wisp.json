@@ -1,0 +1,63 @@
+{
+	"components": [
+		"glyph",
+		"health",
+		"item",
+		"name",
+		"position_2d",
+		"statistics",
+		"tags"
+	],
+	"corpse": "326",
+	"description": "Spirit of empowered by astral magic. Crystalized into a component for upgrading it",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					155,
+					240
+				],
+				"delay": 100,
+				"index": 560
+			}
+		],
+		"random_frame_start": true
+	},
+	"health": 85,
+	"id": "arendeth_astral_magic_Crystalized_Astral_Wisp",
+	"item": {
+		"image": 677,
+		"type": 16
+	},
+	"name": "Crystalized Astral Wisp",
+	"statistics": {
+		"dexterity": [
+			8,
+			11
+		],
+		"endurance": [
+			10,
+			15
+		],
+		"health_regen": 1.0,
+		"health_regen_tick": 10.0,
+		"hearing": 14,
+		"intelligence": [
+			13,
+			17
+		],
+		"sneaking": 16,
+		"strength": [
+			7,
+			11
+		],
+		"willpower": [
+			8,
+			12
+		]
+	},
+	"tags": [
+		"3"
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"animation": "232",
+	"cast_time": 0.0,
+	"cooldown": 6.0,
+	"cost": {
+		"health": 0,
+		"item": "arendeth_astral_magic_astral_wisp",
+		"stamina": 7
+	},
+	"description": "Your Astral Wisp panics and mind‑phases you into the target’s position, forcing the target into yours.\nThe sudden displacement terrifies the target and causes the Wisp to split into small astral fragments within a  small square area.",
+	"duration": 4.0,
+	"effects": {
+		"aoe_range": 2,
+		"aoe_shape": 3,
+		"fear": 1,
+		"summon_count": 10,
+		"trade_places": 1
+	},
+	"effects_keys": {
+		"summon": "arendeth_astral_magic_astral_wisp"
+	},
+	"id": "arendeth_astral_magic_Wisp_Powered_Swap",
+	"image": 822,
+	"name": "Wisp Powered Swap",
+	"range": 12,
+	"skill": "arendeth_mindmend_magic",
+	"slots": {
+		"utility": 3
+	},
+	"target": "aoe_target"
+}

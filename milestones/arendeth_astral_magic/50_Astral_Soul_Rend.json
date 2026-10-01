@@ -1,0 +1,17 @@
+    {
+      "id": "arendeth_astral_magic_Astral_Soul_Rend",
+      "name": "Astral Soul Rend",
+      "requirements": {
+        "milestones": [],
+        "skill": 50
+      },
+      "rewards": [
+        {
+          "ability": "arendeth_astral_magic_Astral_Soul_Rend"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0
+    }
+  ]

@@ -1,0 +1,36 @@
+{
+	"animation": "core_2_Trail_of_ice",
+	"cast_time": 1.100000023841858,
+	"cooldown": 4.0,
+	"cost": {
+		"health": 0,
+		"stamina": 3
+	},
+	"description": "You release a narrow astral frost cone that reaches up to 6 tiles, dealing ::damage ::damage_type damage and piercing through all enemies caught in its side‑shaped area.\nThe chilling impact inflicts frostbite and generates astral frost stacks.\nIf too many stacks accumulate, the backlash applies debuffs to you.\nThis spell ignores party members.",
+	"duration": 2.0,
+	"effects": {
+		"aoe_range": 1,
+		"aoe_shape": 2,
+		"damage": [
+			4,
+			9
+		],
+		"damage_type": "frost",
+		"damage_weapon": 0.75,
+		"frostbite": 1,
+		"ignore_party": 1,
+		"magic_power_damage": 0.75,
+		"pierce": 1,
+		"stacker": "12"
+	},
+	"id": "arendeth_astral_magic_Astral_Frostline",
+	"image": 741,
+	"name": "Astral Frostline",
+	"range": 6,
+	"skill": "arendeth_mindmend_magic",
+	"slots": {
+		"offensive": 1,
+		"utility": 1
+	},
+	"target": "cone"
+}

@@ -1,0 +1,39 @@
+{
+	"animation": "160",
+	"cast_time": 1.2999999523162842,
+	"cooldown": 9.0,
+	"cost": {
+		"health": 0,
+		"stamina": 5
+	},
+	"description": "You release a burst of burning light that deals ::damage ::damage_type damage in a small circular area.\nThe flash forces each affected enemy to sidestep and converts the damage dealt into stacks for Burning Light Trigger(12 burn stamina, burning light).\nThe surge summons Astral Wisps that echo your magic, up to a maximum of twelve.\nThis spell ignores party members.",
+	"duration": 7.0,
+	"effects": {
+		"aoe_range": 3,
+		"aoe_shape": 1,
+		"damage": [
+			3,
+			9
+		],
+		"damage_type": "physical",
+		"ignore_party": 1,
+		"light_source": 1,
+		"magic_power_damage": 1.0,
+		"move_to_side": 1,
+		"summon_count": 12,
+		"turn_damage_to_stacks": "arendeth_astral_magic_Stamina_Burning_Light_Trigger"
+	},
+	"effects_keys": {
+		"summon": "arendeth_astral_magic_astral_wisp"
+	},
+	"id": "arendeth_astral_magic_Summon_Astral_Wisp_Swarm",
+	"image": 773,
+	"name": "Summon Astral Wisp Swarm",
+	"range": 9,
+	"skill": "arendeth_mindmend_magic",
+	"slots": {
+		"offensive": 1,
+		"utility": 3
+	},
+	"target": "any"
+}

@@ -1,0 +1,17 @@
+    {
+      "id": "arendeth_astral_magic_Astral_Overdrawn",
+      "name": "Astral Soul Rend",
+      "requirements": {
+        "milestones": [],
+        "skill": 47
+      },
+      "rewards": [
+        {
+          "amplifier": "Astral_Overdrawn"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0
+    }
+  ]

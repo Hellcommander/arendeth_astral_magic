@@ -1,0 +1,24 @@
+{
+	"animation": "",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "",
+	"duration": 0.0,
+	"effects": {
+		"hide_health": 1,
+		"increase_target_cooldown": 10,
+		"remove_on_next_ability": 1,
+		"repeat_ability_second_weapon": 1.0,
+		"stacker": "arendeth_astral_magic_Astral_Overdrawn",
+		"stacker_count": 10
+	},
+	"id": "arendeth_astral_magic_Overdrawn_Magic_Augment",
+	"name": "Overdrawn Magic Augment",
+	"range": 0,
+	"skill": "",
+	"target": ""
+}

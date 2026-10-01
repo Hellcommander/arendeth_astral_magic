@@ -1,0 +1,19 @@
+[
+	{
+		"id": "sanguimancy_Arendeth_hypertension",
+		"name": "Hypertension",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "attack_speed",
+				"value": 0.01
+			}
+		],
+		"max_stacks": 15,
+		"on_max_stacks_cast": "Internal_Pressure_Buildup_Explosion",
+		"max_stacks_cast_unlock": true,
+		"duration": 8,
+		"apply_caster": false,
+		"description": "Pressure surges unnaturally. Each stack intensifies internal strain building up to cap of 15 stacks where it bursts, striking nearby enemies with a retaliatory shockwave that applies stun, fear, immobilize, expose while ignoring dodge, and damage equal to the they suffered in the last 5 hits (ignores harming party members)."
+	}
+]

@@ -1,0 +1,103 @@
+[
+	{
+		"id": "sanguimancy_hemorrhagic_cascade",
+		"name": "Hemorrhagic Cascade",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "increase_effect_value",
+				"value": "bleed",
+				"secondary_value": 0.25
+			},
+			{
+				"effect": "death_under_effect_gain_stamina",
+				"value": "bleed",
+				"secondary_value": 5
+			}
+		]
+	},
+	{
+		"id": "sanguimancy_internal_fortitude",
+		"name": "Internal Fortitude",
+		"image": 1,
+		"effects": [
+			{
+				"effect": "damage_negation",
+				"value": "bleed",
+				"secondary_value": 0.25
+			},
+			{
+				"effect": "health_bonus_percent",
+				"value": 0.1
+			},
+			{
+				"effect": "regeneration_low_health",
+				"value": 0.2
+			}
+		]
+	},
+	{
+		"id": "sanguimancy_pulse_pact",
+		"name": "Pulse Pact",
+		"image": 2,
+		"effects": [
+			{
+				"effect": "on_attack_cast",
+				"value": "arendeth_sanguimancy_Pressure_Spike",
+				"secondary_value": 1.0
+			}
+		]
+	},
+	{
+		"id": "sanguimancy_bloodthirst",
+		"name": "Bloodthirst",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "heal_on_kill",
+				"value": 0.1
+			},
+			{
+				"effect": "death_under_effect_gain_health",
+				"value": "bleed",
+				"secondary_value": 8
+			},
+			{
+				"effect": "stamina_percent_on_kill",
+				"value": 0.1
+			}
+		]
+	},
+	{
+		"id": "sanguimancy_mastery",
+		"name": "Sanguimancy Mastery",
+		"image": 4,
+		"effects": [
+			{
+				"effect": "statistic_percent",
+				"value": "strength",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "dexterity",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "endurance",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "intelligence",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "statistic_percent",
+				"value": "willpower",
+				"secondary_value": 0.1
+			}
+		]
+	}
+]

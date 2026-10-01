@@ -1,0 +1,17 @@
+{
+	"animation": "",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "",
+	"duration": 0.0,
+	"effects": null,
+	"id": "arendeth_astral_magic_",
+	"name": "",
+	"range": 0,
+	"skill": "",
+	"target": ""
+}

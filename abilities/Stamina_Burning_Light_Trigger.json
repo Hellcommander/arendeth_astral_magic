@@ -1,0 +1,22 @@
+{
+	"animation": "",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "",
+	"duration": 0.0,
+	"effects": {
+		"burn_stamina": 12,
+		"burning_light": 1,
+		"ignore_party": 1
+	},
+	"id": "arendeth_astral_magic_Stamina_Burning_Light_Trigger",
+	"image": 516,
+	"name": "Stamina Burning Light Trigger",
+	"range": 0,
+	"skill": "arendeth_mindmend_magic",
+	"target": ""
+}

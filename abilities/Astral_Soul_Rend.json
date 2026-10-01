@@ -1,0 +1,30 @@
+{
+	"animation": "54",
+	"cast_time": 2.0,
+	"cooldown": 120.0,
+	"cost": {
+		"health": 1,
+		"stamina": 8
+	},
+	"description": "You tear open an astral conduit and lash the minds of up to five enemies in a chain.\nEach target is corrupted, becoming your thrall for a short duration, while their cooldowns are wiped clean, making them immediately dangerous once the control ends.\nThe astral shock leaves them frostbitten and vulnerable, and the surge of stolen astral force briefly accelerates their movement.\nThis spell ignores allies and cannot affect your party.",
+	"duration": 5.0,
+	"effects": {
+		"chain": 5,
+		"clear_cooldowns": 1,
+		"corrupt": 1,
+		"frostbite": 1,
+		"ignore_party": 1,
+		"movement_speed": -0.15,
+		"vulnerable": 1
+	},
+	"id": "arendeth_astral_magic_Astral_Soul_Rend",
+	"image": 58,
+	"name": "Astral Soul Rend",
+	"range": 7,
+	"skill": "arendeth_mindmend_magic",
+	"slots": {
+		"offensive": 1,
+		"utility": 3
+	},
+	"target": "actor"
+}

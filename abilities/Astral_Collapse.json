@@ -1,0 +1,40 @@
+{
+	"animation": "52",
+	"cast_time": 2.0,
+	"cooldown": 14.0,
+	"cost": {
+		"health": 2,
+		"stamina": 10
+	},
+	"description": "You unleash a devastating astral frost blast in a wide cone up to 8 tiles away, dealing ::damage ::damage_type damage with powerful astral force.\nThe surge pierces all targets, inflicts frostbite, burns 35 stamina, knocks enemies back, and immobilizes those caught in the blast.\nEach cast builds Astral Fatigue stacks, increasing this spell’s damage by 3 per stack, but overuse triggers severe astral backlash.\nThis spell ignores party members and cannot be dodged.",
+	"duration": 2.0,
+	"effects": {
+		"always_hit": 1,
+		"aoe_range": 1,
+		"aoe_shape": 2,
+		"burn_stamina": 35,
+		"damage": [
+			10,
+			20
+		],
+		"damage_per_stacks": 3,
+		"damage_type": "frost",
+		"damage_weapon": 0.8999999761581421,
+		"frostbite": 1,
+		"ignore_party": 1,
+		"immobilize": 1,
+		"knockback": 1,
+		"magic_power_damage": 0.8999999761581421,
+		"stacker": "arendeth_astral_magic_Astral_Overdrawn"
+	},
+	"id": "arendeth_astral_magic_Astral_Collapse",
+	"image": 2,
+	"name": "Astral Collapse",
+	"range": 8,
+	"skill": "arendeth_mindmend_magic",
+	"slots": {
+		"offensive": 3,
+		"utility": 2
+	},
+	"target": "cone"
+}

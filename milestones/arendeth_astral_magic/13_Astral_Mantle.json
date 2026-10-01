@@ -1,0 +1,16 @@
+    {
+      "id": "arendeth_astral_magic_Astral_Mantle",
+      "name": "Astral Mantle",
+      "requirements": {
+        "milestones": [],
+        "skill": 13
+      },
+      "rewards": [
+        {
+          "ability": "arendeth_astral_magic_Astral_Mantle"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0
+    }

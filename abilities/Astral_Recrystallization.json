@@ -1,0 +1,26 @@
+{
+	"animation": "core_2_Soul_Rend",
+	"cast_time": 1.0,
+	"cooldown": 130.0,
+	"cost": {
+		"health": 3,
+		"item": "arendeth_astral_magic_Crystalized_Astral_Wisp",
+		"item_type": 23,
+		"stamina": 4
+	},
+	"description": "You focus astral light through a crystalized wisp, reigniting its dormant essence and restoring it to form. The ritual binds the construct to you for an extended time, granting a reliable astral companion shaped from crystallized frost and pure illumination.\n\nRequires a crystalized astral wisp and a light source. Summons one astral wisp for a long duration, without accepting augments.",
+	"duration": 120.0,
+	"effects": {
+		"light_source": 12,
+		"summon_count": 1
+	},
+	"effects_keys": {
+		"summon": "arendeth_astral_magic_astral_wisp"
+	},
+	"id": "arendeth_astral_magic_Astral_Recrystallization",
+	"image": 405,
+	"name": "Astral Recrystallization",
+	"range": 0,
+	"skill": "arendeth_astral_magic",
+	"target": "self"
+}

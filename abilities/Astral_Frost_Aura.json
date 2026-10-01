@@ -1,0 +1,36 @@
+{
+	"animation": "core_2_Freeze_AoE",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "You emit a cold astral field that chills nearby enemies and sustains your astral construct.\nThe aura inflicts frostbite while maintaining a single Astral Wisp, healing it slightly each pulse.",
+	"duration": 5.0,
+	"effects": {
+		"aoe_range": 1,
+		"aoe_shape": 1,
+		"frostbite": 1,
+		"heal": [
+			1,
+			1
+		],
+		"ignore_party": 1,
+		"summon_count": 1
+	},
+	"effects_keys": {
+		"summon_on_move": "arendeth_astral_magic_astral_wisp"
+	},
+	"id": "arendeth_astral_magic_Astral_Frost_Aura",
+	"image": 449,
+	"name": "Astral Frost Aura",
+	"range": 0,
+	"skill": "arendeth_mindmend_magic",
+	"slots": {
+		"defensive": 1,
+		"offensive": 1,
+		"utility": 2
+	},
+	"target": "actor"
+}

@@ -1,0 +1,28 @@
+{
+	"animation": "core_2_Drown",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "You suffer astral backlash as your mind overextends beyond safe limits.\nThe strain increases your cooldowns, burns stamina, slows your movement and attacks, reduces resistances and willpower, lowers hit chance, and leaves you vulnerable.",
+	"duration": 12.0,
+	"effects": {
+		"always_hit": 1,
+		"attack_speed": 0.0,
+		"burn_stamina": 8,
+		"hit_chance": -1,
+		"increase_target_cooldown": 1,
+		"movement_speed": 0.15000000596046448,
+		"resistance": -1,
+		"vulnerable": 1,
+		"willpower": -1
+	},
+	"id": "arendeth_astral_magic_Astral_Overdrawn",
+	"image": 628,
+	"name": "Astral Overdrawn",
+	"range": 0,
+	"skill": "arendeth_mindmend_magic",
+	"target": "self"
+}

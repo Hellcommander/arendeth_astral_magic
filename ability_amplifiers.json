@@ -1,0 +1,331 @@
+[
+	{
+		"id": "sanguimancy_support_vein_tap",
+		"name": "Vein Tap",
+		"type": "offensive",
+		"image": 0,
+		"bonuses": [
+			{
+				"effect": "bleed",
+				"value": 4
+			},
+			{
+				"effect": "bleed_per_damage",
+				"value": 2
+			},
+			{
+				"effect": "damage_to_bloodlust",
+				"value": 1
+			}
+		],
+		"description": "+4 bleed, +2 bleed per damage + 1 damage to bloodlust."
+	},
+	{
+		"id": "sanguimancy_support_organ_weakening",
+		"name": "Organ Weakening",
+		"type": "offensive",
+		"image": 1,
+		"bonuses": [
+			{
+				"effect": "vulnerable",
+				"value": 1
+			},
+			{
+				"effect": "damage_to_bloodlust",
+				"value": 6
+			}
+		],
+		"description": "Soften the organ. Apply vulnerable but also applies damage to bloodlust of 6."
+	},
+	{
+		"id": "sanguimancy_support_blood_lock",
+		"name": "Blood Lock",
+		"type": "utility",
+		"image": 2,
+		"bonuses": [
+			{
+				"effect": "stun",
+				"value": 1
+			}
+		],
+		"description": "Lock the heart a beat. Stun."
+	},
+	{
+		"id": "sanguimancy_support_arterial_siphon",
+		"name": "Arterial Siphon",
+		"type": "offensive",
+		"image": 3,
+		"bonuses": [
+			{
+				"effect": "damage_as_life",
+				"value": 0.04
+			}
+		],
+		"description": "Steal 4% of damage as health."
+	},
+	{
+		"id": "sanguimancy_support_cascade_hemorrhage",
+		"name": "Cascade Hemorrhage",
+		"type": "offensive",
+		"image": 4,
+		"bonuses": [
+			{
+				"effect": "bleed",
+				"value": 1
+			},
+			{
+				"effect": "bleed_per_damage",
+				"value": 2
+			},
+			{
+				"effect": "chain",
+				"value": 2
+			}
+		],
+		"description": "+1 Bleed, +2 bleed per damage, and +2 chain"
+	},
+	{
+		"id": "sanguimancy_support_systolic_reservoir",
+		"name": "Systolic Reservoir",
+		"type": "utility",
+		"image": 5,
+		"cost_stamina": -2,
+		"description": "Spend 2 less stamina."
+	},
+	{
+		"id": "sanguimancy_support_execute_focus",
+		"name": "Execute Focus",
+		"type": "offensive",
+		"image": 6,
+		"bonuses": [
+			{
+				"effect": "ability_can_crit",
+				"value": 1
+			},
+			{
+				"effect": "critical_hit",
+				"value": 0.1
+			},
+			{
+				"effect": "damage_on_missing_health",
+				"value": 0.1
+			}
+		],
+		"description": "10% Bonus damage vs wounded targets + ability to crit + 10% critical chance."
+	},
+	{
+		"id": "sanguimancy_support_fortitude_weave",
+		"name": "Fortitude Weave",
+		"type": "defensive",
+		"image": 7,
+		"bonuses": [
+			{
+				"effect": "damage_reduce",
+				"value": 6
+			}
+		],
+		"description": "+6 damage reduction."
+	},
+	{
+		"id": "sanguimancy_support_rupture_mastery",
+		"name": "Rupture Mastery",
+		"type": "offensive",
+		"image": 0,
+		"bonuses": [
+			{
+				"effect": "bleed_per_damage",
+				"value": 4
+			},
+			{
+				"effect": "pierce",
+				"value": 1
+			}
+		],
+		"description": "4 bleed per damage and pierce."
+	},
+	{
+		"id": "sanguimancy_support_vascular_lock",
+		"name": "Thrombus",
+		"type": "utility",
+		"image": 1,
+		"bonuses": [
+			{
+				"effect": "immobilize",
+				"value": 1
+			},
+			{
+				"effect": "silence",
+				"value": 1
+			}
+		],
+		"description": "immobilize and silence and + 1 duration.",
+		"duration": 1.0
+	},
+	{
+		"id": "sanguimancy_hypertensive_burst",
+		"name": "Hypertensive Burst",
+		"type": "offensive",
+		"image": 2,
+		"bonuses": [
+			{
+				"effect": "damage_per_stacks",
+				"value": 3
+			}
+		],
+		"description": "Dump Hypertension: +3 damage per stack."
+	},
+	{
+		"id": "sanguimancy_pulse_tick",
+		"name": "Pulse Tick",
+		"type": "utility",
+		"image": 4,
+		"bonuses": [
+			{
+				"effect": "stacker_count",
+				"value": 1
+			}
+		],
+		"description": "+1 stacker count"
+	},
+	{
+		"id": "sanguimancy_hairline",
+		"name": "Hairline Cut",
+		"type": "offensive",
+		"image": 5,
+		"bonuses": [
+			{
+				"effect": "bleed",
+				"value": 6
+			}
+		],
+		"description": "A shallow hemorrhage. +6 bleed. Still worth a second offensive slot later."
+	},
+	{
+		"id": "sanguimancy_leech_thread",
+		"name": "Leech Thread",
+		"type": "offensive",
+		"image": 6,
+		"bonuses": [
+			{
+				"effect": "damage_as_life",
+				"value": 0.02
+			}
+		],
+		"description": "Steal 2% of damage as health."
+	},
+	{
+		"id": "sanguimancy_shallow_execute",
+		"name": "Shallow Execute",
+		"type": "offensive",
+		"image": 7,
+		"bonuses": [
+			{
+				"effect": "damage_on_missing_health",
+				"value": 0.04
+			}
+		],
+		"description": "A little extra damage against wounded prey."
+	},
+	{
+		"id": "sanguimancy_blood_reach",
+		"name": "Blood Reach",
+		"type": "utility",
+		"image": 0,
+		"bonuses": [],
+		"range": 1,
+		"description": "+1 range."
+	},
+	{
+		"id": "sanguimancy_linger_pulse",
+		"name": "Linger Pulse",
+		"type": "utility",
+		"image": 1,
+		"bonuses": [
+			{
+				"effect": "aoe_range",
+				"value": 1
+			}
+		],
+		"description": "+1 aoe range.",
+		"duration": 1.0
+	},
+	{
+		"id": "sanguimancy_crimson_jump",
+		"name": "Crimson Jump",
+		"type": "offensive",
+		"image": 2,
+		"bonuses": [
+			{
+				"effect": "chain",
+				"value": 1
+			},
+			{
+				"effect": "bleed_per_damage",
+				"value": 1
+			},
+			{
+				"effect": "damage",
+				"value": -1
+			},
+			{
+				"effect": "turn_damage_to_stacks",
+				"value": "Sanguimancy_Blood_Laceration_Bleed",
+				"secondary_value": 0.7
+			},
+			{
+				"effect": "stacker_to_dot",
+				"value": "Sanguimancy_Blood_Laceration_Bleed"
+			}
+		],
+		"description": "+1 chain + 1 bleed per damage but converts 70% of your damage to blood laceration stacks and reduces the damage by 1.",
+		"duration": 1.0
+	},
+{
+    "id": "Astral_Overdrawn",
+    "name": "Astral Overdrawn",
+    "type": "utility",
+    "image": 3,
+    "bonuses": [
+        {
+            "effect": "hide_health",
+            "value": 1
+        },
+        {
+            "effect": "increase_target_cooldown",
+            "value": 10
+        },
+        {
+            "effect": "remove_on_next_ability",
+            "value": 1
+        },
+        {
+            "effect": "repeat_ability_second_weapon",
+            "value": 1.0
+        },
+        {
+            "effect": "stacker",
+            "value": "arendeth_astral_magic_Astral_Overdrawn",
+            "secondary_value": 10
+        }
+    ],
+    "description": "You force unstable astral power through your channels, causing your next spell to strike twice and inflicting heavy Overdrawn strain on yourself. Any effects applied by that spell—whether to you or your target—collapse instantly when you cast another ability, and the surge sharply increases the spell’s cooldown before burning out.",
+    "range": 8.0,
+    "duration": 1.0
+}
+
+	{
+		"id": "sanguimancy_systolic_trickle",
+		"name": "Systolic Trickle",
+		"type": "utility",
+		"image": 3,
+		"bonuses": [
+			{
+				"effect": "health_for_stamina",
+				"value": 0.01
+			}
+		],
+		"health_for_stamina": 0.01,
+		"stamina": 2,
+		"description": "The heart pays a little of the cost. 1% of stamina cost is returned as health, -1 stamina and +2 stamina."
+	}
+]

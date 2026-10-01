@@ -1,0 +1,201 @@
+{
+	"ability_user": [
+		"arendeth_astral_magic_Astral_Frostline",
+		"arendeth_astral_magic_Astral_Collapse",
+		"arendeth_astral_magic_Wisp_Powered_Swap",
+		"arendeth_astral_magic_riftchain",
+		"arendeth_astral_magic_Astral_Windstorm_Barrier",
+		"arendeth_astral_magic_Summon_Astral_Wisp_Swarm"
+	],
+	"armor": {
+		"acid": 0,
+		"death": 15,
+		"electricity": 0,
+		"fire": 0,
+		"frost": 23,
+		"holy": -3,
+		"parry": 0,
+		"physical": 10,
+		"poison": 0,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [
+			"9"
+		],
+		"behaviors": [
+			4,
+			7,
+			3,
+			12,
+			16
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"craftable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"light_source",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": "326",
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [
+			15
+		],
+		"cooldown": 60,
+		"magic_slots": 0,
+		"resource_types": [
+			{
+				"amount": 0,
+				"id": -1
+			}
+		],
+		"resources": [
+			{
+				"amount": 6,
+				"id": "arendeth_astral_magic_Crystalized_Astral_Wisp"
+			}
+		],
+		"time": 60,
+		"tools": [
+			15
+		]
+	},
+	"description": "A perfected astral construct formed from condensed mind light and frost charged ether.\nThe Omega Astral Wisp possesses heightened perception, reinforced astral stamina, and a disciplined mind core capable of leadership grade behaviors.\nIts presence strengthens party coordination, maintains distance when threatened, and executes ambush or guard routines with uncanny precision.\nThough not built for direct combat, its empowered intellect, expanded pockets, and soulbound ability slots allow it to support its creator with advanced astral techniques.",
+	"dialogues": [
+		"42",
+		"43"
+	],
+	"equipment": {
+		"custom_slots": [
+			"core_2_soul"
+		]
+	},
+	"experience_gainer": {
+		"exp": 8,
+		"level": 40
+	},
+	"fighter": {
+		"attackNames": [
+			"Zap"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					158,
+					53,
+					226
+				],
+				"delay": 100,
+				"index": 560
+			}
+		],
+		"random_frame_start": true
+	},
+	"health": 400,
+	"humanoid": {
+		"race": "34"
+	},
+	"id": "arendeth_astral_magic_Omega_Astral_Wisp",
+	"light_source": {
+		"finish": -1,
+		"lit_image": -1,
+		"range": 5
+	},
+	"minimap_pixel": [
+		65,
+		105,
+		225
+	],
+	"moveable": {
+		"speed": 1.0
+	},
+	"name": "Omega Astral Wisp",
+	"sight": {
+		"ignore_infra_penalty": true,
+		"infravision": true,
+		"range": 12,
+		"threesixty": true
+	},
+	"skills": {
+		"max_skill": 20,
+		"milestones": [
+			"core_2_disable_consumption",
+			"core_2_extra_pockets",
+			"core_2_first_aid",
+			"core_2_ignore_party",
+			"core_2_rapid_retreat",
+			"core_2_challenge",
+			"core_2_track_animals",
+			"core_2_right_back_at_you",
+			"core_2_quick_block"
+		],
+		"min_skill": 20,
+		"skills": [
+			"arendeth_mindmend_magic",
+			"core_2_leadership",
+			"core_2_hunting",
+			"core_2_protection"
+		]
+	},
+	"stamina": {
+		"fatigue": 160,
+		"stamina": 140,
+		"stamina_regen": 2.0
+	},
+	"statistics": {
+		"dexterity": [
+			8,
+			11
+		],
+		"endurance": [
+			30,
+			45
+		],
+		"health_regen": 1.0,
+		"health_regen_tick": 10.0,
+		"hearing": 20,
+		"intelligence": [
+			50,
+			65
+		],
+		"magic_power": 25,
+		"sneaking": 14,
+		"strength": [
+			7,
+			11
+		],
+		"willpower": [
+			30,
+			30
+		]
+	},
+	"tags": [
+		"3"
+	]
+}

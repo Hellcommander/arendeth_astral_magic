@@ -1,0 +1,16 @@
+    {
+      "id": "arendeth_astral_magic_Astral_Collapse",
+      "name": "Astral Collapse",
+      "requirements": {
+        "milestones": [],
+        "skill": 30
+      },
+      "rewards": [
+        {
+          "ability": "arendeth_astral_magic_Astral_Collapse"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0
+    }

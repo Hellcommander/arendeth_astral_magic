@@ -1,0 +1,82 @@
+[
+	{
+		"id": "arendeth_astral_magic",
+		"name": "Astral Magic",
+		"image": 0,
+		"description": "Astral Magic bends the boundary between mind and matter, weaving frost‑laden force into constructs, chains, and corruptive tethers. Practitioners summon astral wisps, collapse space, and bind enemies through mind‑linked corruption that spreads across chained targets. Through crystallization and astral crafting, the caster shapes wisps into powerful constructs and ascends toward full astralbinding mastery.",
+		"combat_skill": true,
+		"exp_sources": [
+			{
+				"id": "ability",
+				"rate": 2
+			}
+		],
+		"stat_points": [
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29,
+			30,
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50
+		],
+		"difficulty": 2,
+		"starting_gear": [
+			{
+				"first": {
+					"id": "core_2_Rope",
+					"amount": 1
+				}
+			},
+			{
+				"first": {
+					"id": "205",
+					"amount": 20
+				}
+			},
+			{
+				"first": {
+					"id": "core_2_Ice_Rod",
+					"amount": 1
+				},
+				"second": {
+					"id": "205",
+					"amount": 50
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,31 @@
+{
+	"animation": "core_2_Frost_armor",
+	"cast_time": 0.699999988079071,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 0,
+		"stamina": 6
+	},
+	"description": "You wrap yourself in a dense mantle of astral force, sharpening your defensive instincts at the cost of speed.\nThe mantle slows your movements and attacks while greatly increasing your parry chance.\nIts strength scales with your magic power and is further amplified by any Astral Wisps you currently control.\nSustaining the mantle builds Astral Fatigue, risking Overdrawn backlash if maintained too long.\nThis empowerment affects only you and cannot be shared.",
+	"duration": 6.0,
+	"effects": {
+		"attack_speed": -0.15000000596046448,
+		"movement_speed": -0.25,
+		"parry_chance": 30,
+		"power_up": 1,
+		"stacker": "arendeth_astral_magic_Astral_Overdrawn"
+	},
+	"effects_keys": {
+		"magic_power_per_entity": "arendeth_astral_magic_astral_wisp"
+	},
+	"id": "arendeth_astral_magic_Astral_Mantle",
+	"image": 468,
+	"name": "Astral Mantle",
+	"range": 0,
+	"skill": "arendeth_mindmend_magic",
+	"slots": {
+		"defensive": 2,
+		"utility": 2
+	},
+	"target": "actor"
+}

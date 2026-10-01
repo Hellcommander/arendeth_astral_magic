@@ -1,0 +1,32 @@
+{
+	"animation": "core_2_Spectral_Chain",
+	"cast_time": 1.0,
+	"cooldown": 14.0,
+	"cost": {
+		"health": 0,
+		"stamina": 6
+	},
+	"description": "You lash out with a spectral chain that disarms the target(s) and deals ::damage ::damage_type damage along a straight line.\nThe strike pierces through all enemies in its path, forcing each one to sidestep.\nThis spell ignores party members.",
+	"duration": 3.0,
+	"effects": {
+		"damage": [
+			5,
+			10
+		],
+		"damage_type": "frost",
+		"disarm": 1,
+		"ignore_party": 1,
+		"move_to_side": 1,
+		"pierce": 1
+	},
+	"id": "arendeth_astral_magic_riftchain",
+	"image": 627,
+	"name": "Astral Riftchain",
+	"range": 7,
+	"skill": "arendeth_astral_magic_magic",
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"target": "line_health"
+}

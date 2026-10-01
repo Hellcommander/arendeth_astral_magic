@@ -1,0 +1,16 @@
+    {
+      "id": "arendeth_astral_magic_Create_Crystalized_Astral_Wisp",
+      "name": "Create Crystalized Astral Wisp",
+      "requirements": {
+        "milestones": [],
+        "skill": 33
+      },
+      "rewards": [
+        {
+          "ability": "arendeth_astral_magic_Create_Crystalized_Astral_Wisp"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0,
+    }

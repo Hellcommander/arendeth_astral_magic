@@ -1,0 +1,16 @@
+    {
+      "id": "arendeth_astral_magic_Astral_Overdrawn",
+      "name": "Astral Overdrawn",
+      "requirements": {
+        "milestones": [],
+        "skill": 1
+      },
+      "rewards": [
+        {
+          "ability": "arendeth_astral_magic_Astral_Overdrawn"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0,
+    }
