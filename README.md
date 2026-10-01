@@ -1,0 +1,2 @@
+# Astral Magic
+A complete astral‑themed magic focused on constructs, chain corruption, frost manipulation, and astral crafting. Summon and condense Astral Wisps, Generate Crystalized fragments through astral residue, Craft advanced astral constructs at the Alchemist Table in the Peak biome, Unlock the level‑50 capstone Astral Soul Rend, a chained mind‑control spell with frostbite, vulnerability, and astral movement infusion
