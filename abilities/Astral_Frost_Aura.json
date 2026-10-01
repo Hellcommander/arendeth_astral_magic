@@ -26,7 +26,7 @@
 	"image": 449,
 	"name": "Astral Frost Aura",
 	"range": 0,
-	"skill": "arendeth_mindmend_magic",
+	"skill": "arendeth_astral_magic",
 	"slots": {
 		"defensive": 1,
 		"offensive": 1,

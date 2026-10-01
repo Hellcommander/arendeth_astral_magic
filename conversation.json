@@ -1,0 +1,72 @@
+{
+  "conversations": [
+    {
+      "answer_negative": "Your presence disturbs the alignment. Please leave.",
+      "answer_positive": "The astral currents acknowledge your arrival.",
+      "entities": [
+        "arendeth_astral_magic_Astral_Savant",
+        "arendeth_astral_magic_Astral_Geometer",
+        "arendeth_astral_magic_Astral_Wispbinder"
+      ],
+      "id": "astral_begin",
+      "options": [
+        "astral_directions",
+        "astral_ask_trainer",
+        "astral_hire",
+        "astral_train",
+        "core_2_marry_1",
+        "core_2_marry_2",
+        "astral_exit"
+      ],
+      "text": "",
+      "type": "begin_conversation"
+    },
+    {
+      "id": "astral_exit",
+      "text": "Let the currents guide you.",
+      "type": "exit"
+    },
+    {
+      "id": "astral_back",
+      "text": "(return to the astral flow)",
+      "type": "back_to_main"
+    },
+    {
+      "answer_negative": "Your pattern is not yet ready for refinement.",
+      "answer_positive": "You seek deeper alignment with astral geometry?",
+      "id": "astral_train",
+      "options": [
+        "astral_back"
+      ],
+      "text": "Ask for training.",
+      "type": "train"
+    },
+    {
+      "answer_positive": "If you require a companion, I can attune one to your path.",
+      "id": "astral_hire",
+      "options": [
+        "astral_back"
+      ],
+      "text": "Hire to party.",
+      "type": "hire_to_party"
+    },
+    {
+      "answer_positive": "Where does your path bend?",
+      "id": "astral_directions",
+      "options": [
+        "astral_back"
+      ],
+      "text": "Ask for directions.",
+      "type": "directions"
+    },
+    {
+      "answer_positive": "Which practitioner do you seek?",
+      "id": "astral_ask_trainer",
+      "options": [
+        "astral_back"
+      ],
+      "text": "Ask for trainers in town.",
+      "type": "ask_trainers"
+    }
+  ]
+}

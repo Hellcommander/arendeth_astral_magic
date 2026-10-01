@@ -22,7 +22,7 @@
 	"image": 505,
 	"name": "Astral Windstorm Barrier",
 	"range": 0,
-	"skill": "arendeth_mindmend_magic",
+	"skill": "arendeth_astral_magic",
 	"slots": {
 		"defensive": 3,
 		"utility": 2

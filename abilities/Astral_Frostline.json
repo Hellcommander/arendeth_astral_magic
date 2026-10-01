@@ -21,13 +21,13 @@
 		"ignore_party": 1,
 		"magic_power_damage": 0.75,
 		"pierce": 1,
-		"stacker": "12"
+		"stacker": "arendeth_astral_astral_fatigue"
 	},
 	"id": "arendeth_astral_magic_Astral_Frostline",
 	"image": 741,
 	"name": "Astral Frostline",
 	"range": 6,
-	"skill": "arendeth_mindmend_magic",
+	"skill": "arendeth_astral_magic",
 	"slots": {
 		"offensive": 1,
 		"utility": 1

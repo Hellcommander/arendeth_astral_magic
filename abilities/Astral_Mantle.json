@@ -9,7 +9,7 @@
 	"description": "You wrap yourself in a dense mantle of astral force, sharpening your defensive instincts at the cost of speed.\nThe mantle slows your movements and attacks while greatly increasing your parry chance.\nIts strength scales with your magic power and is further amplified by any Astral Wisps you currently control.\nSustaining the mantle builds Astral Fatigue, risking Overdrawn backlash if maintained too long.\nThis empowerment affects only you and cannot be shared.",
 	"duration": 6.0,
 	"effects": {
-		"attack_speed": -0.15000000596046448,
+		"attack_speed": -0.15,
 		"movement_speed": -0.25,
 		"parry_chance": 30,
 		"power_up": 1,
@@ -22,7 +22,7 @@
 	"image": 468,
 	"name": "Astral Mantle",
 	"range": 0,
-	"skill": "arendeth_mindmend_magic",
+	"skill": "arendeth_astral_magic",
 	"slots": {
 		"defensive": 2,
 		"utility": 2

@@ -21,7 +21,7 @@
 	"image": 58,
 	"name": "Astral Soul Rend",
 	"range": 7,
-	"skill": "arendeth_mindmend_magic",
+	"skill": "arendeth_astral_magic",
 	"slots": {
 		"offensive": 1,
 		"utility": 3

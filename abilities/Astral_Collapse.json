@@ -19,19 +19,19 @@
 		],
 		"damage_per_stacks": 3,
 		"damage_type": "frost",
-		"damage_weapon": 0.8999999761581421,
+		"damage_weapon": 0.9,
 		"frostbite": 1,
 		"ignore_party": 1,
 		"immobilize": 1,
 		"knockback": 1,
-		"magic_power_damage": 0.8999999761581421,
+		"magic_power_damage": 0.9,
 		"stacker": "arendeth_astral_astral_fatigue"
 	},
 	"id": "arendeth_astral_magic_Astral_Collapse",
 	"image": 2,
 	"name": "Astral Collapse",
 	"range": 8,
-	"skill": "arendeth_mindmend_magic",
+	"skill": "arendeth_astral_magic",
 	"slots": {
 		"offensive": 3,
 		"utility": 2

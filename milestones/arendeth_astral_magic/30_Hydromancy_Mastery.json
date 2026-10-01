@@ -1,0 +1,16 @@
+{
+	"id": "Astral_Magic_mastery",
+	"name": "AStral Magic Mastery",
+	"requirements": {
+		"milestones": [],
+		"skill": 30
+	},
+	"rewards": [
+		{
+			"passive": "Astral_Magic_mastery"
+		}
+	],
+	"skill_id": "arendeth_astral_magic",
+	"steps": [],
+	"steps_type": 0
+}

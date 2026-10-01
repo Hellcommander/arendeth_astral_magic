@@ -1,4 +1,19 @@
 [
+{
+  "id": "arendeth_astral_magic_Astral_Echo",
+  "name": "Astral Echo",
+  "image": 3,
+  "effects": [
+    {
+      "effect": "repeat_ability",
+      "value": 0.05
+    },
+    {
+      "effect": "range",
+      "value": 1
+    }
+  ]
+}
 	{
 		"id": "arendeth_astral_magic_Astral_Command_Nexus",
 		"name": "Astral Command Nexus",
@@ -59,6 +74,29 @@
 		"range": 2.0,
 		"description": "Your astral authority strengthens, granting command over an additional companion while expanding your sight and spell range. A portion of health loss is converted into stamina, and your abilities have a small chance to echo through your off‑hand focus."
 	},
+	{
+		"id": "arendeth_astral_magic_Astral_Insight",
+		"name": "Astral Insight",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "full_vision",
+				"value": 1
+			},
+			{
+				"effect": "repeat_ability_second_weapon",
+				"value": 0.1
+			},
+			{
+				"effect": "stamina",
+				"value": 50
+			},
+			{
+				"effect": "stamina_regen",
+				"value": 1.0
+			}
+		]
+	}
 	{
 		"id": "arendeth_astral_magic_Astral_Insight",
 		"name": "Astral Insight",

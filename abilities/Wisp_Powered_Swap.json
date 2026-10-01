@@ -23,7 +23,7 @@
 	"image": 822,
 	"name": "Wisp Powered Swap",
 	"range": 12,
-	"skill": "arendeth_mindmend_magic",
+	"skill": "arendeth_astral_magic",
 	"slots": {
 		"utility": 3
 	},

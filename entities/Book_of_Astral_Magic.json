@@ -1,0 +1,61 @@
+{
+	"id": "acid_magic_book_of_astral_magic",
+	"name": "Book of Astral Magic",
+	"description": "Book of Astral Magic",
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"stackable",
+		"usable",
+		"value",
+		"weight"
+	],
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 0
+			}
+		],
+		"random_frame_start": false
+	},
+	"item": {
+		"image": 0,
+		"type": 17
+	},
+	"minimap_pixel": [
+		179,
+		178,
+		176
+	],
+	"value": 5000,
+	"weight": 0.2,
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"cooldown": 432000,
+		"magic_slots": 0,
+		"resources": [
+			{
+				"amount": 1,
+				"id": "2006"
+			}
+		],
+		"time": 60,
+		"tools": []
+	},
+	"usable": {
+		"ability": "",
+		"recipe": "",
+		"skill_p": "arendeth_astral_magic"
+	}
+}

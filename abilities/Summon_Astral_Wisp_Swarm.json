@@ -30,7 +30,7 @@
 	"image": 773,
 	"name": "Summon Astral Wisp Swarm",
 	"range": 9,
-	"skill": "arendeth_mindmend_magic",
+	"skill": "arendeth_astral_magic",
 	"slots": {
 		"offensive": 1,
 		"utility": 3

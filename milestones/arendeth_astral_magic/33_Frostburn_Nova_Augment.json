@@ -1,0 +1,17 @@
+    {
+      "id": "arendeth_astral_magic_Frostburn_Nova_Augment",
+      "name": "Frostburn Nova Augment",
+      "requirements": {
+        "milestones": [],
+        "skill": 33
+      },
+      "rewards": [
+        {
+          "amplifier": "arendeth_astral_magic_Frostburn_Nova_Augment"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0
+    }
+  ]

@@ -23,6 +23,6 @@
 	"image": 628,
 	"name": "Astral Overdrawn",
 	"range": 0,
-	"skill": "arendeth_mindmend_magic",
+	"skill": "arendeth_astral_magic",
 	"target": "self"
 }
