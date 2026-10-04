@@ -66,7 +66,7 @@
 			15
 		],
 		"cooldown": 60,
-		"magic_slots": 0,
+		"magic_slots": 4,
 		"resource_types": [
 			{
 				"amount": 0,
@@ -75,7 +75,7 @@
 		],
 		"resources": [
 			{
-				"amount": 6,
+				"amount": 1,
 				"id": "arendeth_astral_magic_Crystalized_Astral_Wisp"
 			}
 		],

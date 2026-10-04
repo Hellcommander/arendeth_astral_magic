@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_astral_magic_book_of_astral_magic",
+	"name": "Book of Astral Magic",
+	"requirements": {
+		"milestones": [],
+		"skill": 44
+	},
+	"rewards": [
+		{
+			"recipe": "arendeth_astral_magic_book_of_astral_magic"
+		}
+	],
+	"skill_id": "arendeth_astral_magic",
+	"steps": [],
+	"steps_type": 0
+}
