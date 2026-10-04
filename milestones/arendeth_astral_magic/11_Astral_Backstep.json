@@ -1,0 +1,16 @@
+{
+  "id": "arendeth_astral_magic_astral_backstep",
+  "name": "Astral Burn Stamina",
+  "requirements": {
+    "milestones": [],
+    "skill": 10
+  },
+  "rewards": [
+    {
+      "amplifier": "arendeth_astral_magic_astral_backstep"
+    }
+  ],
+  "skill_id": "arendeth_astral_magic",
+  "steps": [],
+  "steps_type": 0
+}

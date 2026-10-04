@@ -1,0 +1,22 @@
+{
+  "background": "918",
+  "biome": 15,
+  "bridge": "44",
+  "entities": [
+    { "density": 350, "index": "36" },
+    { "density": 25, "index": "rogue_scout" },
+    { "density": 8, "index": "arendeth_astral_magic_Astral_Adept_Rogue" }
+  ],
+  "hill_amount": [1, 1],
+  "hill_size": [28000, 32000],
+  "hill_slope_down": "2039",
+  "hill_slope_up": "2038",
+  "hill_wall": "51",
+  "id": 202,
+  "name": "Peak Shadow Fault",
+  "river": "973",
+  "road": "1999",
+  "slope_amount": [0, 1],
+  "underground_background": "50",
+  "underground_wall": "51"
+}

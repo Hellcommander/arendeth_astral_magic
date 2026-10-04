@@ -1,0 +1,16 @@
+{
+  "id": "arendeth_astral_magic_Augment_Sidestep",
+  "name": "Astral Sidestep",
+  "requirements": {
+    "milestones": [],
+    "skill": 3
+  },
+  "rewards": [
+    {
+      "amplifier": "arendeth_astral_magic_Augment_Sidestep"
+    }
+  ],
+  "skill_id": "arendeth_astral_magic",
+  "steps": [],
+  "steps_type": 0
+}

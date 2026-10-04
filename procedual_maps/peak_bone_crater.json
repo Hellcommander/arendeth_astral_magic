@@ -1,0 +1,22 @@
+{
+  "background": "920",
+  "biome": 15,
+  "bridge": "44",
+  "entities": [
+    { "density": 500, "index": "undead_skeleton" },
+    { "density": 30, "index": "undead_bonecaster" },
+    { "density": 5, "index": "arendeth_astral_magic_Undead_Astral_Adept" }
+  ],
+  "hill_amount": [2, 3],
+  "hill_size": [32000, 38000],
+  "hill_slope_down": "2039",
+  "hill_slope_up": "2038",
+  "hill_wall": "51",
+  "id": 203,
+  "name": "Peak Bone Crater",
+  "river": "973",
+  "road": "1999",
+  "slope_amount": [1, 2],
+  "underground_background": "50",
+  "underground_wall": "51"
+}

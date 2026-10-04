@@ -157,7 +157,6 @@
 		],
 		"min_skill": 20,
 		"skills": [
-			"arendeth_mindmend_magic",
 			"core_2_leadership",
 			"core_2_hunting",
 			"core_2_protection"
@@ -170,8 +169,8 @@
 	},
 	"statistics": {
 		"dexterity": [
-			8,
-			11
+			10,
+			14
 		],
 		"endurance": [
 			30,
@@ -179,7 +178,7 @@
 		],
 		"health_regen": 1.0,
 		"health_regen_tick": 10.0,
-		"hearing": 20,
+		"hearing": 22,
 		"intelligence": [
 			50,
 			65
@@ -187,12 +186,12 @@
 		"magic_power": 25,
 		"sneaking": 14,
 		"strength": [
-			7,
-			11
+			15,
+			24
 		],
 		"willpower": [
-			30,
-			30
+			35,
+			35
 		]
 	},
 	"tags": [

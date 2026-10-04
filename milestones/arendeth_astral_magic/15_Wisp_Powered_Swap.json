@@ -1,16 +1,16 @@
+{
+  "id": "arendeth_astral_magic_Wisp_Powered_Swap",
+  "name": "Wisp Powered Swap",
+  "requirements": {
+    "milestones": [],
+    "skill": 15
+  },
+  "rewards": [
     {
-      "id": "arendeth_astral_magic_Wisp_Powered_Swap",
-      "name": "Wisp Powered Swap",
-      "requirements": {
-        "milestones": [],
-        "skill": 15
-      },
-      "rewards": [
-        {
-          "ability": "arendeth_astral_magic_Wisp_Powered_Swap"
-        }
-      ],
-      "skill_id": "arendeth_astral_magic",
-      "steps": [],
-      "steps_type": 0,
+      "ability": "arendeth_astral_magic_Wisp_Powered_Swap"
     }
+  ],
+  "skill_id": "arendeth_astral_magic",
+  "steps": [],
+  "steps_type": 0
+}

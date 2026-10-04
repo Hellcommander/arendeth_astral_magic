@@ -1,0 +1,27 @@
+{
+	"animation": "core_2_Blizzard_single_impact",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "A brief astral pulse of frost that lashes out at anything in reach, converting its chill into frostburn stacks that deepen the target’s astral cold.",
+	"duration": 2.0,
+	"effects": {
+		"damage": [
+			0,
+			1
+		],
+		"damage_type": "frost",
+		"damage_weapon": 1.0,
+		"magic_power_damage": 1.0,
+		"ignore_party": 1,
+		"turn_damage_to_stacks": "arendeth_astral_magic_Frosty_Trigger_Stacker"
+	},
+	"id": "arendeth_astral_magic_Frosty_Trigger",
+	"name": "Frosty Trigger",
+	"range": 0,
+	"skill": "arendeth_astral_magic",
+	"target": "any"
+}

@@ -1,13 +1,13 @@
 {
-  "id": "arendeth_astral_magic_riftchain",
-  "name": "Astral Riftchain",
+  "id": "arendeth_astral_magic_frost_charge",
+  "name": "Astral Charge",
   "requirements": {
     "milestones": [],
-    "skill": 20
+    "skill": 40
   },
   "rewards": [
     {
-      "ability": "arendeth_astral_magic_riftchain"
+      "ability": "arendeth_astral_magic_frost_charge"
     }
   ],
   "skill_id": "arendeth_astral_magic",

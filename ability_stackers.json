@@ -10,35 +10,53 @@
 			}
 		],
 		"max_stacks": 15,
-		"on_max_stacks_cast": "Internal_Pressure_Buildup_Explosion",
+		"on_max_stacks_cast": "arendeth_astral_magic_Astral_Overdrawn",
 		"max_stacks_cast_unlock": true,
 		"duration": 10,
 		"apply_caster": true,
-		"description": "Pressure surges unnaturally. Each stack intensifies internal strain building up to cap of 15 stacks where it bursts, striking nearby enemies with a retaliatory shockwave that applies stun, fear, immobilize, expose while ignoring dodge, and damage equal to the they suffered in the last 5 hits (ignores harming party members)."
+		"description": ""
 	},
-{
-    "id": "arendeth_astral_magic_frostburn",
-    "name": "Frostburn",
-    "image": 2,
-    "effects": [
-        {
-            "effect": "frostbite",
-            "value": 1
-        },
-        {
-            "effect": "ignore_party",
-            "value": 1
-        },
-        {
-            "effect": "increase_effect",
-            "value": "frostbite",
-            "secondary_value": 0.1
-        }
-    ],
-    "max_stacks": 9999,
-    "duration": 8,
-    "apply_caster": false,
-    "description": "The cold of the astral gets harsher the more it stacks up"
-}
-
+	{
+		"id": "arendeth_astral_magic_frostburn",
+		"name": "Frostburn",
+		"image": 2,
+		"effects": [
+			{
+				"effect": "frostbite",
+				"value": 1
+			},
+			{
+				"effect": "ignore_party",
+				"value": 1
+			},
+			{
+				"effect": "increase_effect",
+				"value": "frostbite",
+				"secondary_value": 0.1
+			}
+		],
+		"max_stacks": 9999,
+		"duration": 8,
+		"apply_caster": false,
+		"description": "The cold of the astral gets harsher the more it stacks up"
+	},
+	{
+		"id": "arendeth_astral_magic_Frosty_Trigger_Stacker",
+		"name": "Frosty Trigger Stacker",
+		"image": 2,
+		"effects": [
+			{
+				"effect": "stacker",
+				"value": "arendeth_astral_magic_frostburn"
+			},
+			{
+				"effect": "ignore_party",
+				"value": 1
+			}
+		],
+		"max_stacks": 9999,
+		"duration": 0,
+		"apply_caster": false,
+		"description": "A volatile astral chill that marks the target with a trace of frost, causing each pulse of astral damage to deepen the frostburn within them."
+	}
 ]

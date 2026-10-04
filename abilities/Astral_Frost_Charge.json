@@ -1,0 +1,39 @@
+{
+    "animation": "core_2_Freezing_Bomb_Throw",
+    "cast_time": 1.5,
+    "cooldown": 14.0,
+    "cost": {
+        "health": 2,
+        "item": "arendeth_astral_magic_astral_wisp",
+        "stamina": 12
+    },
+    "description": "Hurl a frosty astrally charged projectile by consuming a targeted Astral Wisp on the battlefield. The projectile originates from the wisp’s tile, then chains to up to six nearby enemies, propelling you toward each struck target. Each hit displaces the target 4 tiles to the left or right, and after the final strike you roll back 1 tile. Each hit deals ::damage ::damage_type damage that scales with weapon and magic power and converts its damage into Frosty Trigger pulses, feeding Frostburn stacks.",
+    "duration": 3.0,
+    "effects": {
+        "aoe_range": 1,
+        "aoe_shape": 1,
+        "chain": 6,
+        "charge": 9,
+        "damage": [
+            10,
+            25
+        ],
+        "damage_type": "frost",
+        "damage_weapon": 0.8999999761581421,
+        "ignore_party": 1,
+        "magic_power_damage": 0.8999999761581421,
+        "move_to_side": 4,
+        "rollback": 1,
+        "turn_damage_to_stacks": "arendeth_astral_magic_Frosty_Trigger"
+    },
+    "id": "arendeth_astral_magic_frost_charge",
+    "image": 344,
+    "name": "Astral Frost Charge",
+    "range": 10,
+    "skill": "arendeth_astral_magic",
+    "slots": {
+        "offensive": 3,
+        "utility": 2
+    },
+    "target": "actor"
+}

@@ -1,13 +1,13 @@
 {
-  "id": "arendeth_astral_magic_riftchain",
-  "name": "Astral Riftchain",
+  "id": "arendeth_astral_magic_astral_acuity",
+  "name": "Astral Acuity",
   "requirements": {
     "milestones": [],
-    "skill": 20
+    "skill": 15
   },
   "rewards": [
     {
-      "ability": "arendeth_astral_magic_riftchain"
+      "passive": "arendeth_astral_magic_astral_acuity"
     }
   ],
   "skill_id": "arendeth_astral_magic",

@@ -1,13 +1,13 @@
 {
-  "id": "arendeth_astral_magic_riftchain",
-  "name": "Astral Riftchain",
+  "id": "arendeth_astral_magic_Challenger_1",
+  "name": "Astral Challenger I",
   "requirements": {
     "milestones": [],
-    "skill": 20
+    "skill": 24
   },
   "rewards": [
     {
-      "ability": "arendeth_astral_magic_riftchain"
+      "passive": "arendeth_astral_magic_Challenger_1"
     }
   ],
   "skill_id": "arendeth_astral_magic",

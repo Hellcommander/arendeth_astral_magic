@@ -18,5 +18,5 @@
 	"name": "Stamina Burning Light Trigger",
 	"range": 0,
 	"skill": "arendeth_astral_magic",
-	"target": ""
+	"target": "actor"
 }

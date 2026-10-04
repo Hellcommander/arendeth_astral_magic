@@ -1,16 +1,16 @@
+{
+  "id": "arendeth_astral_magic_Astral_Frost_Aura",
+  "name": "Astral Frost Aura",
+  "requirements": {
+    "milestones": [],
+    "skill": 5
+  },
+  "rewards": [
     {
-      "id": "arendeth_astral_magic_Astral_Frost_Aura",
-      "name": "Astral Frost Aura",
-      "requirements": {
-        "milestones": [],
-        "skill": 5
-      },
-      "rewards": [
-        {
-          "ability": "arendeth_astral_magic_Astral_Frost_Aura"
-        }
-      ],
-      "skill_id": "arendeth_astral_magic",
-      "steps": [],
-      "steps_type": 0
+      "ability": "arendeth_astral_magic_Astral_Frost_Aura"
     }
+  ],
+  "skill_id": "arendeth_astral_magic",
+  "steps": [],
+  "steps_type": 0
+}

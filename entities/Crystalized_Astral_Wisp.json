@@ -1,14 +1,17 @@
 {
 	"components": [
+		"collidable",
 		"glyph",
+		"glyph_top",
 		"health",
 		"item",
+		"light_source",
+		"lure",
 		"name",
 		"position_2d",
-		"statistics",
 		"tags"
 	],
-	"corpse": "326",
+	"corpse": [],
 	"description": "Spirit of empowered by astral magic. Crystalized into a component for upgrading it",
 	"glyph": {
 		"frames": [
@@ -22,41 +25,34 @@
 				"index": 560
 			}
 		],
-		"random_frame_start": true
+		"random_frame_start": true,
+		"random_top": {
+			"colors": null,
+			"count": 0,
+			"glyph_ids": [
+				993
+			],
+			"max_alpha": 255,
+			"max_range": 0,
+			"wind": false
+		}
 	},
-	"health": 85,
+	"health": 500,
 	"id": "arendeth_astral_magic_Crystalized_Astral_Wisp",
 	"item": {
 		"image": 677,
 		"type": 16
 	},
-	"name": "Crystalized Astral Wisp",
-	"statistics": {
-		"dexterity": [
-			8,
-			11
-		],
-		"endurance": [
-			10,
-			15
-		],
-		"health_regen": 1.0,
-		"health_regen_tick": 10.0,
-		"hearing": 14,
-		"intelligence": [
-			13,
-			17
-		],
-		"sneaking": 16,
-		"strength": [
-			7,
-			11
-		],
-		"willpower": [
-			8,
-			12
-		]
+	"light_source": {
+		"finish": -1,
+		"range": 3
 	},
+	"lure": {
+		"approach_distance": 2,
+		"attract_tag": "magic",
+		"radius": 10
+	},
+	"name": "Crystalized Astral Wisp",
 	"tags": [
 		"3"
 	]

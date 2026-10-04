@@ -1,13 +1,13 @@
 {
-  "id": "arendeth_astral_magic_riftchain",
-  "name": "Astral Riftchain",
+  "id": "arendeth_astral_magic_cold_reclamation",
+  "name": "Cold Reclamation",
   "requirements": {
     "milestones": [],
-    "skill": 20
+    "skill": 44
   },
   "rewards": [
     {
-      "ability": "arendeth_astral_magic_riftchain"
+      "passive": "arendeth_astral_magic_cold_reclamation"
     }
   ],
   "skill_id": "arendeth_astral_magic",

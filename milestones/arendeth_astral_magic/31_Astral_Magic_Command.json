@@ -1,13 +1,13 @@
 {
-  "id": "arendeth_astral_magic_riftchain",
-  "name": "Astral Riftchain",
+  "id": "arendeth_astral_magic_Astral_Command",
+  "name": "Astral Command",
   "requirements": {
     "milestones": [],
-    "skill": 20
+    "skill": 31
   },
   "rewards": [
     {
-      "ability": "arendeth_astral_magic_riftchain"
+      "passive": "arendeth_astral_magic_Astral_Command"
     }
   ],
   "skill_id": "arendeth_astral_magic",

@@ -1,0 +1,22 @@
+{
+  "background": "917",
+  "biome": 15,
+  "bridge": "44",
+  "entities": [
+    { "density": 400, "index": "36" },
+    { "density": 20, "index": "core_2_Wide_Bush" },
+    { "density": 3, "index": "arendeth_astral_magic_Astral_Adept" }
+  ],
+  "hill_amount": [1, 2],
+  "hill_size": [30000, 35000],
+  "hill_slope_down": "2039",
+  "hill_slope_up": "2038",
+  "hill_wall": "51",
+  "id": 201,
+  "name": "Peak Astral Ridge",
+  "river": "973",
+  "road": "1999",
+  "slope_amount": [1, 2],
+  "underground_background": "50",
+  "underground_wall": "51"
+}

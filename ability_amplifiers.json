@@ -1,5 +1,188 @@
 [
-	
+{
+    "id": "arendeth_astral_magic_astral_backstep",
+    "name": "Astral Backstep",
+    "type": "utility",
+    "image": 738,
+    "bonuses": [
+        {
+            "effect": "ability_damage_multiplier",
+            "value": 0.1
+        },
+        {
+            "effect": "health_for_stamina",
+            "value": 0.25
+        },
+        {
+            "effect": "effect_per_stack",
+            "value": "arendeth_astral_astral_fatigue",
+            "secondary_value": {
+                "effect": "rollback",
+                "value": 1,
+                "secondary_value": {
+                    "effect": "chance",
+                    "value": 0.05,
+                    "secondary_value": {
+                        "effect": "consume_stacks",
+                        "value": "arendeth_astral_astral_fatigue"
+                    },
+                    "third_value": {
+                        "effect": "add_stack",
+                        "value": "arendeth_astral_astral_fatigue",
+                        "secondary_value": 1
+                    }
+                }
+            },
+            "third_value": 1
+        }
+    ],
+    "description": "Each Astral Fatigue stack triggers a brief astral displacement, pulling you backward. The disturbance may collapse your fatigue entirely or intensify it if the astral shift destabilizes."
+},
+	{
+		"id": "arendeth_astral_magic_Challenger_1",
+		"name": "Astral Challenger I",
+		"type": "offensive",
+		"duration": 2.0,
+		"image": 3,
+		
+		"bonuses": [
+			{
+				"effect": "challenge",
+				"value": 1
+			},
+			{
+				"effect": "frostbite",
+				"value": 1
+			},
+			{
+				"effect": "stacker",
+				"value": "arendeth_astral_astral_fatigue"
+			},
+			{
+				"effect": "effect_per_stack",
+				"value": "arendeth_astral_magic_Frosty_Trigger"
+			}
+		],
+		
+		"description": "A dangerous astral flare that sharpens frostbite and draws enemy focus. Astral Fatigue erupts into repeated frost pulses, rapidly compounding frostburn as long as the surge holds."
+	},
+	{
+		"id": "arendeth_astral_magic_Challenger_2",
+		"name": "Astral Challenger II",
+		"type": "offensive",
+		"duration": 6.0,
+		"image": 3,
+		
+		"bonuses": [
+			{
+				"effect": "challenge",
+				"value": 1
+			},
+			{
+				"effect": "frostbite",
+				"value": 1
+			},
+			{
+				"effect": "stacker",
+				"value": "arendeth_astral_astral_fatigue"
+			},
+			{
+				"effect": "effect_per_stack",
+				"value": "arendeth_astral_magic_Frosty_Trigger"
+			}
+		],
+		
+		"description": "A dangerous astral flare that sharpens frostbite and draws enemy focus. Astral Fatigue erupts into repeated frost pulses, rapidly compounding frostburn as long as the surge holds."
+	},
+	{
+		"id": "arendeth_astral_magic_Augment_Charge",
+		"name": "Astral Charge",
+		"type": "offensive",
+		"image": 1,
+		"effects": [
+			{ "effect": "charge", "value": 1 }
+		],
+		"duration": 0.0,
+		"description": "Channels astral force to charge one tile toward the target."
+	},
+	{
+		"id": "arendeth_astral_magic_Augment_Charge_5",
+		"name": "Astral Charge 5",
+		"type": "offensive",
+		"image": 1,
+		"effects": [
+			{ "effect": "charge", "value": 5 }
+		],
+		"duration": 0.0,
+		"description": "Charges forward up to five tiles toward the target using astral displacement."
+	},
+	{
+		"id": "arendeth_astral_magic_Augment_Sidestep",
+		"name": "Astral Sidestep",
+		"type": "utility",
+		"image": 1,
+		"effects": [
+			{ "effect": "move_side", "value": 1 }
+		],
+		"duration": 0.0,
+		"description": "Shifts position using astral displacement."
+	},
+	{
+		"id": "arendeth_astral_magic_Augment_Sidestep_2",
+		"name": "Astral Sidestep 2",
+		"type": "utility",
+		"image": 1,
+		"effects": [
+			{ "effect": "move_side", "value": 2 }
+		],
+		"duration": 0.0,
+		"description": "Shifts position two tiles using astral displacement."
+	},
+	{
+		"id": "arendeth_astral_magic_Augment_Sidestep_3",
+		"name": "Astral Sidestep 3",
+		"type": "utility",
+		"image": 1,
+		"effects": [
+			{ "effect": "move_side", "value": 3 }
+		],
+		"duration": 0.0,
+		"description": "Shifts position three tiles using astral displacement."
+	},
+	{
+		"id": "arendeth_astral_magic_Augment_Sidestep_4",
+		"name": "Astral Sidestep 4",
+		"type": "utility",
+		"image": 1,
+		"effects": [
+			{ "effect": "move_side", "value": 4 }
+		],
+		"duration": 0.0,
+		"description": "Shifts position four tiles using astral displacement."
+	},
+	{
+		"id": "arendeth_astral_magic_Augment_Burning_Light",
+		"name": "Astral Burning Light",
+		"type": "offensive",
+		"image": 1,
+		"effects": [
+			{ "effect": "light_source", "value": 1 },
+			{ "effect": "burning_light", "value": 1 }
+		],
+		"duration": 0.0,
+		"description": "Creates a small astral light on targets and adds a burning light effect to skills."
+	},
+	{
+		"id": "arendeth_astral_magic_Augment_Burn_Stamina_5",
+		"name": "Astral Burn Stamina",
+		"type": "offensive",
+		"image": 1,
+		"effects": [
+			{ "effect": "burn_stamina", "value": 5 }
+		],
+		"duration": 0.0,
+		"description": "Burns 5 stamina through astral strain."
+	},
 	{
 		"id": "arendeth_astral_magic_Frostbite_Convergence",
 		"name": "Frostbite Convergence",
@@ -28,7 +211,7 @@
 	{
 		"id": "arendeth_astral_magic_Frostburn_Nova_Augment",
 		"name": "Frostburn Nova",
-		"type": "augment",
+		"type": "offensive",
 		"image": 2,
 		"effects": [
 			{
@@ -114,37 +297,6 @@
 			}
 		],
 		"description": "You fracture astral flow to accelerate your casting rhythm, unleashing your next spell with greatly reduced cast time and cooldown. The surge restores a random ability’s cooldown, converts a portion of your damage into life, and empowers distant attacks through astral resonance.",
-		"range": 3.0,
-		"duration": 1.0
-	},
-	{
-		"id": "Astral_Clarity_Surge",
-		"name": "Astral Clarity Surge",
-		"type": "utility",
-		"image": 3,
-		"bonuses": [
-			{
-				"effect": "cast_time",
-				"value": -0.6
-			},
-			{
-				"effect": "cooldown",
-				"value": -5.0
-			},
-			{
-				"effect": "reduce_random_cooldown",
-				"value": 1
-			},
-			{
-				"effect": "damage_as_life",
-				"value": 0.4
-			},
-			{
-				"effect": "distance_damage",
-				"value": 1
-			}
-		],
-		"description": "You fracture astral flow to accelerate your casting rhythm, unleashing your next spell with greatly reduced cast time and cooldown while briefly extending its duration. The surge restores a random ability’s cooldown and converts a portion of your damage into life, empowering distant attacks through astral resonance.",
 		"range": 3.0,
 		"duration": 1.0
 	},

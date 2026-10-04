@@ -1,17 +1,16 @@
+{
+  "id": "arendeth_astral_magic_Astral_Tempo",
+  "name": "Astral Tempo",
+  "requirements": {
+    "milestones": [],
+    "skill": 47
+  },
+  "rewards": [
     {
-      "id": "arendeth_astral_magic_Astral_Tempo",
-      "name": "Astral Soul Rend",
-      "requirements": {
-        "milestones": [],
-        "skill": 47
-      },
-      "rewards": [
-        {
-          "amplifier": "Astral_Tempo"
-        }
-      ],
-      "skill_id": "arendeth_astral_magic",
-      "steps": [],
-      "steps_type": 0
+      "amplifier": "Astral_Tempo"
     }
-  ]
+  ],
+  "skill_id": "arendeth_astral_magic",
+  "steps": [],
+  "steps_type": 0
+}

@@ -1,0 +1,22 @@
+{
+	"animation": "core_2_Glaciation",
+	"cast_time": 1.0,
+	"cooldown": 120.0,
+	"cost": {
+		"health": 1,
+		"stamina": 6
+	},
+	"description": "You collapse the unstable astral influence building within you, clearing all Astral Fatigue in a controlled release. The disruption chills your body and shifts your position as astral space momentarily destabilizes.",
+	"duration": 5.0,
+	"effects": {
+		"effect_per_stack": "10",
+		"frostbite": 1,
+		"move_to_side": 2
+	},
+	"id": "arendeth_astral_magic_Astral_Discharge",
+	"image": 738,
+	"name": "Astral Discharge",
+	"range": 0,
+	"skill": "arendeth_astral_magic",
+	"target": "self"
+}

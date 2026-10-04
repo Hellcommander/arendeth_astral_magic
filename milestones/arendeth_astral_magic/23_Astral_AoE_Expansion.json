@@ -1,17 +1,16 @@
+{
+  "id": "arendeth_astral_magic_Astral_AoE_Expansion",
+  "name": "Astral AoE Expansion",
+  "requirements": {
+    "milestones": [],
+    "skill": 23
+  },
+  "rewards": [
     {
-      "id": "arendeth_astral_magic_Astral_AoE_Expansion",
-      "name": "Astral Soul Rend",
-      "requirements": {
-        "milestones": [],
-        "skill": 23
-      },
-      "rewards": [
-        {
-          "amplifier": "Astral_AoE_Expansion"
-        }
-      ],
-      "skill_id": "arendeth_astral_magic",
-      "steps": [],
-      "steps_type": 0
+      "amplifier": "Astral_AoE_Expansion"
     }
-  ]
+  ],
+  "skill_id": "arendeth_astral_magic",
+  "steps": [],
+  "steps_type": 0
+}

@@ -1,0 +1,182 @@
+{
+	"ability_user": [
+		"arendeth_astral_magic_Astral_Frostline",
+		"arendeth_astral_magic_Summon_Astral_Wisp_Swarm",
+		"arendeth_astral_magic_Wisp_Powered_Swap"
+	],
+	"artificial_intelligence": {
+		"allies": [
+			"7",
+			"4"
+		],
+		"allow_production": [
+			"19",
+			"core_2_water_plants",
+			"9",
+			"core_2_pray"
+		],
+		"behaviors": [
+			16,
+			9
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": "322",
+	"description": "Boneweavers are skeletal mages bound by astral flow instead of necromancy. Their bones carry faint astral etchings, marking them as stable astral constructs accepted by both Elves and Undead. They wield Astral Frostline to mark foes, Astral Wisp Swarm to illuminate and harass targets, and Wisp Powered Swap to slip through astral seams. Precise, quiet, and unnervingly fluid, Boneweavers act as mobile astral controllers who support allies with controlled movement and battlefield manipulation.",
+	"dialogues": [
+		"722",
+		"77"
+	],
+	"equipment": {
+		"backpack": [
+			{
+				"chance": 1.0,
+				"id": "100",
+				"name": "Javelin",
+				"stack": 10
+			}
+		],
+		"left_hand": [
+			{
+				"chance": 1.0,
+				"id": "core_2_Ice_Rod",
+				"name": "Ice Rod",
+				"stack": 1
+			}
+		],
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": "100",
+				"name": "Javelin",
+				"stack": 1
+			}
+		],
+		"torso_cloth": [
+			{
+				"chance": 1.0,
+				"id": "183",
+				"name": "Robe",
+				"stack": 1
+			}
+		]
+	},
+	"experience_gainer": {
+		"exp": 28,
+		"level": 4
+	},
+	"fighter": {
+		"attackNames": null
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					127,
+					185,
+					85
+				],
+				"delay": 0,
+				"index": 148
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 350,
+	"humanoid": {
+		"race": "2"
+	},
+	"id": "arendeth_astral_magic_Undead_Astral_Adapt",
+	"minimap_pixel": [
+		127,
+		185,
+		85
+	],
+	"moveable": {
+		"speed": 1.2999999523162842
+	},
+	"name": "Undead Astral Adapt",
+	"persona": {
+		"occupation": "Astral Adapt"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": false,
+		"range": 10,
+		"threesixty": false
+	},
+	"skills": {
+		"max_skill": 10,
+		"milestones": [
+			"arendeth_astral_magic_Astral_Frostline",
+			"arendeth_astral_magic_riftchain",
+			"core_2_heavy_duty",
+			"core_2_ignore_party",
+			"arendeth_astral_magic_Astral_Perception",
+			"arendeth_astral_magic_Summon_Astral_Wisp_Swarm",
+			"arendeth_astral_magic_Astral_Soul_Rend",
+			"core_2_extra_pockets",
+			"arendeth_astral_magic_Wisp_Powered_Swap",
+			"core_2_first_aid"
+		],
+		"min_skill": 10,
+		"skills": [
+			"arendeth_astral_magic",
+			"core_2_leadership"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			20,
+			24
+		],
+		"endurance": [
+			14,
+			19
+		],
+		"intelligence": [
+			48,
+			53
+		],
+		"strength": [
+			10,
+			13
+		],
+		"willpower": [
+			45,
+			49
+		]
+	},
+	"tags": [
+		"9",
+		"7"
+	]
+}

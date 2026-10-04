@@ -1,13 +1,13 @@
 {
-  "id": "arendeth_astral_magic_riftchain",
-  "name": "Astral Riftchain",
+  "id": "arendeth_astral_magic_astral_recovery",
+  "name": "Astral Recovery",
   "requirements": {
     "milestones": [],
     "skill": 20
   },
   "rewards": [
     {
-      "ability": "arendeth_astral_magic_riftchain"
+      "passive": "arendeth_astral_magic_astral_recovery"
     }
   ],
   "skill_id": "arendeth_astral_magic",

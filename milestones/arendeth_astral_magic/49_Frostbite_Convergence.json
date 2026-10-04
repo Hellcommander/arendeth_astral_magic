@@ -1,17 +1,16 @@
+{
+  "id": "arendeth_astral_magic_Frostbite_Convergence",
+  "name": "Frostbite Convergence",
+  "requirements": {
+    "milestones": [],
+    "skill": 49
+  },
+  "rewards": [
     {
-      "id": "arendeth_astral_magic_Frostbite_Convergence",
-      "name": "Frostbite Convergence",
-      "requirements": {
-        "milestones": [],
-        "skill": 49
-      },
-      "rewards": [
-        {
-          "amplifier": "arendeth_astral_magic_Frostbite_Convergence"
-        }
-      ],
-      "skill_id": "arendeth_astral_magic",
-      "steps": [],
-      "steps_type": 0
+      "amplifier": "arendeth_astral_magic_Frostbite_Convergence"
     }
-  ]
+  ],
+  "skill_id": "arendeth_astral_magic",
+  "steps": [],
+  "steps_type": 0
+}

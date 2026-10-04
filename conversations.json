@@ -1,0 +1,136 @@
+{
+  "conversations": [
+    {
+      "id": "astral_begin",
+      "type": "begin_conversation",
+      "entities": [
+        "arendeth_astral_magic_Astral_Savant",
+        "arendeth_astral_magic_Undead_Astral_Adapt",
+        "arendeth_astral_magic_Astral_Adapt_Rogue"
+      ],
+      "text": "Greetings.",
+      "answer_positive": "What do you need?",
+      "answer_negative": "Now is not a good time.",
+      "options": [
+        "astral_trade",
+        "astral_train",
+        "astral_order",
+        "astral_directions",
+        "astral_company_order",
+        "astral_ask_trainer",
+        "astral_special_locations",
+        "astral_rumour",
+        "astral_hire",
+        "astral_back",
+        "astral_exit"
+      ]
+    },
+
+    {
+      "id": "astral_trade",
+      "type": "trade",
+      "text": "Trade goods.",
+      "answer_positive": "I hope everything is to your satisfaction.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_train",
+      "type": "train",
+      "text": "Ask for training.",
+      "answer_positive": "Well, if you help out and pay for my time, I could teach you a trick or two.",
+      "answer_negative": "I don't think there's anything I can teach you.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_order",
+      "type": "order",
+      "text": "Order a product.",
+      "answer_positive": "Come back when it's ready.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_directions",
+      "type": "directions",
+      "text": "Ask for directions.",
+      "answer_positive": "Where do you want to go?",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_company_order",
+      "type": "company_order",
+      "text": "Ask for company orders.",
+      "answer_positive": "We are in need of some new equipment.",
+      "answer_negative": "We're geared well enough for now.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_ask_trainer",
+      "type": "ask_trainers",
+      "text": "Ask for trainers in town.",
+      "answer_positive": "What are you looking for?",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_special_locations",
+      "type": "special_locations",
+      "text": "Ask for anything interesting nearby.",
+      "answer_positive": "I heard rumours of these places.",
+      "answer_negative": "I haven't heard of any such place.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_rumour",
+      "type": "rumour",
+      "text": "Ask about rumours.",
+      "answer_positive": "Aye, quite a sight to see indeed. We've recently had an ::event. I heard that ::event_description.",
+      "answer_negative": "Hmm... I don't think so, friend.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_hire",
+      "type": "hire_to_party",
+      "text": "Hire this companion.",
+      "answer_positive": "I can join you.",
+      "answer_negative": "Not today.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_back",
+      "type": "back_to_main",
+      "text": "Go back."
+    },
+
+    {
+      "id": "astral_exit",
+      "type": "exit",
+      "text": "Leave."
+    }
+  ]
+}

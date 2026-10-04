@@ -1,0 +1,16 @@
+{
+  "id": "arendeth_astral_magic_Augment_Charge",
+  "name": "Astral Burning Light",
+  "requirements": {
+    "milestones": [],
+    "skill": 2
+  },
+  "rewards": [
+    {
+      "amplifier": "arendeth_astral_magic_Augment_Charge"
+    }
+  ],
+  "skill_id": "arendeth_astral_magic",
+  "steps": [],
+  "steps_type": 0
+}
