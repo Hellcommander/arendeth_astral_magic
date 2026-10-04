@@ -1,0 +1,16 @@
+    {
+      "id": "arendeth_astral_magic_Omega_Astral_Wisp",
+      "name": "Omega Astral Wisp",
+      "requirements": {
+        "milestones": [],
+        "skill": 45
+      },
+      "rewards": [
+        {
+          "recipe": "arendeth_astral_magic_Omega_Astral_Wisp"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0,
+    }
