@@ -119,7 +119,7 @@
 	},
 	"name": "Astral Adapt Rogue",
 	"persona": {
-		"occupation": "Astral Adapt"
+		"occupation": "Astral_Adapt"
 	},
 	"sight": {
 		"ignore_infra_penalty": false,

@@ -120,7 +120,7 @@
 	},
 	"name": "Undead Astral Adapt",
 	"persona": {
-		"occupation": "Astral Adapt"
+		"occupation": "Astral_Adapt"
 	},
 	"sight": {
 		"ignore_infra_penalty": false,

@@ -1,27 +1,27 @@
 {
 	"enables": [
-		"arendeth_astral_hall"
+		"arendeth_astral_magic"
 	],
 	"id": "astral_magic_hall",
 	"image": 39,
 	"max": 1,
 	"name": "Astral Laboratory",
 	"occupation_image": 74,
-	"occupation": "457",
+	"occupation": "Astral_Adapt",
 	"occupation_per_race": {
-		"0": "457",
-		"1": "core_2_Dwarf_Wizard",
-		"2": "core_2_Elf_Wizard",
-		"4": "core_2_Goblin_Wizard",
-		"6": "core_2_Vampire_Wizard",
-		"7": "core_2_Troll_Wizard",
-		"8": "core_2_Orc_Wizard",
-		"10": "core_2_Rasimi_Wizard",
-		"23": "core_2_Reptilion_Wizard",
-		"26": "core_2_Bone_Wraith_Wizard",
-		"31": "core_2_Gnoll_Wizard",
-		"32": "core_2_Mushman_Wizard",
-		"33": "core_2_Ursan_Wizard"
+		"0": "Astral_Adapt",
+		"1": "Astral_Adapt",
+		"2": "Astral_Adapt",
+		"4": "Astral_Adapt",
+		"6": "Astral_Adapt",
+		"7": "Astral_Adapt",
+		"8": "Astral_Adapt",
+		"10": "Astral_Adapt",
+		"23": "Astral_Adapt",
+		"26": "Astral_Adapt",
+		"31": "Astral_Adapt",
+		"32": "Astral_Adapt",
+		"33": "Astral_Adapt"
 	},
 	"produces": [
 		{

@@ -1,0 +1,133 @@
+{
+	"ability_user": [
+		"183",
+		"47",
+		"65",
+		"arendeth_astral_magic_riftchain"
+	],
+	"artificial_intelligence": {
+		"allies": [
+			"9",
+			"4",
+			"5"
+		],
+		"allow_production": [
+			"9"
+		],
+		"behaviors": [
+			9,
+			4,
+			7,
+			10
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"artificial_intelligence",
+		"dialogues",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"light_source",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": "326",
+	"description": "Spirit of empowered by mindmeld magic.",
+	"dialogues": [
+		"42",
+		"43"
+	],
+	"experience_gainer": {
+		"exp": 1,
+		"level": 14
+	},
+	"fighter": {
+		"attackNames": [
+			"Zap"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					155,
+					240
+				],
+				"delay": 100,
+				"index": 560
+			}
+		],
+		"random_frame_start": true
+	},
+	"health": 85,
+	"humanoid": {
+		"race": "34"
+	},
+	"id": "arendeth_astral_magic_Wild_Friendly_Astral_Wisp",
+	"light_source": {
+		"finish": -1,
+		"lit_image": -1,
+		"range": 1
+	},
+	"minimap_pixel": [
+		65,
+		105,
+		225
+	],
+	"moveable": {
+		"speed": 1.0
+	},
+	"name": "Wild Friendly Astral Wisp",
+	"sight": {
+		"ignore_infra_penalty": true,
+		"infravision": true,
+		"range": 8,
+		"threesixty": true
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.5
+	},
+	"statistics": {
+		"dexterity": [
+			8,
+			11
+		],
+		"endurance": [
+			10,
+			15
+		],
+		"health_regen": 1.0,
+		"health_regen_tick": 10.0,
+		"hearing": 14,
+		"intelligence": [
+			13,
+			17
+		],
+		"sneaking": 16,
+		"strength": [
+			7,
+			11
+		],
+		"willpower": [
+			8,
+			12
+		]
+	},
+	"tags": [
+		"3"
+	]
+}

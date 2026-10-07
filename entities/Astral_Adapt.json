@@ -6,7 +6,9 @@
 	],
 	"artificial_intelligence": {
 		"allies": [
-			"7"
+			"9",
+			"4",
+			"5"
 		],
 		"allow_production": [
 			"19",
@@ -119,7 +121,7 @@
 	},
 	"name": "Astral Adapt",
 	"persona": {
-		"occupation": "Astral Adapt"
+		"occupation": "Astral_Adapt"
 	},
 	"sight": {
 		"ignore_infra_penalty": false,
