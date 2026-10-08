@@ -23,7 +23,7 @@
 		"summon_on_move": "arendeth_astral_magic_astral_wisp"
 	},
 	"id": "arendeth_astral_magic_Astral_Frost_Aura",
-	"image": 449,
+	"image": 12,
 	"name": "Astral Frost Aura",
 	"range": 0,
 	"skill": "arendeth_astral_magic",

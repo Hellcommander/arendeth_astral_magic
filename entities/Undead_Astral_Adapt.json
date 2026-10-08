@@ -89,7 +89,7 @@
 		"level": 4
 	},
 	"fighter": {
-		"attackNames": null
+		"attackNames": []
 	},
 	"glyph": {
 		"frames": [

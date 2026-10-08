@@ -1,13 +1,13 @@
 {
-  "id": "arendeth_astral_magic_Challenger_1",
-  "name": "Astral Challenger I",
+  "id": "arendeth_astral_magic_astral_resonance",
+  "name": "Astral Resonance",
   "requirements": {
     "milestones": [],
-    "skill": 23
+    "skill": 41
   },
   "rewards": [
     {
-      "passive": "arendeth_astral_magic_Challenger_1"
+      "passive": "arendeth_astral_magic_astral_resonance"
     }
   ],
   "skill_id": "arendeth_astral_magic",

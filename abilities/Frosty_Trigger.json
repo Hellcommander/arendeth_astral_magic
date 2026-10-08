@@ -20,6 +20,7 @@
 		"turn_damage_to_stacks": "arendeth_astral_magic_Frosty_Trigger_Stacker"
 	},
 	"id": "arendeth_astral_magic_Frosty_Trigger",
+	"image": 0,
 	"name": "Frosty Trigger",
 	"range": 0,
 	"skill": "arendeth_astral_magic",

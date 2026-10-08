@@ -20,7 +20,7 @@
 		"summon": "arendeth_astral_magic_astral_wisp"
 	},
 	"id": "arendeth_astral_magic_Wisp_Powered_Swap",
-	"image": 822,
+	"image": 4,
 	"name": "Wisp Powered Swap",
 	"range": 12,
 	"skill": "arendeth_astral_magic",

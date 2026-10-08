@@ -19,7 +19,7 @@
 		"magic_power_per_entity": "arendeth_astral_magic_astral_wisp"
 	},
 	"id": "arendeth_astral_magic_Astral_Mantle",
-	"image": 468,
+	"image": 0,
 	"name": "Astral Mantle",
 	"range": 0,
 	"skill": "arendeth_astral_magic",

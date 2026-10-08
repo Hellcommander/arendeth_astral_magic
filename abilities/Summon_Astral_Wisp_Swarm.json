@@ -27,7 +27,7 @@
 		"summon": "arendeth_astral_magic_astral_wisp"
 	},
 	"id": "arendeth_astral_magic_Summon_Astral_Wisp_Swarm",
-	"image": 773,
+	"image": 6,
 	"name": "Summon Astral Wisp Swarm",
 	"range": 9,
 	"skill": "arendeth_astral_magic",

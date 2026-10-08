@@ -1,236 +1,235 @@
 [
-	{
-		"id": "arendeth_astral_magic_astral_analysis",
-		"name": "Astral Analysis",
-		"image": 75,
-		"effects": [
-			{ "effect": "analyze_speed", "value": 1 },
-			{ "effect": "analyze_weakness", "value": 1 }
-		]
-	},
-	{
-		"id": "arendeth_astral_magic_astral_acuity",
-		"name": "Astral Acuity",
-		"image": 75,
-		"effects": [
-			{ "effect": "critical_hit_from_dex", "value": 0.01 },
-			{ "effect": "critical_hit", "value": 0.02 }
-		]
-	},
-	{
-		"id": "arendeth_astral_magic_astral_recovery",
-		"name": "Astral Recovery",
-		"image": 75,
-		"effects": [
-			{
+    {
+        "id": "arendeth_astral_magic_astral_analysis",
+        "name": "Astral Analysis",
+        "image": 0,
+        "effects": [
+            { "effect": "analyze_speed", "value": 1 },
+            { "effect": "analyze_weakness", "value": 1 }
+        ]
+    },
+    {
+        "id": "arendeth_astral_magic_astral_acuity",
+        "name": "Astral Acuity",
+        "image": 0,
+        "effects": [
+            { "effect": "critical_hit_from_dex", "value": 0.01 },
+            { "effect": "critical_hit", "value": 0.02 }
+        ]
+    },
+    {
+        "id": "arendeth_astral_magic_astral_recovery",
+        "name": "Astral Recovery",
+        "image": 0,
+        "effects": [
+            {
                 "effect": "stamina_on_stack_consume",
                 "value": "arendeth_astral_astral_fatigue"
-			},
-			{ "effect": "attack_speed", "value": 0.02 }
-		]
-	},
-	{
-		"id": "arendeth_astral_magic_astral_resonance",
-		"name": "Astral Resonance",
-		"image": 75,
-		"effects": [
-			{ "effect": "critical_hit", "value": 0.03 },
-			{
-				"effect": "extra_equip_slot",
-				"value": "soul"
-			},
-			{ "effect": "magic_power", "value": 2 }
-		]
-	},
-	{
-		"id": "arendeth_astral_magic_astral_rupture",
-		"name": "Astral Rupture",
-		"image": 75,
-		"effects": [
-			{
-				"effect": "dot_on_crit",
-				"value": "frostburn"
-			}
-		]
-	},
-	{
-		"id": "arendeth_astral_magic_cold_reclamation",
-		"name": "Cold Reclamation",
-		"image": 75,
-		"apply_mode": "party_only",
-		"effects": [
-			{
-				"effect": "death_under_effect_gain_stamina",
-				"value": "frostbite",
-				"secondary_value": 6
-			}
-		]
-	},
-	{
-		"id": "arendeth_astral_magic_astral_glide",
-		"name": "Astral Glide",
-		"image": 75,
-		"apply_mode": "party_only",
-		"effects": [
-			{
-				"effect": "movement_stamina",
-				"value": -0.5
-			}
-		]
-	},
-	{
-		"id": "arendeth_astral_magic_astral_momentum",
-		"name": "Astral Momentum",
-		"image": 75,
-		"apply_mode": "party_only",
-		"effects": [
-			{
-				"effect": "move_speed",
-				"value": -0.1
-			}
-		]
-	},	
-	{
-		"id": "arendeth_astral_magic_Astral_Echo",
-		"name": "Astral Echo",
-		"image": 3,
-		"effects": [
-			{
-				"effect": "chance",
-				"value": 0.08,
-				"secondary_value": {
-					"effect": "repeat_ability",
-					"value": 1
-				}
-			},
-			{
-				"effect": "chance",
-				"value": 0.08,
-				"secondary_value": {
-					"effect": "consume_stacks",
-					"value": "arendeth_astral_astral_fatigue",
-					"third_value": 1
-				}
-			}
-		]
-	},
-	{
-		"id": "arendeth_astral_magic_Astral_Command_Nexus",
-		"name": "Astral Command Nexus",
-		"image": 3,
-		"effects": [
-			{
-				"effect": "see_stamina",
-				"value": 1
-			},
-			{
-				"effect": "increase_effect_value",
-				"value": "frostbite",
-				"secondary_value": 0.15
-			},
-			{
-				"effect": "target_resistance",
-				"value": "frost",
-				"secondary_value": -0.20
-			},
-			{
-				"effect": "trigger_ability_on_cast",
-				"value": "core_2_Spectral_Chain",
-				"secondary_value": 15,
-				"third_value": 1.0
-			},
-			{
-				"effect": "companion",
-				"value": 1
-			}
-		]
-	},
+            },
+            { "effect": "attack_speed", "value": 0.02 }
+        ]
+    },
     {
-		"id": "arendeth_astral_magic_Astral_Command",
-		"name": "Astral Command",
-		"image": 3,
-		"effects": [
-			{
-				"effect": "ally_command",
-				"value": 1
-			},
-			{
-				"effect": "health_for_stamina",
-				"value": 0.3
-				
-			},
-			{
-				"effect": "sight",
-				"value": 2
-			},
-			{
-				"effect": "range",
-				"value": 2
-			}
-		],
-		"range": 2.0,
-		"description": "Your astral authority strengthens, granting command over an additional companion while expanding your sight and spell range. A 30% of of health is restored based on stamina cost, and your abilities have a small chance to echo through your off‑hand focus."
-	},
-	{
-		"id": "arendeth_astral_magic_Astral_Insight",
-		"name": "Astral Insight",
-		"image": 3,
-		"effects": [
-			{
-				"effect": "full_vision",
-				"value": 1
-			},
-			{
-				"effect": "stamina",
-				"value": 50
-			},
-			{
-				"effect": "stamina_regen",
-				"value": 1.0
-			}
-		]
-	},
-	{
-		"id": "Astral_Perception",
-		"name": "Astral Perception",
-		"image": 3,
-		"effects": [
-			{
-				"effect": "Sense",
-				"value": "Magic"
-			}
-		]
-	},
-	{
-		"id": "Astral_Magic_mastery",
-		"name": "Astral Magic Mastery",
-		"image": 4,
-		"effects": [
-			{
-				"effect": "statistic_percent",
-				"value": "strength",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "dexterity",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "endurance",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "intelligence",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "willpower",
-				"secondary_value": 0.1
-			}
-		]
-	}
+        "id": "arendeth_astral_magic_astral_resonance",
+        "name": "Astral Resonance",
+        "image": 0,
+        "effects": [
+            { "effect": "critical_hit", "value": 0.03 },
+            {
+                "effect": "extra_equip_slot",
+                "value": "soul"
+            },
+            { "effect": "magic_power", "value": 2 }
+        ]
+    },
+    {
+        "id": "arendeth_astral_magic_astral_rupture",
+        "name": "Astral Rupture",
+        "image": 0,
+        "effects": [
+            {
+                "effect": "dot_on_crit",
+                "value": "frostburn"
+            }
+        ]
+    },
+    {
+        "id": "arendeth_astral_magic_cold_reclamation",
+        "name": "Cold Reclamation",
+        "image": 0,
+        "apply_mode": "party_only",
+        "effects": [
+            {
+                "effect": "death_under_effect_gain_stamina",
+                "value": "frostbite",
+                "secondary_value": 6
+            }
+        ]
+    },
+    {
+        "id": "arendeth_astral_magic_astral_glide",
+        "name": "Astral Glide",
+        "image": 0,
+        "apply_mode": "party_only",
+        "effects": [
+            {
+                "effect": "movement_stamina",
+                "value": -0.5
+            }
+        ]
+    },
+    {
+        "id": "arendeth_astral_magic_astral_momentum",
+        "name": "Astral Momentum",
+        "image": 0,
+        "apply_mode": "party_only",
+        "effects": [
+            {
+                "effect": "move_speed",
+                "value": -0.1
+            }
+        ]
+    },  
+    {
+        "id": "arendeth_astral_magic_Astral_Echo",
+        "name": "Astral Echo",
+        "image": 0,
+        "effects": [
+            {
+                "effect": "chance",
+                "value": 0.08,
+                "secondary_value": {
+                    "effect": "repeat_ability",
+                    "value": 1
+                }
+            },
+            {
+                "effect": "chance",
+                "value": 0.08,
+                "secondary_value": {
+                    "effect": "consume_stacks",
+                    "value": "arendeth_astral_astral_fatigue",
+                    "third_value": 1
+                }
+            }
+        ]
+    },
+    {
+        "id": "arendeth_astral_magic_Astral_Command_Nexus",
+        "name": "Astral Command Nexus",
+        "image": 0,
+        "effects": [
+            {
+                "effect": "see_stamina",
+                "value": 1
+            },
+            {
+                "effect": "increase_effect_value",
+                "value": "frostbite",
+                "secondary_value": 0.15
+            },
+            {
+                "effect": "target_resistance",
+                "value": "frost",
+                "secondary_value": -0.20
+            },
+            {
+                "effect": "trigger_ability_on_cast",
+                "value": "core_2_Spectral_Chain",
+                "secondary_value": 15,
+                "third_value": 1.0
+            },
+            {
+                "effect": "companion",
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": "arendeth_astral_magic_Astral_Command",
+        "name": "Astral Command",
+        "image": 0,
+        "effects": [
+            {
+                "effect": "ally_command",
+                "value": 1
+            },
+            {
+                "effect": "health_for_stamina",
+                "value": 0.3
+            },
+            {
+                "effect": "sight",
+                "value": 2
+            },
+            {
+                "effect": "range",
+                "value": 2
+            }
+        ],
+        "range": 2.0,
+        "description": "Your astral authority strengthens, granting command over an additional companion while expanding your sight and spell range. A 30% of of health is restored based on stamina cost, and your abilities have a small chance to echo through your off‑hand focus."
+    },
+    {
+        "id": "arendeth_astral_magic_Astral_Insight",
+        "name": "Astral Insight",
+        "image": 0,
+        "effects": [
+            {
+                "effect": "full_vision",
+                "value": 1
+            },
+            {
+                "effect": "stamina",
+                "value": 50
+            },
+            {
+                "effect": "stamina_regen",
+                "value": 1.0
+            }
+        ]
+    },
+    {
+        "id": "Astral_Perception",
+        "name": "Astral Perception",
+        "image": 0,
+        "effects": [
+            {
+                "effect": "Sense",
+                "value": "Magic"
+            }
+        ]
+    },
+    {
+        "id": "Astral_Magic_mastery",
+        "name": "Astral Magic Mastery",
+        "image": 0,
+        "effects": [
+            {
+                "effect": "statistic_percent",
+                "value": "strength",
+                "secondary_value": 0.1
+            },
+            {
+                "effect": "statistic_percent",
+                "value": "dexterity",
+                "secondary_value": 0.1
+            },
+            {
+                "effect": "statistic_percent",
+                "value": "endurance",
+                "secondary_value": 0.1
+            },
+            {
+                "effect": "statistic_percent",
+                "value": "intelligence",
+                "secondary_value": 0.1
+            },
+            {
+                "effect": "statistic_percent",
+                "value": "willpower",
+                "secondary_value": 0.1
+            }
+        ]
+    }
 ]

@@ -20,10 +20,10 @@
 		"pierce": 1
 	},
 	"id": "arendeth_astral_magic_riftchain",
-	"image": 627,
+	"image": 9,
 	"name": "Astral Riftchain",
 	"range": 7,
-	"skill": "arendeth_astral_magic_magic",
+	"skill": "",
 	"slots": {
 		"offensive": 3,
 		"utility": 1

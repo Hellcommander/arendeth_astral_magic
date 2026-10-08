@@ -24,7 +24,7 @@
 		"cage": "arendeth_astral_magic_Crystalized_Astral_Wisp"
 	},
 	"id": "arendeth_astral_magic_Create_Crystalized_Astral_Wisp",
-	"image": 58,
+	"image": 0,
 	"name": "Create Crystalized Astral Wisp",
 	"range": 5,
 	"skill": "arendeth_astral_magic",

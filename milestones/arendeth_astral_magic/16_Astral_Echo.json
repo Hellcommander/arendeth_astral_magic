@@ -7,7 +7,7 @@
   },
   "rewards": [
     {
-      "passive": "arendeth_astral_echo"
+      "augment": "arendeth_astral_echo"
     }
   ],
   "skill_id": "arendeth_astral_magic",

@@ -3,11 +3,11 @@
   "name": "Astral Burn Stamina",
   "requirements": {
     "milestones": [],
-    "skill": 10
+    "skill": 15
   },
   "rewards": [
     {
-      "amplifier": "rendeth_astral_magic_Augment_Burn_Stamina_5"
+      "amplifier": "arendeth_astral_magic_Augment_Burn_Stamina_5"
     }
   ],
   "skill_id": "arendeth_astral_magic",

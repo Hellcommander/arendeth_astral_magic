@@ -43,7 +43,7 @@
 	{
 		"id": "arendeth_astral_magic_Frosty_Trigger_Stacker",
 		"name": "Frosty Trigger Stacker",
-		"image": 2,
+		"image": 1,
 		"effects": [
 			{
 				"effect": "stacker",

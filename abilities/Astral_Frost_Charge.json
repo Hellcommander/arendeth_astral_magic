@@ -27,7 +27,7 @@
         "turn_damage_to_stacks": "arendeth_astral_magic_Frosty_Trigger"
     },
     "id": "arendeth_astral_magic_frost_charge",
-    "image": 344,
+    "image": 8,
     "name": "Astral Frost Charge",
     "range": 10,
     "skill": "arendeth_astral_magic",

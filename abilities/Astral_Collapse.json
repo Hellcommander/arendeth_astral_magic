@@ -28,7 +28,7 @@
 		"stacker": "arendeth_astral_astral_fatigue"
 	},
 	"id": "arendeth_astral_magic_Astral_Collapse",
-	"image": 2,
+	"image": 0,
 	"name": "Astral Collapse",
 	"range": 8,
 	"skill": "arendeth_astral_magic",
