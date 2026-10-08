@@ -1,113 +1,111 @@
-{
-	{
-		"internal_name": "Elven_Observatory_Adept",
-		"z_level": 0,
-		"clearable": false,
-		"building_maps": {
-			"count": [1,1],
-			"ids": ["Elven_Observatory_Map"],
-			"mode": "one_of",
-			"placement": "carve"
-		},
-		"spawns": [
-			{
-				"amount": [1,1],
-				"chance": 1.0,
-				"entities": ["arendeth_astral_magic_Astral_Adept"]
-			},
-			{
-				"amount": [1,2],
-				"chance": 0.75,
-				"entities": ["elf_scholar", "elf_guard"]
-			},
-			{
-				"amount": [2,3],
-				"chance": 0.50,
-				"entities": ["elf_apprentice"]
-			}
-		],
-		"rewards": []
-	},
-	{
-		"internal_name": "Waypoint_Tunnel_Adept_Rogue",
-		"z_level": 0,
-		"clearable": true,
-		"building_maps": {
-			"count": [1,1],
-			"ids": ["Waypoint_Tunnel_Map"],
-			"mode": "one_of",
-			"placement": "carve"
-		},
-		"spawns": [
-			{
-				"amount": [1,2],
-				"chance": 1.0,
-				"entities": ["arendeth_astral_magic_Astral_Adept_Rogue"]
-			},
-			{
-				"amount": [2,4],
-				"chance": 0.85,
-				"entities": ["rogue_scout", "rogue_knifethrower"]
-			},
-			{
-				"amount": [1,2],
-				"chance": 0.40,
-				"entities": ["rogue_shadowmage"]
-			}
-		],
-		"rewards": [
-			{
-				"type": "teach_skill",
-				"skill": "arendeth_astral_magic_wisp_swap",
-				"spawn_on": ["2072"]
-			},
-			{
-				"type": "hire_to_party",
-				"entity": "arendeth_astral_magic_Astral_Adept_Rogue",
-				"spawn_on": ["30"]
-			}
-		]
-	},
-	{
-		"internal_name": "Undead_Bone_Archive_Adept",
-		"z_level": 0,
-		"clearable": true,
-		"building_maps": {
-			"count": [1,1],
-			"ids": ["Undead_Bone_Archive_Map"],
-			"mode": "one_of",
-			"placement": "carve"
-		},
-		"spawns": [
-			{
-				"amount": [1,1],
-				"chance": 1.0,
-				"entities": ["arendeth_astral_magic_Undead_Astral_Adept"]
-			},
-			{
-				"amount": [3,5],
-				"chance": 1.0,
-				"entities": ["undead_skeleton", "undead_archer"]
-			},
-			{
-				"amount": [1,2],
-				"chance": 0.60,
-				"entities": ["undead_bonecaster"]
-			},
-			{
-				"amount": [1,1],
-				"chance": 0.25,
-				"entities": ["undead_elite_skeleton"]
-			}
-		],
-		"rewards": [
-			{
-				"type": "teach_skill",
-				"skill": "arendeth_astral_magic_frostline",
-				"spawn_on": ["2072"]
-			}
-		]
-	}
-}
-
-
+[
+    {
+        "internal_name": "Elven_Observatory_Adept",
+        "z_level": 0,
+        "clearable": false,
+        "building_maps": {
+            "count": [1,1],
+            "ids": ["Elven_Observatory_Map"],
+            "mode": "one_of",
+            "placement": "carve"
+        },
+        "spawns": [
+            {
+                "amount": [1,1],
+                "chance": 1.0,
+                "entities": ["arendeth_astral_magic_Astral_Adept"]
+            },
+            {
+                "amount": [1,2],
+                "chance": 0.75,
+                "entities": ["elf_scholar", "elf_guard"]
+            },
+            {
+                "amount": [2,3],
+                "chance": 0.50,
+                "entities": ["elf_apprentice"]
+            }
+        ],
+        "rewards": []
+    },
+    {
+        "internal_name": "Waypoint_Tunnel_Adept_Rogue",
+        "z_level": 0,
+        "clearable": true,
+        "building_maps": {
+            "count": [1,1],
+            "ids": ["Waypoint_Tunnel_Map"],
+            "mode": "one_of",
+            "placement": "carve"
+        },
+        "spawns": [
+            {
+                "amount": [1,2],
+                "chance": 1.0,
+                "entities": ["arendeth_astral_magic_Astral_Adept_Rogue"]
+            },
+            {
+                "amount": [2,4],
+                "chance": 0.85,
+                "entities": ["rogue_scout", "rogue_knifethrower"]
+            },
+            {
+                "amount": [1,2],
+                "chance": 0.40,
+                "entities": ["rogue_shadowmage"]
+            }
+        ],
+        "rewards": [
+            {
+                "type": "teach_skill",
+                "skill": "arendeth_astral_magic_wisp_swap",
+                "spawn_on": ["2072"]
+            },
+            {
+                "type": "hire_to_party",
+                "entity": "arendeth_astral_magic_Astral_Adept_Rogue",
+                "spawn_on": ["30"]
+            }
+        ]
+    },
+    {
+        "internal_name": "Undead_Bone_Archive_Adept",
+        "z_level": 0,
+        "clearable": true,
+        "building_maps": {
+            "count": [1,1],
+            "ids": ["Undead_Bone_Archive_Map"],
+            "mode": "one_of",
+            "placement": "carve"
+        },
+        "spawns": [
+            {
+                "amount": [1,1],
+                "chance": 1.0,
+                "entities": ["arendeth_astral_magic_Undead_Astral_Adept"]
+            },
+            {
+                "amount": [3,5],
+                "chance": 1.0,
+                "entities": ["undead_skeleton", "undead_archer"]
+            },
+            {
+                "amount": [1,2],
+                "chance": 0.60,
+                "entities": ["undead_bonecaster"]
+            },
+            {
+                "amount": [1,1],
+                "chance": 0.25,
+                "entities": ["undead_elite_skeleton"]
+            }
+        ],
+        "rewards": [
+            {
+                "type": "teach_skill",
+                "skill": "arendeth_astral_magic_frostline",
+                "spawn_on": ["2072"]
+            }
+        ]
+    }
+]
