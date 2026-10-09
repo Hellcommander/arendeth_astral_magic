@@ -25,6 +25,9 @@
 		"immobilize": 1,
 		"knockback": 1,
 		"magic_power_damage": 0.9,
+		"stacker_count": 1
+	},
+	"effects_keys": {
 		"stacker": "arendeth_astral_astral_fatigue"
 	},
 	"id": "arendeth_astral_magic_Astral_Collapse",

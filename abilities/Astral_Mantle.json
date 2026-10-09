@@ -6,16 +6,17 @@
 		"health": 0,
 		"stamina": 6
 	},
-	"description": "You wrap yourself in a dense mantle of astral force, sharpening your defensive instincts at the cost of speed.\nThe mantle slows your movements and attacks while greatly increasing your parry chance.\nIts strength scales with your magic power and is further amplified by any Astral Wisps you currently control.\nSustaining the mantle builds Astral Fatigue, risking Overdrawn backlash if maintained too long.\nThis empowerment affects only you and cannot be shared.",
+	"description": "You wrap yourself in a dense mantle of astral force, sharpening your defensive instincts while applying a frost aura that applies frostbite and spawns a single astral wisp each time you move to a limit of 1. \nThe mantle time reduces the time takes for your attacks and movements by .15/25  by while greatly increasing your parry chance.\n It increases your magic power by 1 for each Astral Wisps within the zone\nSustaining the mantle builds Astral Fatigue, risking Overdrawn backlash if maintained too long.\nThis empowerment affects only you and cannot be shared.",
 	"duration": 6.0,
 	"effects": {
 		"attack_speed": -0.15,
 		"movement_speed": -0.25,
 		"parry_chance": 30,
 		"power_up": 1,
-		"stacker": "arendeth_astral_astral_fatigue"
+		"stacker_count": 1
 	},
 	"effects_keys": {
+		"stacker": "arendeth_astral_astral_fatigue",
 		"magic_power_per_entity": "arendeth_astral_magic_astral_wisp"
 	},
 	"id": "arendeth_astral_magic_Astral_Mantle",
