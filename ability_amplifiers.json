@@ -138,7 +138,7 @@
     "type": "offensive",
     "image": 0,
     "effects": [
-        { "effect": "repeat_ability_second_weapon", "value": 0.2 },
+        { "effect": "repeat_ability_second_weapon", "value": 0.2 }
     ],
     "duration": 0.0,
     "description": "adds a 20% chance to repeat the ability with your second weapon"
