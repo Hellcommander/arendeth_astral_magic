@@ -1,0 +1,32 @@
+{
+	"animation": "core_2_Freezing_Bomb_Throw",
+	"cast_time": 0.0,
+	"cooldown": 2.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "A Shatterfrost Spark launches itself toward a distant target in a violent astral rush, chaining between nearby foes as unstable frost energy erupts on impact. Each strike deals light frost damage, can critically hit, and applies Frosty Trigger stacks that scale into frostburn through party ignoring astral rupture. The spark rebounds instantly after the burst, burning away as its unstable energy collapses.",
+	"duration": 1.0,
+	"effects": {
+		"ability_can_crit": 1,
+		"chain": 2,
+		"challenge": 1,
+		"charge": 9,
+		"critical_hit_chance": 0.10000000149011612,
+		"damage": [
+			1,
+			2
+		],
+		"damage_type": "frost",
+		"damage_weapon": 0.4000000059604645,
+		"magic_power_damage": 0.4000000059604645,
+		"stacker": "arendeth_astral_magic_Frosty_Trigger"
+	},
+	"id": "arendeth_astral_magic_Rupture_Spark_Chain",
+	"image": 4,
+	"name": "Rupture Spark Chain",
+	"range": 7,
+	"skill": "arendeth_astral_magic",
+	"target": "actor"
+}

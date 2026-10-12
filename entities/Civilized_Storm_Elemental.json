@@ -1,0 +1,200 @@
+{
+	"ability_user": [
+		"core_2_Lightning_Bolt"
+	],
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [
+			"core_2_deconstruct",
+			"core_2_pray",
+			"4",
+			"core_2_wish"
+		],
+		"behaviors": [
+			3,
+			13,
+			5,
+			2
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags",
+		"weapon"
+	],
+	"corpse": "2532",
+	"description": "A powerful creature born from the chaos, embodying the raw energy of a thunderstorm.",
+	"dialogues": [
+		"355"
+	],
+	"experience_gainer": {
+		"exp": 0,
+		"level": 30
+	},
+	"fighter": {
+		"attackNames": [
+			"Electrical Touch"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 567
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 400,
+	"humanoid": {
+		"race": "34"
+	},
+	"id": "arendeth_astral_magic_Civilized_Storm_Elemental",
+	"minimap_pixel": [
+		149,
+		165,
+		101
+	],
+	"moveable": {
+		"speed": 0.699999988079071
+	},
+	"name": "Civilized Storm Elemental",
+	"persona": {
+		"occupation": "Imbuer"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": true,
+		"range": 8,
+		"threesixty": false
+	},
+	"skills": {
+		"milestones": [
+			"core_2_disable_consumption",
+			"core_2_extra_pockets",
+			"core_2_first_aid",
+			"core_2_ignore_party",
+			"core_2_iron_will",
+			"core_2_rapid_retreat",
+			"core_2_amber_spider",
+			"core_2_storm_run",
+			"core_2_companion_1",
+			"core_2_companion_2",
+			"core_2_companion_3",
+			"core_2_frozen_tear",
+			"core_2_bone_chimes",
+			"core_2_bone_amulet",
+			"core_2_bloody_necklace",
+			"core_2_bloody_ring",
+			"core_2_bone_brooch",
+			"core_2_bone_dice",
+			"core_2_bone_lock",
+			"core_2_bone_key",
+			"core_2_death_ring",
+			"core_2_cat_eye_ring",
+			"core_2_clan_emblem",
+			"core_2_bone_ring",
+			"core_2_half_coin",
+			"core_2_carved_skull",
+			"core_2_dead_beetle_necklace",
+			"core_2_doorknob",
+			"core_2_icicle_charm",
+			"core_2_frozen_light",
+			"core_2_rune_protection",
+			"core_2_rune_fire",
+			"core_2_rune_strength",
+			"core_2_rune_toughness",
+			"core_2_rune_of_power",
+			"core_2_gemless_ring",
+			"core_2_claw_ring",
+			"core_2_simple_ring",
+			"core_2_spring_crystal",
+			"core_2_wooden_splinter",
+			"core_2_troll_amulet",
+			"core_2_wicker_doll",
+			"core_2_magic_door",
+			"core_2_golden_fang",
+			"core_2_golden_amulet",
+			"core_2_rune_survival",
+			"core_2_shell_ring",
+			"core_2_rune_signet"
+		],
+		"skills": [
+			"core_2_leadership",
+			"core_2_imbuing"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			12,
+			16
+		],
+		"endurance": [
+			26,
+			30
+		],
+		"intelligence": [
+			40,
+			50
+		],
+		"strength": [
+			47,
+			52
+		],
+		"willpower": [
+			20,
+			27
+		]
+	},
+	"tags": [
+		"3"
+	],
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 7,
+				"dmg_min": 2,
+				"dmg_type": "electricity"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 2,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 1
+	}
+}

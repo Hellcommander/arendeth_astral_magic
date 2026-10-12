@@ -1,0 +1,20 @@
+{
+	"id": "arendeth_astral_magic_shatterfrost_surge_trigger",
+	"name": "Shatterfrost Surge Trigger",
+	"image": 4,
+	"skill": "arendeth_astral_magic",
+	"animation": "",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"duration": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"target": "actor",
+	"effects": {
+		"trigger_ability": "arendeth_astral_magic_Shatterfrost_Surge"
+	},
+	"description": "Calls Shatterfrost Surge.",
+	"range": 0
+}

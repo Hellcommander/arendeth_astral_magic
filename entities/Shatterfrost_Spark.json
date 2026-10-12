@@ -1,0 +1,150 @@
+{
+	"ability_user": [
+		"arendeth_astral_magic_Rupture_Spark_Chain",
+		"72",
+		"arendeth_astral_magic_Shatterfrost_Collapse"
+	],
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 0,
+		"frost": 0,
+		"holy": 0,
+		"parry": 20,
+		"physical": 4,
+		"poison": 0,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [
+			"9"
+		],
+		"behaviors": [
+			8,
+			5,
+			15
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"dialogues",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags",
+		"temporary"
+	],
+	"corpse": [],
+	"description": "A volatile shard of ruptured astral frost. Shatterfrost Sparks hunt enemies with reckless aggression, bursting into brief frost impacts before burning away. Their unstable nature makes them fast, short lived combat motes that embody the violent energy released when astral frost fractures.",
+	"dialogues": [
+		"42",
+		"43"
+	],
+	"experience_gainer": {
+		"exp": 1,
+		"level": 14
+	},
+	"fighter": {
+		"attackNames": [
+			"Zap"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					155,
+					240
+				],
+				"delay": 100,
+				"index": 560
+			}
+		],
+		"random_frame_start": true
+	},
+	"health": 75,
+	"id": "arendeth_astral_magic_Astral_Wisp_Rupture_Spark",
+	"minimap_pixel": [
+		65,
+		105,
+		225
+	],
+	"moveable": {
+		"speed": 0.699999988079071
+	},
+	"name": "Shatterfrost Spark",
+	"sight": {
+		"ignore_infra_penalty": true,
+		"infravision": true,
+		"range": 12,
+		"threesixty": true
+	},
+	"skills": {
+		"max_skill": 20,
+		"milestones": [
+			"arendeth_astral_magic_empowered_shatterfrost",
+			"arendeth_astral_magic_Wisp_Powered_Swap",
+			"arendeth_astral_magic_cold_reclamation",
+			"arendeth_astral_magic_astral_acuity",
+			"arendeth_astral_magic_astral_analysis"
+		],
+		"min_skill": 20,
+		"skills": [
+			"arendeth_astral_magic"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.5
+	},
+	"statistics": {
+		"dexterity": [
+			8,
+			11
+		],
+		"endurance": [
+			12,
+			15
+		],
+		"health_regen": 1.0,
+		"health_regen_tick": 10.0,
+		"hearing": 20,
+		"intelligence": [
+			30,
+			30
+		],
+		"magic_power": 12,
+		"sneaking": 10,
+		"strength": [
+			7,
+			11
+		],
+		"willpower": [
+			10,
+			12
+		]
+	},
+	"tags": [
+		"3"
+	],
+	"temporary": 2.299999952316284
+}

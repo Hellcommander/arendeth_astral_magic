@@ -1,0 +1,23 @@
+{
+	"animation": "125",
+	"cast_time": 1.0,
+	"cooldown": 8.0,
+	"cost": {
+		"health": 0,
+		"stamina": 5
+	},
+	"description": "Deal ::damage ::damage_type damage to target and everyone adjacent to the target.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			4,
+			8
+		]
+	},
+	"id": "arendeth_astral_magic_MiniCyclone",
+	"image": 3,
+	"name": "MiniCyclone",
+	"range": 7,
+	"skill": "",
+	"target": "health"
+}

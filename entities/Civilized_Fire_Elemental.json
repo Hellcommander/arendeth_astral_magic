@@ -1,0 +1,184 @@
+{
+	"ability_user": [
+		"66",
+		"core_2_Magma_Spit",
+		"136"
+	],
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 0,
+		"fire": 10000,
+		"frost": -10,
+		"holy": 0,
+		"parry": 0,
+		"physical": 6,
+		"poison": 0,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [],
+		"behaviors": [],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"light_source",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags",
+		"weapon"
+	],
+	"corpse": "2531",
+	"description": "Humanoid in shape mass of fire.",
+	"dialogues": [
+		"354"
+	],
+	"experience_gainer": {
+		"exp": 0,
+		"level": 30
+	},
+	"fighter": {
+		"attackNames": [
+			"Flame Slap"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 567
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 410,
+	"humanoid": {
+		"race": "34"
+	},
+	"id": "arendeth_astral_magic_Civilized_Fire_Elemental",
+	"light_source": {
+		"finish": -1,
+		"range": 6
+	},
+	"minimap_pixel": [
+		149,
+		165,
+		101
+	],
+	"moveable": {
+		"speed": 0.800000011920929
+	},
+	"name": "Civilized Fire Elemental",
+	"persona": {
+		"occupation": "Adventurer"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": false,
+		"range": 12,
+		"threesixty": false
+	},
+	"skills": {
+		"max_skill": 0,
+		"milestones": [
+			"core_2_disable_consumption",
+			"core_2_carry_capacity",
+			"core_2_Druid_Rod",
+			"core_2_Fire_Rod",
+			"core_2_bone_staff",
+			"core_2_druid_staff",
+			"core_2_Storm_Rod",
+			"core_2_crystal_staff",
+			"core_2_bronze_ingot",
+			"core_2_mithril_ingot",
+			"core_2_copper_ingot",
+			"core_2_chromium_ingot",
+			"core_2_iron_ingot",
+			"core_2_well_informed",
+			"core_2_adamantine_ingot",
+			"core_2_sleeping_under_stars",
+			"core_2_i_can_take_them",
+			"core_2_multitool",
+			"core_2_silver_ingot",
+			"core_2_steel_ingot"
+		],
+		"skills": [
+			"core_2_adventuring"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			12,
+			16
+		],
+		"endurance": [
+			26,
+			30
+		],
+		"health_regen": 0.10000000149011612,
+		"health_regen_tick": 10.0,
+		"intelligence": [
+			45,
+			50
+		],
+		"magic_power": 6,
+		"strength": [
+			37,
+			42
+		],
+		"willpower": [
+			26,
+			30
+		]
+	},
+	"tags": [
+		"3"
+	],
+	"weapon": {
+		"attack_speed": 0.8999999761581421,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 7,
+				"dmg_min": 2,
+				"dmg_type": "fire"
+			}
+		],
+		"hands": 2,
+		"hit_bonus": 2,
+		"parry_bonus": 0,
+		"range": 3,
+		"type": 1
+	}
+}

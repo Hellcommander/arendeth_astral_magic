@@ -1,0 +1,16 @@
+{
+  "id": "arendeth_astral_magic_Civilized_Air_Elemental_Crafting",
+  "name": "Air Elemental Crafting",
+  "requirements": {
+    "milestones": [],
+    "skill": 32
+  },
+  "rewards": [
+    {
+      "passive": "arendeth_astral_magic_Civilized_Air_Elemental_Crafting"
+    }
+  ],
+  "skill_id": "arendeth_astral_magic",
+  "steps": [],
+  "steps_type": 0
+}

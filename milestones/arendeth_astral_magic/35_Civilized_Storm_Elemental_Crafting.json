@@ -1,0 +1,16 @@
+{
+  "id": "arendeth_astral_magic_Civilized_Storm_Elemental_Crafting",
+  "name": "Storm Elemental Crafting",
+  "requirements": {
+    "milestones": [],
+    "skill": 35
+  },
+  "rewards": [
+    {
+      "passive": "arendeth_astral_magic_Civilized_Storm_Elemental_Crafting"
+    }
+  ],
+  "skill_id": "arendeth_astral_magic",
+  "steps": [],
+  "steps_type": 0
+}

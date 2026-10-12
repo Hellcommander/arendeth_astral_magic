@@ -1,0 +1,16 @@
+{
+	"id": "426",
+	"image": 275,
+	"max": 1,
+	"name": "Spiritcallers Barracks",
+	"occupation_image": 107,
+	"occupation": "core_2_Troll_Spiritcaller",
+	"produces": [],
+	"race": "7",
+	"tier": 3,
+	"type": "military",
+	"workers": [
+		1,
+		3
+	]
+}

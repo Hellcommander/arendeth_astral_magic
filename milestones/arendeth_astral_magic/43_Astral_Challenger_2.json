@@ -7,7 +7,7 @@
   },
   "rewards": [
     {
-      "passive": "arendeth_astral_magic_Challenger_2"
+      "amplifier": "arendeth_astral_magic_Challenger_2"
     }
   ],
   "skill_id": "arendeth_astral_magic",

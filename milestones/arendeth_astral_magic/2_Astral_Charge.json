@@ -1,5 +1,5 @@
 {
-  "id": "arendeth_astral_magic_Augment_Charge",
+  "id": "arendeth_astral_magic_Amplifier_Charge",
   "name": "Astral Charge",
   "requirements": {
     "milestones": [],
@@ -7,7 +7,7 @@
   },
   "rewards": [
     {
-      "amplifier": "arendeth_astral_magic_Augment_Charge"
+      "amplifier": "arendeth_astral_magic_Amplifier_Charge"
     }
   ],
   "skill_id": "arendeth_astral_magic",

@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 0
 	},
-	"description": "",
+	"description": "Triggered when damage becomes Burning Light stacks: burns 12 stamina from the target and sets it alight with burning light. Ignores party members.",
 	"duration": 0.0,
 	"effects": {
 		"burn_stamina": 12,

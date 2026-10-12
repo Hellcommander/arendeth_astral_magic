@@ -1,0 +1,21 @@
+
+
+
+
+
+
+{
+    "id": "astral_magic_hall",
+    "image": 39,
+    "max": 1,
+    "name": "Astral Laboratory",
+    "occupation_image": 74,
+    "occupation": "Astral_Adept",
+    "race": "-1",
+    "tier": 3,
+    "workers": [1, 6],
+    "allow_player": true,
+    "min_area": 30,
+    "group": "military",
+    "type": "military"
+}

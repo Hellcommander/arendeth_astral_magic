@@ -27,7 +27,7 @@
 		],
 		"random_frame_start": true,
 		"random_top": {
-			"colors": null,
+			"colors": [],
 			"count": 0,
 			"glyph_ids": [
 				993

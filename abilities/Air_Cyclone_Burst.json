@@ -1,0 +1,30 @@
+{
+	"animation": "arendeth_astral_magic_MiniCyclone",
+	"cast_time": 1.0,
+	"cooldown": 8.0,
+	"cost": {
+		"health": 0,
+		"stamina": 5
+	},
+	"description": "Deal ::damage ::damage_type damage Unleashes a compressed mini cyclone that strikes the target with rapid, low-intensity lightning impacts.",
+	"duration": 0.0,
+	"effects": {
+		"ability_can_crit": 1,
+		"critical_hit_chance": 0.15000000596046448,
+		"damage": [
+			2,
+			6
+		],
+		"damage_type": "electricity",
+		"knockback": 5,
+		"knockback_damage_percent": 10.0,
+		"magic_power_damage": 1.2000000476837158,
+		"stun": 0.5
+	},
+	"id": "arendeth_astral_magic_Air_Cyclone_Burst",
+	"image": 3,
+	"name": "Air Cyclone Burst",
+	"range": 7,
+	"skill": "",
+	"target": "health"
+}

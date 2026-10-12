@@ -1,0 +1,204 @@
+{
+	"ability_user": [
+		"59",
+		"92"
+	],
+	"armor": {
+		"acid": -5,
+		"death": 10,
+		"electricity": 15,
+		"fire": 4,
+		"frost": -5,
+		"holy": 0,
+		"parry": 0,
+		"physical": 25,
+		"poison": 20,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [
+			"12",
+			"core_2_deconstruct",
+			"15",
+			"core_2_pray",
+			"core_2_water_plants",
+			"core_2_wish"
+		],
+		"behaviors": [],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags",
+		"weapon"
+	],
+	"corpse": "2534",
+	"description": "Walking hill made from a jagged stone.",
+	"dialogues": [
+		"633"
+	],
+	"experience_gainer": {
+		"exp": 0,
+		"level": 30
+	},
+	"fighter": {
+		"attackNames": [
+			"Rocky Fist"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 567
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 500,
+	"humanoid": {
+		"race": "34"
+	},
+	"id": "arendeth_astral_magic_Civilized_Earth_Elemental",
+	"minimap_pixel": [
+		149,
+		165,
+		101
+	],
+	"moveable": {
+		"speed": 1.100000023841858
+	},
+	"name": "Civilized Earth Elemental",
+	"persona": {
+		"occupation": "Weaponsmith"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": true,
+		"range": 8,
+		"threesixty": false
+	},
+	"skills": {
+		"milestones": [
+			"core_2_feather_spear",
+			"core_2_disable_consumption",
+			"core_2_executioners_axe",
+			"core_2_engraved_greatsword",
+			"core_2_assasin_blade",
+			"core_2_billhook",
+			"core_2_flame_sword",
+			"core_2_giant_axe",
+			"core_2_slaughter_sword",
+			"core_2_claymore",
+			"core_2_bastard_sword",
+			"core_2_hoe",
+			"core_2_sickle",
+			"core_2_weapon_stand",
+			"core_2_greatsword",
+			"core_2_chopper",
+			"core_2_hatchet",
+			"core_2_shovel",
+			"core_2_war_hammer",
+			"core_2_battle_axe",
+			"core_2_toothed_sword",
+			"core_2_pickaxe",
+			"core_2_spark_hammer",
+			"core_2_hammer",
+			"core_2_battle_gauntlet",
+			"core_2_brass_knuckles",
+			"core_2_double_axe",
+			"core_2_vortex_disc",
+			"core_2_halberd",
+			"core_2_bone_spear",
+			"core_2_awl_pike",
+			"core_2_glaive",
+			"core_2_morning_star",
+			"core_2_flail",
+			"core_2_cleaver",
+			"core_2_sword",
+			"core_2_wide_spear",
+			"core_2_maul",
+			"core_2_great_axe",
+			"core_2_mallet",
+			"core_2_throwing_hammer"
+		],
+		"skills": [
+			"core_2_weaponsmith"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			12,
+			16
+		],
+		"endurance": [
+			46,
+			52
+		],
+		"health_regen": 0.10000000149011612,
+		"health_regen_tick": 10.0,
+		"intelligence": [
+			8,
+			11
+		],
+		"strength": [
+			47,
+			52
+		],
+		"willpower": [
+			16,
+			20
+		]
+	},
+	"tags": [
+		"3"
+	],
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 7,
+				"dmg_min": 2,
+				"dmg_type": "physical"
+			}
+		],
+		"hands": 2,
+		"hit_bonus": 1,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 2
+	}
+}

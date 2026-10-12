@@ -1,0 +1,43 @@
+{
+	"animation_origin_self": false,
+	"blocking": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.10000000149011612,
+		"power": 0,
+		"type": 0
+	},
+	"chain_particles": false,
+	"id": "arendeth_astral_magic_Fastball_Storm_Lightning",
+	"ignore_roof": true,
+	"name": "Fastball Storm Lightning",
+	"particles": [
+		{
+			"color": [
+				[
+					255,
+					255,
+					255,
+					255
+				]
+			],
+			"delay": 400.0,
+			"elevation": 200,
+			"flags": 32768,
+			"height": 100,
+			"life": 140.0,
+			"on_impact": "core_2_Storm_Lightning_impact",
+			"tile_id": 336
+		}
+	],
+	"random_delay": [
+		10,
+		50
+	],
+	"random_target": true,
+	"repeat": 20,
+	"sound": {
+		"id": "15",
+		"volume": 100
+	}
+}

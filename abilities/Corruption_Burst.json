@@ -1,0 +1,20 @@
+{
+	"animation": "159",
+	"cast_time": 0.0,
+	"cooldown": 40.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "On failed control, the target releases a brief corruption shockwave, striking all creatures in a one‑tile square around it except its own allies. The burst lasts 1 turn and leaves nearby foes disoriented while the target’s party remains unharmed.",
+	"duration": 1.0,
+	"effects": {
+		"corrupt": 1
+	},
+	"id": "arendeth_astral_magic_Corruption_Burst",
+	"image": 379,
+	"name": "Corruption Burst",
+	"range": 0,
+	"skill": "arendeth_astral_magic",
+	"target": "self"
+}

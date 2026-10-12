@@ -1,0 +1,233 @@
+{
+	"ability_user": [
+		"9"
+	],
+	"artificial_intelligence": {
+		"allies": [
+			"2",
+			"5"
+		],
+		"allow_production": [
+			"4",
+			"core_2_water_plants",
+			"17",
+			"19",
+			"7",
+			"6",
+			"9",
+			"11",
+			"15",
+			"core_2_carve",
+			"core_2_rummage",
+			"core_2_shear",
+			"core_2_wish",
+			"core_2_pray",
+			"core_2_pickpocket",
+			"10",
+			"3"
+		],
+		"behaviors": [
+			13,
+			6,
+			7,
+			10,
+			16
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": "2242",
+	"description": "A tiny humanoid creature is flapping colorful butterfly-like wings to stay in the air.",
+	"dialogues": [],
+	"equipment": {
+		"ammo": [
+			{
+				"chance": 1.0,
+				"id": "194",
+				"name": "Arrow",
+				"stack": 15
+			}
+		],
+		"right_hand": [
+			{
+				"chance": 1.0,
+				"id": "102",
+				"name": "Short Bow",
+				"stack": 1
+			}
+		]
+	},
+	"experience_gainer": {
+		"exp": 0,
+		"level": 20
+	},
+	"fighter": {
+		"attackNames": [
+			"Wing Flap"
+		]
+	},
+	"gender": "female",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 100,
+				"index": 560
+			}
+		],
+		"random_frame_start": true
+	},
+	"health": 115,
+	"humanoid": {
+		"race": "34"
+	},
+	"id": "arendeth_astral_magic_Civilized_Pixie",
+	"minimap_pixel": [
+		65,
+		105,
+		225
+	],
+	"moveable": {
+		"speed": 1.0
+	},
+	"name": "Civilized Pixie",
+	"persona": {
+		"occupation": "Farmer"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": true,
+		"range": 10,
+		"threesixty": false
+	},
+	"skills": {
+		"milestones": [
+			"core_2_Mycelium_Pins",
+			"core_2_catch_animal",
+			"core_2_extra_food",
+			"core_2_flour",
+			"core_2_baked_fish",
+			"core_2_bearberry_seedling",
+			"core_2_Ground_Jelly_Seedling",
+			"core_2_acacia_sapling",
+			"core_2_agave_seedling",
+			"core_2_apple_sapling",
+			"core_2_banana_palm_sapling",
+			"core_2_bamboo_sapling",
+			"core_2_aspen_sapling",
+			"core_2_candelabra_sapling",
+			"core_2_blueberry_seedling",
+			"core_2_coconut_sapling",
+			"core_2_carrot_seedling",
+			"core_2_cedar_sapling",
+			"core_2_cotton_seedling",
+			"core_2_elder_sapling",
+			"core_2_cranberry_seedling",
+			"core_2_date_sapling",
+			"core_2_fir_sapling",
+			"core_2_fan_palm_sapling",
+			"core_2_fern_seedling",
+			"core_2_flax_seedling",
+			"core_2_onion_sprout",
+			"core_2_fruit_salad",
+			"core_2_fruit_pie",
+			"core_2_fruit_box",
+			"core_2_mahogany_sapling",
+			"core_2_glowing_mushroom_pins",
+			"core_2_gooseberry_seedling",
+			"core_2_herbs_seedling",
+			"core_2_barley_seedling",
+			"core_2_jam",
+			"core_2_maple_sapling",
+			"core_2_mulberry_sapling",
+			"core_2_healing_herbs",
+			"core_2_yew_sapling",
+			"core_2_watermelon_seedling",
+			"core_2_tree_sapling",
+			"core_2_opportunist",
+			"core_2_mushroom_sapling",
+			"core_2_mushroom_soup",
+			"core_2_orange_mushroom_pins",
+			"core_2_oak_sapling",
+			"core_2_sugar_cane_seedling",
+			"core_2_strawberry_seedling",
+			"core_2_juniper_seedling",
+			"core_2_nettle_seedling",
+			"core_2_roast",
+			"core_2_wheat",
+			"core_2_wine",
+			"core_2_barley_flour",
+			"core_2_pine_tree_sapling",
+			"core_2_potato_seedling",
+			"core_2_poppy_seedling",
+			"core_2_seed_extraction",
+			"core_2_savory_seedling",
+			"core_2_sack_of_potatoes",
+			"core_2_spruce_sapling",
+			"core_2_plowed_dirt",
+			"core_2_quick_growth"
+		],
+		"skills": [
+			"core_2_agriculture"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			14,
+			20
+		],
+		"endurance": [
+			12,
+			16
+		],
+		"health_regen": 0.10000000149011612,
+		"health_regen_tick": 10.0,
+		"intelligence": [
+			33,
+			37
+		],
+		"strength": [
+			8,
+			11
+		],
+		"willpower": [
+			22,
+			26
+		]
+	},
+	"tags": [
+		"3",
+		"9"
+	]
+}

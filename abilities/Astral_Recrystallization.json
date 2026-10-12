@@ -8,7 +8,7 @@
 		"item_type": 23,
 		"stamina": 4
 	},
-	"description": "You focus astral light through a crystalized wisp, reigniting its dormant essence and restoring it to form. The ritual binds the construct to you for an extended time, granting a reliable astral companion shaped from crystallized frost and pure illumination.\n\nRequires a crystalized astral wisp and a light source. Summons one astral wisp for a long duration, without accepting augments.",
+	"description": "You focus astral light through a crystalized wisp, reigniting its dormant essence and restoring it to form. The ritual binds the construct to you for an extended time, granting a reliable astral companion shaped from crystallized frost and pure illumination.\n\nRequires a crystalized astral wisp and a light source. Summons one astral wisp for a long duration, without accepting Amplifiers.",
 	"duration": 120.0,
 	"effects": {
 		"light_source": 12,

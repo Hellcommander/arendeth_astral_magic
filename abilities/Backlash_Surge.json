@@ -1,0 +1,27 @@
+{
+	"animation": "159",
+	"cast_time": 0.0,
+	"cooldown": 2.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "When instability reaches its limit, the target releases a brief corruption shockwave, striking all nearby foes while sparing its own allies.",
+	"duration": 1.0,
+	"effects": {
+		"aoe_break": 1,
+		"aoe_range": 1,
+		"aoe_shape": 3,
+		"stacker_count": 1,
+		"ignore_party": 1
+	},
+	"effects_keys": {
+		"stacker": "arendeth_corruption"
+	},
+	"id": "arendeth_astral_magic_Backlash_Surge",
+	"image": 379,
+	"name": "Backlash Surge",
+	"range": 0,
+	"skill": "arendeth_astral_magic",
+	"target": "aoe_self"
+}

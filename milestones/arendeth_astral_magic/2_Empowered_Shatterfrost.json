@@ -1,0 +1,16 @@
+    {
+      "id": "arendeth_astral_magic_empowered_shatterfrost",
+      "name": "Empowered Shatterfrost Sparks",
+      "requirements": {
+        "milestones": [],
+        "skill": 2
+      },
+      "rewards": [
+        {
+          "passive": "arendeth_astral_magic_empowered_shatterfrost"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0
+    }

@@ -14,7 +14,7 @@
 		"max_stacks_cast_unlock": true,
 		"duration": 10,
 		"apply_caster": true,
-		"description": ""
+		"description": "Overuse of astral channels slows your attacks by 0.01 turn per stack, up to 15. At 15 stacks it erupts as Astral Overdrawn. Lasts 10 turns if not refreshed."
 	},
 	{
 		"id": "arendeth_astral_magic_frostburn",
@@ -41,6 +41,16 @@
 		"description": "The cold of the astral gets harsher the more it stacks up"
 	},
 	{
+		"id": "arendeth_astral_magic_astral_wisp_rupture_sparks_stacks",
+		"name": "Astral Rupture Sparks Stacks",
+		"image": 2,
+		"effects": [],
+		"max_stacks": 30,
+		"duration": 3,
+		"apply_caster": false,
+		"description": "Each stack summons one Rupture Spark, up to 30."
+	},
+	{
 		"id": "arendeth_astral_magic_Frosty_Trigger_Stacker",
 		"name": "Frosty Trigger Stacker",
 		"image": 1,
@@ -58,5 +68,22 @@
 		"duration": 0,
 		"apply_caster": false,
 		"description": "A volatile astral chill that marks the target with a trace of frost, causing each pulse of astral damage to deepen the frostburn within them."
+	},
+	{
+		"id": "arendeth_corruption",
+		"name": "Corruption",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "willpower",
+				"value": -1
+			}
+		],
+		"max_stacks": 5,
+		"on_max_stacks_cast": "arendeth_astral_magic_Corruption_Burst",
+		"max_stacks_cast_unlock": true,
+		"duration": 10,
+		"apply_caster": false,
+		"description": "Corruption builds up over time, weakening the target."
 	}
 ]

@@ -1,0 +1,214 @@
+{
+	"ability_user": [
+		"arendeth_astral_magic_Air_Burst_Charge",
+		"arendeth_astral_magic_Air_Cyclone_Burst"
+	],
+	"armor": {
+		"acid": 0,
+		"death": 0,
+		"electricity": 50,
+		"fire": 5,
+		"frost": 10,
+		"holy": 0,
+		"parry": 0,
+		"physical": 5,
+		"poison": 0,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [
+			"9",
+			"4",
+			"10",
+			"15",
+			"7",
+			"core_2_carve",
+			"core_2_catch_animal",
+			"core_2_wish",
+			"core_2_pray",
+			"core_2_rummage",
+			"core_2_rob",
+			"core_2_water_plants",
+			"19",
+			"3",
+			"core_2_pickpocket"
+		],
+		"behaviors": [
+			7,
+			13,
+			16,
+			9
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags",
+		"weapon"
+	],
+	"corpse": "2533",
+	"description": "Humanoid in shape mass of swirling winds.",
+	"dialogues": [
+		"634"
+	],
+	"experience_gainer": {
+		"exp": 0,
+		"level": 30
+	},
+	"fighter": {
+		"attackNames": [
+			"Air Swipe"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 567
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 400,
+	"humanoid": {
+		"race": "34"
+	},
+	"id": "arendeth_astral_magic_Civilized_Air_Elemental",
+	"minimap_pixel": [
+		149,
+		165,
+		101
+	],
+	"moveable": {
+		"speed": 0.6000000238418579
+	},
+	"name": "Civilized Air Elemental",
+	"persona": {
+		"occupation": "Alchemist"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": true,
+		"range": 13,
+		"threesixty": false
+	},
+	"skills": {
+		"milestones": [
+			"core_2_titanium_ingot",
+			"core_2_alchemic_fire",
+			"core_2_antidote_vial",
+			"core_2_bloodstone",
+			"core_2_exploding_bomb",
+			"core_2_dust_bomb",
+			"core_2_cashmere",
+			"core_2_cleansing_potion",
+			"core_2_carve",
+			"core_2_haste_potion",
+			"core_2_disable_consumption",
+			"core_2_little_alchemist",
+			"core_2_bone_cauldron",
+			"core_2_improved_haste",
+			"core_2_all_seeing",
+			"core_2_fertility_potion",
+			"core_2_emty_vial",
+			"core_2_coral",
+			"core_2_shock_bomb",
+			"core_2_nature_resist",
+			"core_2_holy_res",
+			"core_2_freezing_vial",
+			"core_2_freezing_bomb",
+			"core_2_lead_Ingot",
+			"core_2_lucky_crafting",
+			"core_2_smoke_bomb",
+			"core_2_transform_werewolf",
+			"core_2_power_elixir",
+			"core_2_red_diamond",
+			"core_2_raise_bone_wraith",
+			"core_2_better_deal_usable",
+			"core_2_better_bandage",
+			"core_2_better_sight",
+			"core_2_frost_resist",
+			"core_2_platinum_Ingot",
+			"core_2_shrapnel_bomb",
+			"core_2_flash_bomb"
+		],
+		"skills": [
+			"core_2_alchemy"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			12,
+			16
+		],
+		"endurance": [
+			26,
+			30
+		],
+		"health_regen": 0.10000000149011612,
+		"health_regen_tick": 10.0,
+		"intelligence": [
+			48,
+			55
+		],
+		"strength": [
+			37,
+			42
+		],
+		"willpower": [
+			16,
+			20
+		]
+	},
+	"tags": [
+		"3"
+	],
+	"weapon": {
+		"attack_speed": 0.6000000238418579,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 8,
+				"dmg_min": 2,
+				"dmg_type": "electricity"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 1,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 0
+	}
+}

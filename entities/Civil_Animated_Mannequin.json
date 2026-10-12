@@ -1,0 +1,202 @@
+{
+	"ability_user": [
+		"102",
+		"104"
+	],
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [
+			"core_2_pray",
+			"core_2_rummage",
+			"core_2_water_plants",
+			"core_2_wish",
+			"19",
+			"3",
+			"core_2_catch_animal",
+			"7",
+			"6",
+			"core_2_rob",
+			"1",
+			"10"
+		],
+		"behaviors": [
+			10,
+			7,
+			6,
+			9,
+			11
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": "2008",
+	"description": "This mannequin of a little girl wears a pink dress and a blonde wig. It's covered in dust and cobwebs.",
+	"dialogues": [],
+	"experience_gainer": {
+		"exp": 0,
+		"level": 40
+	},
+	"fighter": {
+		"attackNames": [
+			"Slam",
+			"Tendril"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 2886
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 1200,
+	"humanoid": {
+		"race": "34"
+	},
+	"id": "arendeth_astral_magic_Civil_Animated_Mannequin",
+	"minimap_pixel": [
+		176,
+		164,
+		59
+	],
+	"moveable": {
+		"speed": 1.0
+	},
+	"name": "Civil Animated Mannequin",
+	"persona": {
+		"occupation": "Tailor"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": true,
+		"range": 12,
+		"threesixty": false
+	},
+	"skills": {
+		"milestones": [
+			"core_2_Mycelium_Thread",
+			"core_2_disable_consumption",
+			"core_2_fake_mustache",
+			"core_2_ancient_cloth",
+			"core_2_elven_cloak",
+			"core_2_dark_cape",
+			"core_2_cloak",
+			"core_2_cotton_cloth",
+			"core_2_dark_dress",
+			"core_2_cargo_pants",
+			"core_2_enchanted_turban",
+			"core_2_spiders_silk",
+			"core_2_enchanted_gloves",
+			"core_2_backpack",
+			"core_2_Gown",
+			"core_2_Poncho",
+			"core_2_Toga",
+			"core_2_Tunic",
+			"core_2_apron",
+			"core_2_bag",
+			"core_2_blue_hood",
+			"core_2_burial_cloth",
+			"core_2_cloth_boots",
+			"core_2_decorated_shirt",
+			"core_2_decorated_tunic",
+			"core_2_dress",
+			"core_2_hat",
+			"core_2_hat_with_feather",
+			"core_2_linen",
+			"core_2_gloves",
+			"core_2_hood",
+			"core_2_kilt",
+			"core_2_nettle_thread",
+			"core_2_silk",
+			"core_2_skirt",
+			"core_2_velvet",
+			"core_2_wig",
+			"core_2_eye_patch",
+			"core_2_feather_cape",
+			"core_2_bandana",
+			"core_2_feather_cloth",
+			"core_2_scarf",
+			"core_2_palm_fibers",
+			"core_2_pants",
+			"core_2_noble_cape",
+			"core_2_green_sash",
+			"core_2_jester_hat",
+			"core_2_tent_wall",
+			"core_2_tights",
+			"core_2_long_shirt",
+			"core_2_sacred_cloth",
+			"core_2_shirt",
+			"core_2_straw_matress",
+			"core_2_tapestry",
+			"core_2_robe",
+			"core_2_big_bag"
+		],
+		"skills": [
+			"core_2_tailoring"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			26,
+			30
+		],
+		"endurance": [
+			100,
+			120
+		],
+		"health_regen": 0.10000000149011612,
+		"health_regen_tick": 10.0,
+		"intelligence": [
+			12,
+			15
+		],
+		"strength": [
+			100,
+			120
+		],
+		"willpower": [
+			80,
+			100
+		]
+	},
+	"tags": [
+		"3",
+		"38"
+	]
+}

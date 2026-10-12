@@ -1,13 +1,13 @@
 {
-  "id": "arendeth_astral_magic_Astral_Tempo",
-  "name": "Astral Tempo",
+  "id": "arendeth_astral_magic_Astral_Clarity_Surge",
+  "name": "Astral Clarity Surge",
   "requirements": {
     "milestones": [],
-    "skill": 47
+    "skill": 32
   },
   "rewards": [
     {
-      "amplifier": "Astral_Tempo"
+      "amplifier": "Astral_Clarity_Surge"
     }
   ],
   "skill_id": "arendeth_astral_magic",

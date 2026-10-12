@@ -1,0 +1,27 @@
+{
+	"animation": "arendeth_astral_magic_LightningAirBurst",
+	"cast_time": 0.5,
+	"cooldown": 8.0,
+	"cost": {
+		"health": 0,
+		"stamina": 3
+	},
+	"description": "Channels a compressed burst of charged air toward a distant target, striking it with chained lightning impacts",
+	"duration": 1.0,
+	"effects": {
+		"damage": [
+			1,
+			12
+		],
+		"damage_type": "electricity",
+		"magic_power_damage": 1.0,
+		"stacker": "core_2_Lightning_2",
+		"vulnerable": 1
+	},
+	"id": "arendeth_astral_magic_Air_Burst_Charge",
+	"image": 0,
+	"name": "Air Burst Charge",
+	"range": 6,
+	"skill": "",
+	"target": "health"
+}

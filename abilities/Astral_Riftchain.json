@@ -23,7 +23,7 @@
 	"image": 9,
 	"name": "Astral Riftchain",
 	"range": 7,
-	"skill": "",
+	"skill": "arendeth_astral_magic",
 	"slots": {
 		"offensive": 3,
 		"utility": 1

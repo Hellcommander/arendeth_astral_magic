@@ -1,0 +1,33 @@
+{
+	"animation": "core_2_Freezing_Bomb_Throw",
+	"cast_time": 1.0,
+	"cooldown": 3.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "The Shatterfrost Spark unleashes a volatile frost burst that chains between up to five targets, ignoring party alignment and piercing through each foe. Every hit applies Frosty Trigger, dealing ::damage damage scaled by .4 magic power and 0.4 weapon damage. The impact knocks targets back 2 tiles, dealing collision damage, then pulls them 2 tile toward the spark as unstable astral frost collapses inward.",
+	"duration": 0.0,
+	"effects": {
+		"chain": 5,
+		"damage": [
+			1,
+			2
+		],
+		"damage_type": "frost",
+		"damage_weapon": 0.4000000059604645,
+		"ignore_party": 1,
+		"knockback": 2,
+		"knockback_damage_percent": 2.0,
+		"magic_power_damage": 0.4000000059604645,
+		"pierce": 1,
+		"pull_target": 2,
+		"stacker": "arendeth_astral_magic_Frosty_Trigger"
+	},
+	"id": "arendeth_astral_magic_Shatterfrost_Collapse",
+	"image": 8,
+	"name": "Shatterfrost Collapse",
+	"range": 5,
+	"skill": "arendeth_astral_magic",
+	"target": "actor"
+}

@@ -1,0 +1,293 @@
+{
+	"ability_user": [
+		"16"
+	],
+	"armor": {
+		"acid": -10,
+		"death": 100,
+		"electricity": 5,
+		"fire": 0,
+		"frost": -4,
+		"holy": 0,
+		"parry": 2,
+		"physical": 10,
+		"poison": 0,
+		"thorns": 0
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [
+			"12",
+			"17",
+			"5",
+			"9",
+			"core_2_catch_animal",
+			"7",
+			"core_2_pray",
+			"core_2_carve",
+			"core_2_deconstruct",
+			"core_2_rummage",
+			"1",
+			"3",
+			"19",
+			"core_2_wish",
+			"core_2_water_plants"
+		],
+		"behaviors": [
+			3,
+			5
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"collidable",
+		"dialogues",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"humanoid",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"persona",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags",
+		"weapon"
+	],
+	"corpse": [],
+	"description": "This armor moves of its own accord!",
+	"dialogues": [
+		"362"
+	],
+	"equipment": {
+		"head_armor": [
+			{
+				"chance": 0.25,
+				"id": "21",
+				"name": "Nasal Helmet",
+				"stack": 1
+			},
+			{
+				"chance": 0.25,
+				"id": "169",
+				"name": "Helmet",
+				"stack": 1
+			},
+			{
+				"chance": 0.25,
+				"id": "328",
+				"name": "Rusty Helmet",
+				"stack": 1
+			},
+			{
+				"chance": 0.25,
+				"id": "393",
+				"name": "Great Helmet",
+				"stack": 1
+			}
+		],
+		"legs_armor": [
+			{
+				"chance": 0.25,
+				"id": "439",
+				"name": "Greaves",
+				"stack": 1
+			},
+			{
+				"chance": 0.25,
+				"id": "452",
+				"name": "Plate Greaves",
+				"stack": 1
+			},
+			{
+				"chance": 0.25,
+				"id": "571",
+				"name": "Chainmail Pants",
+				"stack": 1
+			},
+			{
+				"chance": 0.25,
+				"id": "572",
+				"name": "Leg Guards",
+				"stack": 1
+			}
+		],
+		"torso_armor": [
+			{
+				"chance": 0.25,
+				"id": "166",
+				"name": "Breastplate",
+				"stack": 1
+			},
+			{
+				"chance": 0.25,
+				"id": "397",
+				"name": "Heavy Armor",
+				"stack": 1
+			},
+			{
+				"chance": 0.25,
+				"id": "398",
+				"name": "Noble Armor",
+				"stack": 1
+			}
+		]
+	},
+	"experience_gainer": {
+		"exp": 0,
+		"level": 30
+	},
+	"fighter": {
+		"attackNames": [
+			"Iron fist"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 743
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 400,
+	"humanoid": {
+		"race": "34"
+	},
+	"id": "arendeth_astral_magic_Civilized_Animated_Armor",
+	"minimap_pixel": [
+		181,
+		182,
+		182
+	],
+	"moveable": {
+		"speed": 0.800000011920929
+	},
+	"name": "Civilized Animated Armor",
+	"persona": {
+		"occupation": "Armorsmith"
+	},
+	"sight": {
+		"ignore_infra_penalty": false,
+		"infravision": true,
+		"range": 10,
+		"threesixty": false
+	},
+	"skills": {
+		"max_skill": 0,
+		"milestones": [
+			"core_2_splinted_armor",
+			"core_2_bone_pauldron",
+			"core_2_bone_shard",
+			"core_2_bone_shin_armor",
+			"core_2_bone_helmet",
+			"core_2_bone_greaves",
+			"core_2_bone_bracers",
+			"core_2_bone_armor",
+			"core_2_bassinet_helmet",
+			"core_2_armguards",
+			"core_2_ancient_shield",
+			"core_2_dark_armor",
+			"core_2_chainmail",
+			"core_2_chainmail_coif",
+			"core_2_chainmail_pants",
+			"core_2_clogs",
+			"core_2_breastplate",
+			"core_2_head_candle",
+			"core_2_great_helmet",
+			"core_2_disable_consumption",
+			"core_2_kite_shield",
+			"core_2_heavy_armor",
+			"core_2_knight_shield",
+			"core_2_leg_guards",
+			"core_2_helmet",
+			"core_2_greaves",
+			"core_2_manicles",
+			"core_2_metal_bra",
+			"core_2_plate_boots",
+			"core_2_nasal_helmet",
+			"core_2_plate_greaves",
+			"core_2_noble_armor",
+			"core_2_ring_armor",
+			"core_2_scale_bracers",
+			"core_2_scale_legs",
+			"core_2_scale_helmet",
+			"core_2_scale_boots",
+			"core_2_scale_shield",
+			"core_2_scale_armor",
+			"core_2_cuisse_armor",
+			"core_2_round_shield",
+			"core_2_sabatons",
+			"core_2_bracers"
+		],
+		"skills": [
+			"core_2_armorsmith"
+		]
+	},
+	"stamina": {
+		"fatigue": 100,
+		"stamina": 100,
+		"stamina_regen": 0.0
+	},
+	"statistics": {
+		"dexterity": [
+			35,
+			40
+		],
+		"endurance": [
+			35,
+			40
+		],
+		"health_regen": 0.10000000149011612,
+		"health_regen_tick": 10.0,
+		"intelligence": [
+			20,
+			24
+		],
+		"strength": [
+			35,
+			40
+		],
+		"willpower": [
+			20,
+			24
+		]
+	},
+	"tags": [
+		"3"
+	],
+	"weapon": {
+		"attack_speed": 1.0,
+		"critical_hit": 0.0,
+		"damage": [
+			{
+				"dmg_max": 16,
+				"dmg_min": 10,
+				"dmg_type": "physical"
+			}
+		],
+		"hands": 1,
+		"hit_bonus": 0,
+		"parry_bonus": 0,
+		"range": 1,
+		"type": 2
+	}
+}

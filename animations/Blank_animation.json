@@ -1,0 +1,18 @@
+{
+	"animation_origin_self": false,
+	"blocking": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0.0,
+		"type": 0
+	},
+	"chain_particles": false,
+	"id": "arendeth_astral_magic_Blank_animation",
+	"ignore_roof": false,
+	"name": "Blank_animation",
+	"sound": {
+		"id": "",
+		"volume": 100
+	}
+}

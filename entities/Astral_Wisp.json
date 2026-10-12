@@ -1,7 +1,8 @@
 {
 	"ability_user": [
 		"183",
-		"47",
+		"arendeth_astral_magic_Astral_Wisp_Ambush",
+		"181",
 		"65"
 	],
 	"artificial_intelligence": {
@@ -12,11 +13,11 @@
 			"9"
 		],
 		"behaviors": [
+			5,
 			0,
-			9,
-			4,
+			12,
 			7,
-			10
+			4
 		],
 		"enemies": []
 	},
@@ -29,8 +30,6 @@
 		"fighter",
 		"glyph",
 		"health",
-		"humanoid",
-		"light_source",
 		"minimap_pixel",
 		"moveable",
 		"name",
@@ -40,8 +39,8 @@
 		"statistics",
 		"tags"
 	],
-	"corpse": "326",
-	"description": "Spirit of empowered by mindmeld magic.",
+	"corpse": [],
+	"description": "A timid astral mote that follows you while keeping itself alive. Astral Wisps avoid danger, take cover from ranged threats, and use simple astral tricks to recover, evade, and stay out of harm’s way.",
 	"dialogues": [
 		"42",
 		"43"
@@ -70,22 +69,14 @@
 		"random_frame_start": true
 	},
 	"health": 85,
-	"humanoid": {
-		"race": "34"
-	},
 	"id": "arendeth_astral_magic_astral_wisp",
-	"light_source": {
-		"finish": -1,
-		"lit_image": -1,
-		"range": 1
-	},
 	"minimap_pixel": [
 		65,
 		105,
 		225
 	],
 	"moveable": {
-		"speed": 1.0
+		"speed": 0.699999988079071
 	},
 	"name": "Astral Wisp",
 	"sight": {
@@ -112,9 +103,10 @@
 		"health_regen_tick": 10.0,
 		"hearing": 14,
 		"intelligence": [
-			13,
-			17
+			20,
+			20
 		],
+		"magic_power": 12,
 		"sneaking": 16,
 		"strength": [
 			7,

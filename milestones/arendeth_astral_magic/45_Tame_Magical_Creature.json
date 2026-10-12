@@ -1,0 +1,16 @@
+    {
+      "id": "arendeth_tame_magic",
+      "name": "Tame Magical Creature",
+      "requirements": {
+        "milestones": [],
+        "skill": 45
+      },
+      "rewards": [
+        {
+          "control_action": "arendeth_tame_magic"
+        }
+      ],
+      "skill_id": "arendeth_astral_magic",
+      "steps": [],
+      "steps_type": 0
+    }

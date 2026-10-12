@@ -1,0 +1,40 @@
+{
+    "control_actions": [
+        {
+            "id": "arendeth_tame_magic",
+            "name": "Tame Magical Creature",
+            "description": "Use your willpower to attempt taming a magical creature. This action requires an empty companion slot and takes 2 turns.",
+            "image": 0,
+            "tags": ["3"],
+            "success_animation": "core_2_Tame_animal",
+            "success_message": "{} becomes your new companion!",
+            "failure_ability": "12",
+            "failure_message": "[{}%] You were unable to tame {}, it becomes enraged!"
+		}
+	],
+	
+	"magical_being": {
+		"names": {
+			"lifespan": 1200,
+			"female": "npc/names/magical_being_female.txt",
+			"male": "npc/names/magical_being_male.txt",
+			"settlements": "npc/settlements/magical_being_settlements.json",
+			"states": "npc/states/magical_being.json",
+			"surnames": "npc/surnames/magical_being.json"
+		}
+	},
+	
+	"tags": [
+		{
+			"id": "Shatterfrost_Spark",
+			"name": "Shatterfrost Spark",
+			"options": [
+				"ritual_birth",
+				"immune_to_fear",
+				"immune_to_control",
+				"crime_exempt",
+				"no_fatigue"
+			]
+		}
+	]
+}
