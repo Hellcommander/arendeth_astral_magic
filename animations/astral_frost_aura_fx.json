@@ -1,0 +1,110 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_astral_frost_aura_fx",
+	"ignore_roof": false,
+	"name": "Astral Frost Aura FX",
+	"particles": [
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 743
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 744
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 745
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 746
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 150.0,
+			"tile_id": 517
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 150.0,
+			"tile_id": 878
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 300.0,
+			"tile_id": 934
+		}
+	],
+	"sound": {
+		"id": "35",
+		"volume": 100
+	}
+}

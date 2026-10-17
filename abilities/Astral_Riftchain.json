@@ -1,5 +1,5 @@
 {
-	"animation": "core_2_Spectral_Chain",
+	"animation": "arendeth_astral_magic_astral_riftchain_fx",
 	"cast_time": 1.0,
 	"cooldown": 14.0,
 	"cost": {
@@ -20,7 +20,7 @@
 		"pierce": 1
 	},
 	"id": "arendeth_astral_magic_riftchain",
-	"image": 9,
+	"image": 12,
 	"name": "Astral Riftchain",
 	"range": 7,
 	"skill": "arendeth_astral_magic",

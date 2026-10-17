@@ -1,0 +1,136 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_astral_recrystallization_fx",
+	"ignore_roof": false,
+	"name": "Astral Recrystallization FX",
+	"particles": [
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"tile_id": 893
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"tile_id": 741
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"tile_id": 1039
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"tile_id": 741
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"tile_id": 893
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"tile_id": 894
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"tile_id": 1222
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"tile_id": 1223
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"tile_id": 1224
+		}
+	],
+	"sound": {
+		"id": "",
+		"volume": 100
+	}
+}

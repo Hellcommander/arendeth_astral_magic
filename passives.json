@@ -18,12 +18,12 @@
 	{
 		"id": "arendeth_astral_magic_astral_acuity",
 		"name": "Astral Acuity",
-		"image": 0,
+		"image": 1,
 		"effects": [
 			{
-                "effect": "damage_to_effect",
-                "value": "frostbite",
-                "secondary_value": 0.10
+				"effect": "damage_to_effect",
+				"value": "frostbite",
+				"secondary_value": 0.1
 			}
 		],
 		"description": "Converts 10% of damage to frostbite."
@@ -31,8 +31,8 @@
 	{
 		"id": "arendeth_astral_magic_astral_recovery",
 		"name": "Astral Recovery",
+		"image": 2,
 		"apply_mode": "party_only",
-		"image": 0,
 		"effects": [
 			{
 				"effect": "stamina_regen",
@@ -52,8 +52,8 @@
 	{
 		"id": "arendeth_astral_magic_astral_resonance",
 		"name": "Astral Resonance",
+		"image": 3,
 		"apply_mode": "party_only",
-		"image": 0,
 		"effects": [
 			{
 				"effect": "parry_chance",
@@ -64,19 +64,20 @@
 				"value": 1
 			},
 			{
-                "effect": "dodge",
-                "value": 0.05
+				"effect": "dodge",
+				"value": 0.05
 			},
 			{
 				"effect": "attack_on_parry",
 				"value": 0.05
 			}
-		]
+		],
+		"description": "You and your party gain +5% parry chance, +1 parry, +5% dodge and a 5% chance to counterattack after a parry."
 	},
 	{
 		"id": "arendeth_astral_magic_astral_rupture",
 		"name": "Astral Rupture",
-		"image": 0,
+		"image": 4,
 		"effects": [
 			{
 				"effect": "trigger_ability_on_cast",
@@ -88,7 +89,7 @@
 				"effect": "trigger_ability_on_cast",
 				"value": "arendeth_astral_magic_Astral_Frostline",
 				"secondary_value": "arendeth_astral_magic_shatterfrost_surge_trigger",
-				"third_value": 0.50
+				"third_value": 0.5
 			},
 			{
 				"effect": "trigger_ability_on_cast",
@@ -100,7 +101,7 @@
 				"effect": "trigger_ability_on_cast",
 				"value": "arendeth_astral_magic_Astral_Collapse",
 				"secondary_value": "arendeth_astral_magic_shatterfrost_surge_trigger",
-				"third_value": 1.00
+				"third_value": 1.0
 			}
 		],
 		"description": "Casting Frost Charge, Frostline, Riftchain or Astral Collapse can trigger Shatterfrost Surge, tearing a swarm of frost sparks out of the astral (100%, 50%, 100% and 100% chance respectively)."
@@ -108,7 +109,7 @@
 	{
 		"id": "arendeth_astral_magic_cold_reclamation",
 		"name": "Cold Reclamation",
-		"image": 0,
+		"image": 5,
 		"apply_mode": "party_only",
 		"effects": [
 			{
@@ -122,7 +123,7 @@
 	{
 		"id": "arendeth_astral_magic_astral_glide",
 		"name": "Astral Glide",
-		"image": 0,
+		"image": 6,
 		"apply_mode": "party_only",
 		"effects": [
 			{
@@ -135,7 +136,7 @@
 	{
 		"id": "arendeth_astral_magic_astral_momentum",
 		"name": "Astral Momentum",
-		"image": 0,
+		"image": 7,
 		"apply_mode": "party_only",
 		"effects": [
 			{
@@ -148,7 +149,7 @@
 	{
 		"id": "arendeth_astral_magic_Astral_Echo",
 		"name": "Astral Echo",
-		"image": 0,
+		"image": 8,
 		"effects": [
 			{
 				"effect": "chance",
@@ -173,7 +174,7 @@
 	{
 		"id": "arendeth_astral_magic_Astral_Command_Nexus",
 		"name": "Astral Command Nexus",
-		"image": 0,
+		"image": 9,
 		"effects": [
 			{
 				"effect": "see_stamina",
@@ -205,7 +206,7 @@
 	{
 		"id": "arendeth_astral_magic_Astral_Command",
 		"name": "Astral Command",
-		"image": 0,
+		"image": 10,
 		"effects": [
 			{
 				"effect": "ally_command",
@@ -230,33 +231,39 @@
 	{
 		"id": "arendeth_astral_magic_Astral_Insight",
 		"name": "Astral Insight",
-		"image": 0,
+		"image": 11,
 		"apply_mode": "party_only",
-        "restrict_tags": [ "3" ],
+		"restrict_tags": [
+			"3"
+		],
 		"effects": [
-            {
-                "effect": "leader_stats",
-                "value": 0.5
+			{
+				"effect": "leader_stats",
+				"value": 0.5
 			}
-		]
+		],
+		"description": "Companions gain 50% of your statistics."
 	},
 	{
 		"id": "arendeth_astral_magic_empowered_shatterfrost",
 		"name": "Empowered Shatterfrost",
-		"image": 0,
-		"restrict_tags": [ "Shatterfrost_Spark" ],
+		"image": 12,
+		"restrict_tags": [
+			"Shatterfrost_Spark"
+		],
 		"effects": [
 			{
-                "effect": "magic_power_per_entity",
-                "value": "arendeth_astral_magic_Astral_Wisp_Rupture_Spark",
-                "secondary_value": 200
+				"effect": "magic_power_per_entity",
+				"value": "arendeth_astral_magic_Astral_Wisp_Rupture_Spark",
+				"secondary_value": 200
 			}
-		]
+		],
+		"description": "Each Shatterfrost Spark adds to your Magic Power."
 	},
 	{
 		"id": "Astral_Perception",
 		"name": "Astral Perception",
-		"image": 0,
+		"image": 13,
 		"effects": [
 			{
 				"effect": "Sense",
@@ -265,11 +272,10 @@
 		],
 		"description": "Your astral senses can feel nearby magic."
 	},
-	
 	{
 		"id": "arendeth_astral_magic_Civilized_Storm_Elemental_Crafting",
 		"name": "Storm Elemental Crafting",
-		"image": 0,
+		"image": 14,
 		"effects": [
 			{
 				"effect": "craft_persona",
@@ -282,7 +288,7 @@
 	{
 		"id": "arendeth_astral_magic_Civil_Animated_Mannequin_Crafting",
 		"name": "Animated Mannequin Crafting",
-		"image": 0,
+		"image": 15,
 		"effects": [
 			{
 				"effect": "craft_persona",
@@ -295,7 +301,7 @@
 	{
 		"id": "arendeth_astral_magic_Civilized_Air_Elemental_Crafting",
 		"name": "Air Elemental Crafting",
-		"image": 0,
+		"image": 16,
 		"effects": [
 			{
 				"effect": "craft_persona",
@@ -308,7 +314,7 @@
 	{
 		"id": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting",
 		"name": "Animated Armor Crafting",
-		"image": 0,
+		"image": 17,
 		"effects": [
 			{
 				"effect": "craft_persona",
@@ -321,7 +327,7 @@
 	{
 		"id": "arendeth_astral_magic_Civilized_Fire_Elemental_Crafting",
 		"name": "Fire Elemental Crafting",
-		"image": 0,
+		"image": 18,
 		"effects": [
 			{
 				"effect": "craft_persona",
@@ -334,7 +340,7 @@
 	{
 		"id": "arendeth_astral_magic_Civilized_Earth_Elemental_Crafting",
 		"name": "Earth Elemental Crafting",
-		"image": 0,
+		"image": 19,
 		"effects": [
 			{
 				"effect": "craft_persona",
@@ -347,7 +353,7 @@
 	{
 		"id": "arendeth_astral_magic_Wild_Friendly_Astral_Wisp_Crafting",
 		"name": "Friendly Astral Wisp Crafting",
-		"image": 0,
+		"image": 20,
 		"effects": [
 			{
 				"effect": "craft_persona",
@@ -360,7 +366,7 @@
 	{
 		"id": "arendeth_astral_magic_Civilized_Pixie_Crafting",
 		"name": "Pixie Crafting",
-		"image": 0,
+		"image": 21,
 		"effects": [
 			{
 				"effect": "craft_persona",
@@ -373,7 +379,7 @@
 	{
 		"id": "arendeth_astral_magic_mastery",
 		"name": "Astral Magic Mastery",
-		"image": 0,
+		"image": 22,
 		"effects": [
 			{
 				"effect": "statistic_percent",

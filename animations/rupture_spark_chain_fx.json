@@ -1,0 +1,61 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 0.25,
+		"power": 1,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "arendeth_astral_magic_rupture_spark_chain_fx",
+	"ignore_roof": false,
+	"name": "Rupture Spark Chain FX",
+	"particles": [
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 128,
+			"on_impact": "arendeth_astral_magic_rupture_spark_chain_fx_c1",
+			"tile_id": 746,
+			"velocity": 30.0
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"delay": 30.0,
+			"flags": 128,
+			"tile_id": 745,
+			"velocity": 30.0
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"delay": 60.0,
+			"flags": 128,
+			"tile_id": 744,
+			"velocity": 30.0
+		}
+	],
+	"sound": {
+		"id": "70",
+		"volume": 100
+	}
+}

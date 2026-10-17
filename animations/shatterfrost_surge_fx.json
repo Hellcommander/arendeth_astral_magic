@@ -1,0 +1,110 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_shatterfrost_surge_fx",
+	"ignore_roof": false,
+	"name": "Shatterfrost Surge FX",
+	"particles": [
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1031
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1032
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1033
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1033
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1365
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 758
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 758
+		}
+	],
+	"sound": {
+		"id": "",
+		"volume": 100
+	}
+}

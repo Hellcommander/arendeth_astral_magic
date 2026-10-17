@@ -44,7 +44,7 @@
 		"tags"
 	],
 	"corpse": "322",
-	"description": "Veilrunners are Adepts who’ve adapted astral techniques for infiltration and sudden strikes. They wield Astral Frostline as a marking tool to track prey, unleash Astral Wisp Swarm to confuse and illuminate targets from unexpected angles, and use Wisp Powered Swap to slip through spatial seams mid‑combat. Their movements are sharp and evasive, weaving between enemies with multi‑step sidesteps and bursting forward with astral charges. Unlike scholarly Adepts, Veilrunners weaponize astral geometry — turning illumination into misdirection, displacement into ambush, and frostline marks into kill‑paths. They appear in dynamic encounters as unpredictable, mobile astral skirmishers..",
+	"description": "Veilrunners are Adepts who've adapted astral techniques for infiltration and sudden strikes. They wield Astral Frostline as a marking tool to track prey, unleash Astral Wisp Swarm to confuse and illuminate targets from unexpected angles, and use Wisp Powered Swap to slip through spatial seams mid-combat. Their movements are sharp and evasive, weaving between enemies with multi-step sidesteps and bursting forward with astral charges. Unlike scholarly Adepts, Veilrunners weaponize astral geometry  -  turning illumination into misdirection, displacement into ambush, and frostline marks into kill-paths. They appear in dynamic encounters as unpredictable, mobile astral skirmishers..",
 	"dialogues": [
 		"722",
 		"77"
@@ -94,12 +94,12 @@
 		"frames": [
 			{
 				"color": [
-					127,
-					185,
-					85
+					255,
+					255,
+					255
 				],
 				"delay": 0,
-				"index": 148
+				"index": 19
 			}
 		],
 		"random_frame_start": false

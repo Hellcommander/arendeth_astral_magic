@@ -1,0 +1,175 @@
+{
+	"camera_shake": {
+		"bounces": 2,
+		"duration": 0.0,
+		"power": 0.0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_wisp_powered_swap_fx_c1",
+	"ignore_roof": true,
+	"name": "Wisp Powered Swap FX 1",
+	"particles": [
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 512
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 513
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 514
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 515
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 516
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 517
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 518
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 519
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 40.0,
+			"tile_id": 520
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 40.0,
+			"tile_id": 521
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 40.0,
+			"tile_id": 522
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"delay": 600.0,
+			"flags": 8,
+			"life": 250.0,
+			"tile_id": 1502
+		}
+	],
+	"sound": {
+		"id": "63",
+		"volume": 100
+	}
+}

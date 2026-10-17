@@ -1,0 +1,110 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_astral_discharge_fx",
+	"ignore_roof": false,
+	"name": "Astral Discharge FX",
+	"particles": [
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1031
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1032
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1033
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1033
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1365
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 758
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 758
+		}
+	],
+	"sound": {
+		"id": "101",
+		"volume": 100
+	}
+}

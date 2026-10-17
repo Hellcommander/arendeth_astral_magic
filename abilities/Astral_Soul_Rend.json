@@ -1,5 +1,5 @@
 {
-	"animation": "54",
+	"animation": "arendeth_astral_magic_astral_soul_rend_fx",
 	"cast_time": 2.0,
 	"cooldown": 120.0,
 	"cost": {
@@ -18,7 +18,7 @@
 		"vulnerable": 1
 	},
 	"id": "arendeth_astral_magic_Astral_Soul_Rend",
-	"image": 2,
+	"image": 13,
 	"name": "Astral Soul Rend",
 	"range": 7,
 	"skill": "arendeth_astral_magic",

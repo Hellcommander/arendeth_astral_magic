@@ -12,34 +12,50 @@
 			{
 				"name": "abilities",
 				"tiles": [
-					16,
-					8
+					8,
+					4
 				],
 				"file": "assets/abilities.png"
 			},
 			{
 				"name": "amplifiers",
 				"tiles": [
-					16,
-					8
+					8,
+					3
 				],
 				"file": "assets/amplifiers.png"
 			},
 			{
 				"name": "passive_skills",
 				"tiles": [
-					16,
-					4
+					8,
+					3
 				],
 				"file": "assets/passive_skills.png"
 			},
 			{
 				"name": "stackers",
 				"tiles": [
+					8,
+					1
+				],
+				"file": "assets/stackers.png"
+			},
+			{
+				"name": "glyph32",
+				"tiles": [
 					16,
 					2
 				],
-				"file": "assets/stackers.png"
+				"file": "assets/glyphs.png"
+			},
+			{
+				"name": "items",
+				"tiles": [
+					16,
+					1
+				],
+				"file": "assets/items.png"
 			}
 		]
 	}

@@ -7,13 +7,13 @@
 		"summon": "arendeth_astral_magic_astral_wisp_rupture_sparks"
 	},
 	"id": "arendeth_astral_magic_Shatterfrost_Surge",
-	"image": 4,
+	"image": 23,
 	"name": "Shatterfrost Surge",
 	"range": 0,
 	"skill": "arendeth_astral_magic",
 	"target": "actor",
 	"description": "Tears frost sparks out of the astral: summons up to 150 Rupture Sparks for 2 turns.",
-	"animation": "",
+	"animation": "arendeth_astral_magic_shatterfrost_surge_fx",
 	"cast_time": 0.0,
 	"cooldown": 0.0,
 	"cost": {

@@ -1,0 +1,160 @@
+{
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_astral_windstorm_barrier_fx",
+	"name": "Astral Windstorm Barrier FX",
+	"particles": [
+		{
+			"color": [
+				[
+					195,
+					238,
+					245,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 211
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 509
+		},
+		{
+			"color": [
+				[
+					195,
+					238,
+					245,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 906
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 907
+		},
+		{
+			"color": [
+				[
+					195,
+					238,
+					245,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 908
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 366
+		},
+		{
+			"color": [
+				[
+					195,
+					238,
+					245,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 907
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 908
+		},
+		{
+			"color": [
+				[
+					195,
+					238,
+					245,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 909
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 910
+		},
+		{
+			"color": [
+				[
+					195,
+					238,
+					245,
+					255
+				]
+			],
+			"flags": 8,
+			"life": 100.0,
+			"tile_id": 911
+		}
+	],
+	"sound": {
+		"id": "121",
+		"volume": 100
+	}
+}

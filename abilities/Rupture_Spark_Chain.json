@@ -1,5 +1,5 @@
 {
-	"animation": "core_2_Freezing_Bomb_Throw",
+	"animation": "arendeth_astral_magic_rupture_spark_chain_fx",
 	"cast_time": 0.0,
 	"cooldown": 2.0,
 	"cost": {
@@ -24,7 +24,7 @@
 		"stacker": "arendeth_astral_magic_Frosty_Trigger"
 	},
 	"id": "arendeth_astral_magic_Rupture_Spark_Chain",
-	"image": 4,
+	"image": 20,
 	"name": "Rupture Spark Chain",
 	"range": 7,
 	"skill": "arendeth_astral_magic",

@@ -1,0 +1,151 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 0.25,
+		"power": 3,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_astral_collapse_fx",
+	"ignore_roof": false,
+	"name": "Astral Collapse FX",
+	"particles": [
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 129,
+			"life": 50.0,
+			"tile_id": 1325
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 744
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 744
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1113
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1118
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 758
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1325
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 60.0,
+			"tile_id": 758
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					127
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"spin": 1.0,
+			"tile_id": 758
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					63
+				]
+			],
+			"flags": 0,
+			"life": 80.0,
+			"spin": 1.0,
+			"tile_id": 758
+		}
+	],
+	"sound": {
+		"id": "127",
+		"volume": 100
+	}
+}

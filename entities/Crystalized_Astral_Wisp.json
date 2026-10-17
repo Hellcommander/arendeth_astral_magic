@@ -1,6 +1,7 @@
 {
 	"components": [
 		"collidable",
+		"craftable",
 		"glyph",
 		"glyph_top",
 		"health",
@@ -12,35 +13,25 @@
 		"tags"
 	],
 	"corpse": [],
-	"description": "Spirit of empowered by astral magic. Crystalized into a component for upgrading it",
+	"description": "A wisp's essence crystallized into a component, for upgrading it. Made from frost crystals and captured light.",
 	"glyph": {
 		"frames": [
 			{
 				"color": [
 					255,
-					155,
-					240
+					255,
+					255
 				],
-				"delay": 100,
-				"index": 560
+				"delay": 0,
+				"index": 8
 			}
 		],
-		"random_frame_start": true,
-		"random_top": {
-			"colors": [],
-			"count": 0,
-			"glyph_ids": [
-				993
-			],
-			"max_alpha": 255,
-			"max_range": 0,
-			"wind": false
-		}
+		"random_frame_start": false
 	},
 	"health": 500,
 	"id": "arendeth_astral_magic_Crystalized_Astral_Wisp",
 	"item": {
-		"image": 677,
+		"image": 1,
 		"type": 16
 	},
 	"light_source": {
@@ -55,5 +46,25 @@
 	"name": "Crystalized Astral Wisp",
 	"tags": [
 		"3"
-	]
+	],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 0,
+		"resource_types": [],
+		"resources": [
+			{
+				"amount": 2,
+				"id": "2446"
+			},
+			{
+				"amount": 1,
+				"id": "2974"
+			}
+		],
+		"time": 40,
+		"tools": [
+			15
+		]
+	}
 }

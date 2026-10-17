@@ -1,5 +1,5 @@
 {
-	"animation": "160",
+	"animation": "arendeth_astral_magic_summon_astral_wisp_swarm_fx",
 	"cast_time": 1.2999999523162842,
 	"cooldown": 9.0,
 	"cost": {
@@ -27,7 +27,7 @@
 		"summon": "arendeth_astral_magic_astral_wisp"
 	},
 	"id": "arendeth_astral_magic_Summon_Astral_Wisp_Swarm",
-	"image": 6,
+	"image": 25,
 	"name": "Summon Astral Wisp Swarm",
 	"range": 9,
 	"skill": "arendeth_astral_magic",

@@ -17,11 +17,11 @@
 		"turn_damage_to_stacks": "arendeth_astral_magic_Shatterfrost_Surge"
 	},
 	"id": "arendeth_astral_magic_Rupture_Spark_Trigger",
-	"image": 6,
+	"image": 21,
 	"name": "Rupture Spark Trigger",
 	"range": 0,
 	"skill": "arendeth_astral_magic",
 	"target": "actor",
 	"description": "A frost pulse that deals ::damage ::damage_type damage, scaling with weapon and Magic Power. The damage is converted into stacks that feed the Shatterfrost Surge.",
-	"animation": ""
+	"animation": "arendeth_astral_magic_rupture_spark_trigger_fx"
 }

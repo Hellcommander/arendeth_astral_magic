@@ -1,5 +1,5 @@
 {
-	"animation": "core_2_Freezing_Bomb_Throw",
+	"animation": "arendeth_astral_magic_shatterfrost_collapse_fx",
 	"cast_time": 1.0,
 	"cooldown": 3.0,
 	"cost": {
@@ -25,7 +25,7 @@
 		"stacker": "arendeth_astral_magic_Frosty_Trigger"
 	},
 	"id": "arendeth_astral_magic_Shatterfrost_Collapse",
-	"image": 8,
+	"image": 22,
 	"name": "Shatterfrost Collapse",
 	"range": 5,
 	"skill": "arendeth_astral_magic",

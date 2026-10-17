@@ -43,7 +43,7 @@
 		"tags"
 	],
 	"corpse": "326",
-	"description": "A timid astral mote that follows you while keeping itself alive. Astral Wisps avoid danger, take cover from ranged threats, and use simple astral tricks to recover, evade, and stay out of harm’s way.",
+	"description": "A timid astral mote that follows you while keeping itself alive. Astral Wisps avoid danger, take cover from ranged threats, and use simple astral tricks to recover, evade, and stay out of harm's way.",
 	"dialogues": [
 		"42",
 		"43"
@@ -62,11 +62,20 @@
 			{
 				"color": [
 					255,
-					155,
-					240
+					255,
+					255
 				],
-				"delay": 100,
-				"index": 560
+				"delay": 260,
+				"index": 2
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 260,
+				"index": 3
 			}
 		],
 		"random_frame_start": true

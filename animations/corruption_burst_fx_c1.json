@@ -1,0 +1,112 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0.0
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_corruption_burst_fx_c1",
+	"ignore_roof": false,
+	"name": "Corruption Burst FX 1",
+	"particles": [
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"elevation": 2,
+			"flags": 0,
+			"life": 60.0,
+			"tile_id": 1365
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 60.0,
+			"tile_id": 552
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 60.0,
+			"tile_id": 552
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 552
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 553
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 1069
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"delay": 30.0,
+			"elevation": 20,
+			"flags": 131072,
+			"life": 100.0,
+			"tile_id": 1069
+		}
+	],
+	"sound": {
+		"id": "",
+		"volume": 100
+	}
+}

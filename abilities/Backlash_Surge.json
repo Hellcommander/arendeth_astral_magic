@@ -1,5 +1,5 @@
 {
-	"animation": "159",
+	"animation": "arendeth_astral_magic_backlash_surge_fx",
 	"cast_time": 0.0,
 	"cooldown": 2.0,
 	"cost": {
@@ -19,7 +19,7 @@
 		"stacker": "arendeth_corruption"
 	},
 	"id": "arendeth_astral_magic_Backlash_Surge",
-	"image": 379,
+	"image": 16,
 	"name": "Backlash Surge",
 	"range": 0,
 	"skill": "arendeth_astral_magic",

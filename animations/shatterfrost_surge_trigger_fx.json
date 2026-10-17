@@ -1,0 +1,48 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "arendeth_astral_magic_shatterfrost_surge_trigger_fx",
+	"ignore_roof": false,
+	"name": "Shatterfrost Surge Trigger FX",
+	"particles": [
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"explosion_range": 6,
+			"flags": 2331,
+			"tile_id": 737,
+			"velocity": 200.0
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"delay": 500.0,
+			"explosion_range": 6,
+			"flags": 2331,
+			"tile_id": 1384,
+			"velocity": 200.0
+		}
+	],
+	"sound": {
+		"id": "107",
+		"volume": 100
+	}
+}

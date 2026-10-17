@@ -1,0 +1,215 @@
+{
+	"animation_origin_self": false,
+	"blocking": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_stamina_burning_light_trigger_fx",
+	"ignore_roof": false,
+	"name": "Stamina Burning Light Trigger FX",
+	"particles": [
+		{
+			"color": [
+				[
+					255,
+					238,
+					190,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1339
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1340
+		},
+		{
+			"color": [
+				[
+					255,
+					238,
+					190,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1341
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1342
+		},
+		{
+			"color": [
+				[
+					255,
+					238,
+					190,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1343
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1344
+		},
+		{
+			"color": [
+				[
+					255,
+					238,
+					190,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1345
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1346
+		},
+		{
+			"color": [
+				[
+					255,
+					238,
+					190,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1347
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1348
+		},
+		{
+			"color": [
+				[
+					255,
+					238,
+					190,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1349
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 1350
+		},
+		{
+			"color": [
+				[
+					255,
+					238,
+					190,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 1351
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 1352
+		},
+		{
+			"color": [
+				[
+					255,
+					238,
+					190,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 782
+		}
+	],
+	"sound": {
+		"id": "145",
+		"volume": 100
+	}
+}

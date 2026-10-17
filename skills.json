@@ -2,8 +2,8 @@
 	{
 		"id": "arendeth_astral_magic",
 		"name": "Astral Magic",
-		"image": 2,
-		"description": "Astral Magic bends the boundary between mind and matter, weaving frost‑laden force into constructs, chains, and corruptive tethers.",
+		"image": 0,
+		"description": "Astral Magic bends the boundary between mind and matter, weaving frost-laden force into constructs, chains, and corruptive tethers.",
 		"combat_skill": true,
 		"exp_sources": [
 			{

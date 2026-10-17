@@ -1,9 +1,9 @@
 {
 	"id": "arendeth_astral_magic_shatterfrost_surge_trigger",
 	"name": "Shatterfrost Surge Trigger",
-	"image": 4,
+	"image": 2,
 	"skill": "arendeth_astral_magic",
-	"animation": "",
+	"animation": "arendeth_astral_magic_shatterfrost_surge_trigger_fx",
 	"cast_time": 0.0,
 	"cooldown": 0.0,
 	"duration": 0.0,

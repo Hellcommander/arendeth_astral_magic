@@ -1,12 +1,12 @@
 {
-	"animation": "core_2_Blizzard_single_impact",
+	"animation": "arendeth_astral_magic_astral_wisp_ambush_fx",
 	"cast_time": 0.699999988079071,
 	"cooldown": 15.0,
 	"cost": {
 		"health": 0,
 		"stamina": 3
 	},
-	"description": "A rare burst of courage from a timid wisp. When a vulnerable enemy is exposed, the wisp darts forward in a quick frost‑charged rush, delivering a light disruptive strike before instantly retreating to safety. The attack deals minor frost damage, inflicts frostbite and silence, and triggers a brief revenge pulse, but the wisp avoids staying in danger by backstepping the full distance of its charge.",
+	"description": "A rare burst of courage from a timid wisp. When a vulnerable enemy is exposed, the wisp darts forward in a quick frost-charged rush, delivering a light disruptive strike before instantly retreating to safety. The attack deals minor frost damage, inflicts frostbite and silence, and triggers a brief revenge pulse, but the wisp avoids staying in danger by backstepping the full distance of its charge.",
 	"duration": 1.0,
 	"effects": {
 		"charge": 5,
@@ -23,7 +23,7 @@
 		"silence": 1
 	},
 	"id": "arendeth_astral_magic_Astral_Wisp_Ambush",
-	"image": 9,
+	"image": 15,
 	"name": "Astral Wisp Ambush",
 	"range": 4,
 	"skill": "arendeth_astral_magic",

@@ -1,15 +1,28 @@
 {
-    "id": "astral_magic_hall",
-    "image": 39,
-    "max": 1,
-    "name": "Astral Laboratory",
-    "occupation_image": 74,
-    "occupation": "Astral_Adept",
-    "race": "-1",
-    "tier": 3,
-    "workers": [1, 6],
-    "allow_player": true,
-    "min_area": 30,
-    "group": "military",
-    "type": "military"
+	"id": "astral_magic_hall",
+	"image": 39,
+	"max": 1,
+	"name": "Astral Laboratory",
+	"occupation_image": 74,
+	"occupation": "arendeth_astral_magic_Astral_Adept",
+	"race": "-1",
+	"tier": 3,
+	"workers": [
+		1,
+		6
+	],
+	"allow_player": true,
+	"min_area": 30,
+	"group": "military",
+	"type": "military",
+	"occupation_per_race": {
+		"2": "arendeth_astral_magic_Astral_Adept",
+		"0": "arendeth_astral_magic_Astral_Adept_Human",
+		"1": "arendeth_astral_magic_Astral_Adept_Dwarf",
+		"4": "arendeth_astral_magic_Astral_Adept_Goblin",
+		"7": "arendeth_astral_magic_Astral_Adept_Troll",
+		"8": "arendeth_astral_magic_Astral_Adept_Orc",
+		"23": "arendeth_astral_magic_Astral_Adept_Reptilion",
+		"6": "arendeth_astral_magic_Astral_Adept_Vampire"
+	}
 }

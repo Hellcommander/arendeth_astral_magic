@@ -1,0 +1,45 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 2,
+		"duration": 0.20000000298023224,
+		"power": 3,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "arendeth_astral_magic_rupture_spark_trigger_fx_c1",
+	"ignore_roof": false,
+	"name": "Rupture Spark Trigger FX 1",
+	"particles": [
+		{
+			"color": [
+				[
+					185,
+					230,
+					255,
+					255
+				]
+			],
+			"flags": 8,
+			"life": 50.0,
+			"tile_id": 743
+		},
+		{
+			"color": [
+				[
+					185,
+					230,
+					255,
+					255
+				]
+			],
+			"flags": 8,
+			"life": 50.0,
+			"tile_id": 742
+		}
+	],
+	"sound": {
+		"id": "67",
+		"volume": 100
+	}
+}

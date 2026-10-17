@@ -1,5 +1,5 @@
 {
-	"animation": "core_2_Freeze_AoE",
+	"animation": "arendeth_astral_magic_astral_frost_aura_fx",
 	"cast_time": 0.0,
 	"cooldown": 0.0,
 	"cost": {
@@ -23,7 +23,7 @@
 		"summon_on_move": "arendeth_astral_magic_astral_wisp"
 	},
 	"id": "arendeth_astral_magic_Astral_Frost_Aura",
-	"image": 12,
+	"image": 6,
 	"name": "Astral Frost Aura",
 	"range": 0,
 	"skill": "arendeth_astral_magic",

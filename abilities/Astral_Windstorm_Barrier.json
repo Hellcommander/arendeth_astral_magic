@@ -1,12 +1,12 @@
 {
-	"animation": "65",
+	"animation": "arendeth_astral_magic_astral_windstorm_barrier_fx",
 	"cast_time": 0.699999988079071,
 	"cooldown": 12.0,
 	"cost": {
 		"health": 1,
 		"stamina": 4
 	},
-	"description": "You surround yourself with an astral windstorm that deflects incoming attacks while slowing your strikes.\nThe barrier emits a chilling aura that applies frostbite, and each time you cast this you add stacks of astral fatigue stacks to you.\nIf your stacks grow too high, the astral surge backfires, inflicting Astral Overdrawn’s debuffs on you.",
+	"description": "You surround yourself with an astral windstorm that deflects incoming attacks while slowing your strikes.\nThe barrier emits a chilling aura that applies frostbite, and each time you cast this you add stacks of astral fatigue stacks to you.\nIf your stacks grow too high, the astral surge backfires, inflicting Astral Overdrawn's debuffs on you.",
 	"duration": 6.0,
 	"effects": {
 		"attack_speed": 0.25,
@@ -19,7 +19,7 @@
 		"aura": "arendeth_astral_magic_Astral_Frost_Aura"
 	},
 	"id": "arendeth_astral_magic_Astral_Windstorm_Barrier",
-	"image": 7,
+	"image": 14,
 	"name": "Astral Windstorm Barrier",
 	"range": 0,
 	"skill": "arendeth_astral_magic",

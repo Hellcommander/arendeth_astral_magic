@@ -1,5 +1,5 @@
 {
-	"animation": "core_2_Frost_armor",
+	"animation": "arendeth_astral_magic_astral_mantle_fx",
 	"cast_time": 0.699999988079071,
 	"cooldown": 10.0,
 	"cost": {
@@ -20,7 +20,7 @@
 		"magic_power_per_entity": "arendeth_astral_magic_astral_wisp"
 	},
 	"id": "arendeth_astral_magic_Astral_Mantle",
-	"image": 0,
+	"image": 9,
 	"name": "Astral Mantle",
 	"range": 0,
 	"skill": "arendeth_astral_magic",

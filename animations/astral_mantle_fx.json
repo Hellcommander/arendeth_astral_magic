@@ -1,0 +1,87 @@
+{
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_astral_mantle_fx",
+	"ignore_roof": true,
+	"name": "Astral Mantle FX",
+	"particles": [
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 745
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"delay": 100.0,
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 744
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"delay": 200.0,
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 362
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					255
+				]
+			],
+			"delay": 300.0,
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 744
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"delay": 300.0,
+			"flags": 8,
+			"life": 200.0,
+			"tile_id": 744
+		}
+	],
+	"sound": {
+		"id": "88",
+		"volume": 100
+	}
+}

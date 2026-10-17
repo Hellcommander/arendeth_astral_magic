@@ -1,0 +1,97 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 0.25,
+		"power": 1,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_backlash_surge_fx",
+	"ignore_roof": false,
+	"name": "Backlash Surge FX",
+	"particles": [
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 1380
+		},
+		{
+			"color": [
+				[
+					141,
+					109,
+					206,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 211
+		},
+		{
+			"color": [
+				[
+					134,
+					67,
+					184,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 211
+		},
+		{
+			"color": [
+				[
+					159,
+					123,
+					232,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 1361
+		},
+		{
+			"color": [
+				[
+					145,
+					72,
+					200,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 513
+		},
+		{
+			"color": [
+				[
+					159,
+					123,
+					232,
+					219
+				]
+			],
+			"flags": 8,
+			"life": 70.0,
+			"tile_id": 1225
+		}
+	],
+	"sound": {
+		"id": "151",
+		"volume": 100
+	}
+}

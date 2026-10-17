@@ -1,0 +1,136 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_astral_overdrawn_fx",
+	"ignore_roof": false,
+	"name": "Astral Overdrawn FX",
+	"particles": [
+		{
+			"color": [
+				[
+					225,
+					100,
+					150,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 168
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 470
+		},
+		{
+			"color": [
+				[
+					225,
+					100,
+					150,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 167
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 168
+		},
+		{
+			"color": [
+				[
+					225,
+					100,
+					150,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 470
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 167
+		},
+		{
+			"color": [
+				[
+					225,
+					100,
+					150,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 168
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 470
+		},
+		{
+			"color": [
+				[
+					225,
+					100,
+					150,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 70.0,
+			"tile_id": 167
+		}
+	],
+	"sound": {
+		"id": "",
+		"volume": 100
+	}
+}

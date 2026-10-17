@@ -71,11 +71,20 @@
 			{
 				"color": [
 					255,
-					155,
-					240
+					255,
+					255
 				],
-				"delay": 100,
-				"index": 560
+				"delay": 260,
+				"index": 6
+			},
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 260,
+				"index": 7
 			}
 		],
 		"random_frame_start": true

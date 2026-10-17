@@ -1,5 +1,5 @@
 {
-	"animation": "core_2_Glaciation",
+	"animation": "arendeth_astral_magic_astral_discharge_fx",
 	"cast_time": 1.0,
 	"cooldown": 120.0,
 	"cost": {
@@ -14,7 +14,7 @@
 		"move_to_side": 2
 	},
 	"id": "arendeth_astral_magic_Astral_Discharge",
-	"image": 10,
+	"image": 5,
 	"name": "Astral Discharge",
 	"range": 0,
 	"skill": "arendeth_astral_magic",

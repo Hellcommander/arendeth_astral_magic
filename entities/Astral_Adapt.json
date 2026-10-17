@@ -46,7 +46,7 @@
 		"tags"
 	],
 	"corpse": "322",
-	"description": "Astral Adepts study the quiet geometry of astral flow, shaping it into practical techniques rather than destructive magic. Every Adept learns three foundational manipulations: Astral Frostline to mark and chill distant targets, Astral Wisp Swarm to summon guiding wisps that illuminate the battlefield, and Wisp Powered Swap to reposition themselves or allies through astral displacement. Adepts rely on precision rather than force, using controlled movement, subtle light, and spatial shifts to support companions. Their discipline is stable, predictable, and intentionally restrained — ideal for teaching initiates or accompanying adventurers without endangering settlements.",
+	"description": "Astral Adepts study the quiet geometry of astral flow, shaping it into practical techniques rather than destructive magic. Every Adept learns three foundational manipulations: Astral Frostline to mark and chill distant targets, Astral Wisp Swarm to summon guiding wisps that illuminate the battlefield, and Wisp Powered Swap to reposition themselves or allies through astral displacement. Adepts rely on precision rather than force, using controlled movement, subtle light, and spatial shifts to support companions. Their discipline is stable, predictable, and intentionally restrained  -  ideal for teaching initiates or accompanying adventurers without endangering settlements.",
 	"dialogues": [
 		"722",
 		"77"
@@ -96,12 +96,12 @@
 		"frames": [
 			{
 				"color": [
-					127,
-					185,
-					85
+					255,
+					255,
+					255
 				],
 				"delay": 0,
-				"index": 148
+				"index": 18
 			}
 		],
 		"random_frame_start": false

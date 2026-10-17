@@ -1,0 +1,47 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0.0,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "arendeth_astral_magic_astral_riftchain_fx_c1",
+	"ignore_roof": true,
+	"name": "Astral Riftchain FX 1",
+	"particles": [
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"delay": 200.0,
+			"flags": 34,
+			"tile_id": 1499,
+			"velocity": 30.0
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"delay": 180.0,
+			"flags": 0,
+			"tile_id": 1499,
+			"velocity": 30.0
+		}
+	],
+	"sound": {
+		"id": "",
+		"volume": 100
+	}
+}

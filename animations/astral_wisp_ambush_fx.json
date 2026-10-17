@@ -1,0 +1,66 @@
+{
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "arendeth_astral_magic_astral_wisp_ambush_fx",
+	"ignore_roof": true,
+	"name": "Astral Wisp Ambush FX",
+	"particles": [
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					0
+				]
+			],
+			"elevation": 200,
+			"elevation_parable": true,
+			"flags": 66560,
+			"tile_id": 825,
+			"velocity": 60.0
+		},
+		{
+			"color": [
+				[
+					225,
+					232,
+					245,
+					237
+				]
+			],
+			"delay": 80.0,
+			"elevation": 200,
+			"elevation_parable": true,
+			"flags": 65536,
+			"on_impact": "arendeth_astral_magic_astral_wisp_ambush_fx_c1",
+			"tile_id": 1024,
+			"velocity": 60.0
+		},
+		{
+			"color": [
+				[
+					229,
+					139,
+					216,
+					112
+				]
+			],
+			"delay": 140.0,
+			"elevation": 200,
+			"elevation_parable": true,
+			"flags": 65536,
+			"tile_id": 942,
+			"velocity": 60.0
+		}
+	],
+	"sound": {
+		"id": "5",
+		"volume": 100
+	}
+}

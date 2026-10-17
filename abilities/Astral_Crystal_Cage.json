@@ -1,0 +1,40 @@
+{
+	"animation": "arendeth_astral_magic_astral_crystal_cage_fx",
+	"cast_time": 1.5,
+	"cooldown": 45.0,
+	"cost": {
+		"health": 5,
+		"item": "arendeth_astral_magic_Crystalized_Astral_Wisp",
+		"stamina": 18
+	},
+	"description": "Spend a Crystalized Astral Wisp to grow a cage of astral crystal around a target. Thorned crystal bars rise in a ring and wall it in; everything caught inside is rooted, frightened and chilled, and the thorns tear at anything that strikes the bars. The bars can be broken and fade on their own.",
+	"duration": 8.0,
+	"effects": {
+		"aoe_range": 1,
+		"aoe_shape": 1,
+		"damage": [
+			2,
+			4
+		],
+		"damage_type": "physical",
+		"damage_weapon": 0.6,
+		"fear": 1,
+		"frostbite": 1,
+		"ignore_party": 1,
+		"immobilize": 4,
+		"magic_power_damage": 0.6,
+		"summon_count": 8
+	},
+	"effects_keys": {
+		"summon": "arendeth_astral_magic_Crystal_Cage_Bar"
+	},
+	"id": "arendeth_astral_magic_Astral_Crystal_Cage",
+	"image": 4,
+	"name": "Astral Crystal Cage",
+	"range": 6,
+	"skill": "arendeth_astral_magic",
+	"slots": {
+		"utility": 3
+	},
+	"target": "actor"
+}

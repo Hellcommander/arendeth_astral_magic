@@ -1,0 +1,54 @@
+{
+	"armor": {
+		"acid": 0,
+		"death": 10,
+		"electricity": 20,
+		"fire": -20,
+		"frost": 100,
+		"holy": 10,
+		"parry": 0,
+		"physical": 60,
+		"poison": 10,
+		"thorns": 6
+	},
+	"components": [
+		"armor",
+		"collidable",
+		"glyph",
+		"health",
+		"light_source",
+		"minimap_pixel",
+		"name",
+		"position_2d",
+		"temporary"
+	],
+	"corpse": "-1",
+	"description": "A jagged bar of astral crystal grown around a prisoner. It glows faintly, shrugs off cold and most physical blows, and is studded with thorns that tear at whatever strikes it. Fire and magic crack it, and it fades on its own.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					255,
+					255
+				],
+				"delay": 0,
+				"index": 16
+			}
+		],
+		"random_frame_start": false
+	},
+	"health": 80,
+	"id": "arendeth_astral_magic_Crystal_Cage_Bar",
+	"light_source": {
+		"finish": -1,
+		"range": 2
+	},
+	"minimap_pixel": [
+		255,
+		150,
+		235
+	],
+	"name": "Crystal Cage Bar",
+	"temporary": 10.0
+}

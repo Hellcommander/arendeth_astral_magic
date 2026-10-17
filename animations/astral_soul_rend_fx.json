@@ -1,0 +1,266 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 0.25,
+		"power": 2,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_astral_soul_rend_fx",
+	"ignore_roof": false,
+	"name": "Astral Soul Rend FX",
+	"particles": [
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 758
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 161
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 161
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 826
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 825
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 168
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 239
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 467
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 40.0,
+			"tile_id": 239
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 40.0,
+			"tile_id": 167
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 1546
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 1547
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 1548
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 513
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 512
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 512
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 757
+		},
+		{
+			"color": [
+				[
+					175,
+					135,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 1053
+		},
+		{
+			"color": [
+				[
+					160,
+					80,
+					220,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 30.0,
+			"tile_id": 1053
+		}
+	],
+	"sound": {
+		"id": "161",
+		"volume": 100
+	}
+}

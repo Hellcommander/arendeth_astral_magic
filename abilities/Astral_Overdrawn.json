@@ -1,5 +1,5 @@
 {
-	"animation": "core_2_Drown",
+	"animation": "arendeth_astral_magic_astral_overdrawn_fx",
 	"cast_time": 0.0,
 	"cooldown": 0.0,
 	"cost": {
@@ -20,7 +20,7 @@
 		"willpower": -1
 	},
 	"id": "arendeth_astral_magic_Astral_Overdrawn",
-	"image": 1,
+	"image": 10,
 	"name": "Astral Overdrawn",
 	"range": 0,
 	"skill": "arendeth_astral_magic",

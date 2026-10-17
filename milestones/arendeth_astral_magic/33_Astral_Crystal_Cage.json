@@ -1,0 +1,16 @@
+{
+	"id": "arendeth_astral_magic_Astral_Crystal_Cage",
+	"name": "Astral Crystal Cage",
+	"requirements": {
+		"milestones": [],
+		"skill": 33
+	},
+	"rewards": [
+		{
+			"ability": "arendeth_astral_magic_Astral_Crystal_Cage"
+		}
+	],
+	"skill_id": "arendeth_astral_magic",
+	"steps": [],
+	"steps_type": 0
+}

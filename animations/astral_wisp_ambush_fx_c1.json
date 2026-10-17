@@ -1,0 +1,166 @@
+{
+	"camera_shake": {
+		"bounces": 2,
+		"duration": 0.30000001192092896,
+		"power": 5,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "arendeth_astral_magic_astral_wisp_ambush_fx_c1",
+	"ignore_roof": true,
+	"name": "Astral Wisp Ambush FX 1",
+	"particles": [
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					180
+				],
+				[
+					255,
+					155,
+					240,
+					194
+				]
+			],
+			"explosion_range": 1,
+			"flags": 0,
+			"pulse_background": 300.0,
+			"tile_id": 550,
+			"velocity": 70.0
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					205
+				],
+				[
+					235,
+					242,
+					255,
+					210
+				]
+			],
+			"delay": 50.0,
+			"explosion_range": 2,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 300.0,
+			"tile_id": 551,
+			"velocity": 70.0
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					179
+				],
+				[
+					255,
+					155,
+					240,
+					202
+				]
+			],
+			"delay": 150.0,
+			"explosion_range": 2,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 300.0,
+			"tile_id": 552,
+			"velocity": 70.0
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					165
+				],
+				[
+					235,
+					242,
+					255,
+					54
+				]
+			],
+			"delay": 200.0,
+			"explosion_range": 2,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 300.0,
+			"tile_id": 553,
+			"velocity": 70.0
+		},
+		{
+			"color": [
+				[
+					255,
+					155,
+					240,
+					100
+				],
+				[
+					255,
+					155,
+					240,
+					131
+				],
+				[
+					255,
+					155,
+					240,
+					12
+				],
+				[
+					255,
+					155,
+					240,
+					54
+				]
+			],
+			"delay": 250.0,
+			"explosion_range": 2,
+			"flags": 0,
+			"life": 100.0,
+			"pulse_background": 300.0,
+			"tile_id": 554,
+			"velocity": 70.0
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					59
+				],
+				[
+					235,
+					242,
+					255,
+					54
+				]
+			],
+			"delay": 300.0,
+			"explosion_range": 3,
+			"flags": 8,
+			"life": 100.0,
+			"pulse_background": 300.0,
+			"tile_id": 555,
+			"velocity": 70.0
+		}
+	],
+	"sound": {
+		"id": "6",
+		"volume": 100
+	}
+}

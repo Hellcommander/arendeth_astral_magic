@@ -17,7 +17,7 @@
 		"name": "Astral Challenger I",
 		"type": "offensive",
 		"duration": 2.0,
-		"image": 0,
+		"image": 1,
 		"effects": [
 			{
 				"effect": "burn_stamina",
@@ -41,7 +41,7 @@
 		"name": "Astral Challenger II",
 		"type": "offensive",
 		"duration": 6.0,
-		"image": 0,
+		"image": 2,
 		"effects": [
 			{
 				"effect": "burn_stamina",
@@ -64,7 +64,7 @@
 		"id": "arendeth_astral_magic_Amplifier_Charge",
 		"name": "Astral Charge",
 		"type": "offensive",
-		"image": 0,
+		"image": 3,
 		"effects": [
 			{
 				"effect": "charge",
@@ -78,7 +78,7 @@
 		"id": "arendeth_astral_magic_Amplifier_Charge_5",
 		"name": "Astral Charge 5",
 		"type": "offensive",
-		"image": 0,
+		"image": 4,
 		"effects": [
 			{
 				"effect": "charge",
@@ -92,7 +92,7 @@
 		"id": "arendeth_astral_magic_Amplifier_Sidestep",
 		"name": "Astral Sidestep",
 		"type": "utility",
-		"image": 0,
+		"image": 5,
 		"effects": [
 			{
 				"effect": "move_side",
@@ -106,7 +106,7 @@
 		"id": "arendeth_astral_magic_Amplifier_Sidestep_2",
 		"name": "Astral Sidestep 2",
 		"type": "utility",
-		"image": 0,
+		"image": 6,
 		"effects": [
 			{
 				"effect": "move_side",
@@ -120,7 +120,7 @@
 		"id": "arendeth_astral_magic_Amplifier_Sidestep_3",
 		"name": "Astral Sidestep 3",
 		"type": "utility",
-		"image": 0,
+		"image": 7,
 		"effects": [
 			{
 				"effect": "move_side",
@@ -134,7 +134,7 @@
 		"id": "arendeth_astral_magic_Amplifier_Sidestep_4",
 		"name": "Astral Sidestep 4",
 		"type": "utility",
-		"image": 0,
+		"image": 8,
 		"effects": [
 			{
 				"effect": "move_side",
@@ -148,7 +148,7 @@
 		"id": "arendeth_astral_magic_Amplifier_Burning_Light",
 		"name": "Astral Burning Light",
 		"type": "offensive",
-		"image": 0,
+		"image": 9,
 		"effects": [
 			{
 				"effect": "light_source",
@@ -166,7 +166,7 @@
 		"id": "arendeth_astral_magic_Amplifier_Burn_Stamina_5",
 		"name": "Astral Burn Stamina",
 		"type": "offensive",
-		"image": 0,
+		"image": 10,
 		"effects": [
 			{
 				"effect": "burn_stamina",
@@ -180,7 +180,7 @@
 		"id": "arendeth_astral_echo",
 		"name": "Astral Echo",
 		"type": "offensive",
-		"image": 0,
+		"image": 11,
 		"effects": [
 			{
 				"effect": "repeat_ability_second_weapon",
@@ -194,7 +194,7 @@
 		"id": "arendeth_astral_magic_Frostbite_Convergence",
 		"name": "Frostbite Convergence",
 		"type": "utility",
-		"image": 0,
+		"image": 12,
 		"bonuses": [
 			{
 				"effect": "aoe_range",
@@ -211,7 +211,7 @@
 				"secondary_value": 0.25
 			}
 		],
-		"description": "Astral frost converges into a volatile surge, expanding your spell’s area while converting a portion of damage into frostbite stacks. Frostbite intensifies, amplifying astral chill interactions.",
+		"description": "Astral frost converges into a volatile surge, expanding your spell's area while converting a portion of damage into frostbite stacks. Frostbite intensifies, amplifying astral chill interactions.",
 		"duration": 3.0,
 		"range": 4
 	},
@@ -219,7 +219,7 @@
 		"id": "arendeth_astral_magic_Frostburn_Nova_Amplifier",
 		"name": "Frostburn Nova",
 		"type": "offensive",
-		"image": 0,
+		"image": 13,
 		"effects": [
 			{
 				"effect": "aoe_range",
@@ -256,13 +256,13 @@
 			}
 		],
 		"duration": 3.0,
-		"description": "Converts damage into frostbite and frostburn stacks, then detonates them for bonus damage. Expands the spell’s area and intensifies frostbite. Allies are unaffected."
+		"description": "Converts damage into frostbite and frostburn stacks, then detonates them for bonus damage. Expands the spell's area and intensifies frostbite. Allies are unaffected."
 	},
 	{
 		"id": "Astral_AoE_Expansion",
 		"name": "Astral AoE Expansion",
 		"type": "utility",
-		"image": 0,
+		"image": 14,
 		"bonuses": [
 			{
 				"effect": "aoe_range",
@@ -280,7 +280,7 @@
 		"id": "Astral_Clarity_Surge",
 		"name": "Astral Clarity Surge",
 		"type": "utility",
-		"image": 0,
+		"image": 15,
 		"bonuses": [
 			{
 				"effect": "cast_time",
@@ -303,7 +303,7 @@
 				"value": 1
 			}
 		],
-		"description": "You fracture astral flow to accelerate your casting rhythm, unleashing your next spell with greatly reduced cast time and cooldown. The surge restores a random ability’s cooldown, converts a portion of your damage into life, and empowers distant attacks through astral resonance.",
+		"description": "You fracture astral flow to accelerate your casting rhythm, unleashing your next spell with greatly reduced cast time and cooldown. The surge restores a random ability's cooldown, converts a portion of your damage into life, and empowers distant attacks through astral resonance.",
 		"range": 3.0,
 		"duration": 1.0
 	},
@@ -311,7 +311,7 @@
 		"id": "Astral_Overdrawn",
 		"name": "Astral Overdrawn",
 		"type": "utility",
-		"image": 0,
+		"image": 16,
 		"bonuses": [
 			{
 				"effect": "hide_health",
@@ -335,7 +335,7 @@
 				"secondary_value": 10
 			}
 		],
-		"description": "You force unstable astral power through your channels, causing your next spell to strike twice and inflicting heavy Overdrawn strain on yourself. Any effects applied by that spell collapse instantly when you cast another ability, and the surge sharply increases the spell’s cooldown before burning out.",
+		"description": "You force unstable astral power through your channels, causing your next spell to strike twice and inflicting heavy Overdrawn strain on yourself. Any effects applied by that spell collapse instantly when you cast another ability, and the surge sharply increases the spell's cooldown before burning out.",
 		"range": 8.0,
 		"duration": 1.0
 	},
@@ -343,7 +343,7 @@
 		"id": "Astral_Tempo_Break",
 		"name": "Astral Tempo Break",
 		"type": "utility",
-		"image": 0,
+		"image": 17,
 		"bonuses": [
 			{
 				"effect": "cast_time",
@@ -359,10 +359,10 @@
 			},
 			{
 				"effect": "reduce_random_cooldown",
-				"value": 2
+				"value": 1
 			}
 		],
-		"description": "You fracture astral flow to accelerate your casting rhythm, nearly instantaneously unleashing your next spell while sharply reducing its cooldown and extending its duration. The surge restores two random ability cooldowns, making this Amplifier ideal for regaining tempo in critical moments.",
+		"description": "You fracture astral flow to accelerate your casting rhythm, nearly instantaneously unleashing your next spell while sharply reducing its cooldown and extending its duration. The surge restores one random ability cooldown, making this Amplifier ideal for regaining tempo in critical moments.",
 		"duration": 1.0
 	}
 ]

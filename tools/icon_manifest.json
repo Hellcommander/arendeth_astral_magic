@@ -1,0 +1,375 @@
+{
+ "abilities": [
+  {
+   "index": 0,
+   "key": "Air_Burst_Charge",
+   "motif": "a compressed orb of charged air throwing chained lightning arcs outward, pale cyan and white"
+  },
+  {
+   "index": 1,
+   "key": "Air_Cyclone_Burst",
+   "motif": "a tight mini cyclone funnel ringed with rapid lightning flickers"
+  },
+  {
+   "index": 2,
+   "key": "shatterfrost_surge_trigger",
+   "motif": "a swarm of tiny ice-blue sparks tearing out of a rift in the dark"
+  },
+  {
+   "index": 3,
+   "key": "Astral_Collapse",
+   "motif": "a wide cone of devastating astral frost blasting outward, a collapsing star and flying ice shards"
+  },
+  {
+   "index": 4,
+   "key": "Astral_Crystal_Cage",
+   "motif": "a ring of tall thorned pink and violet crystal spikes caging a glowing core"
+  },
+  {
+   "index": 5,
+   "key": "Astral_Discharge",
+   "motif": "a ring of fatigue sparks bursting outward and dissolving, a long exhale of cold light"
+  },
+  {
+   "index": 6,
+   "key": "Astral_Frost_Aura",
+   "motif": "a cold snowflake field ring of light around a small floating wisp"
+  },
+  {
+   "index": 7,
+   "key": "frost_charge",
+   "motif": "a frosty charged projectile leaving a wisp and chaining arrows of ice between targets"
+  },
+  {
+   "index": 8,
+   "key": "Astral_Frostline",
+   "motif": "a narrow cone of astral frost with crystalline rime lines piercing straight outward"
+  },
+  {
+   "index": 9,
+   "key": "Astral_Mantle",
+   "motif": "a dense shimmering mantle of astral force wrapped like a cloak with a frosted rim"
+  },
+  {
+   "index": 10,
+   "key": "Astral_Overdrawn",
+   "motif": "a cracked overloaded star leaking light, strain fractures, a dim warning haze"
+  },
+  {
+   "index": 11,
+   "key": "Astral_Recrystallization",
+   "motif": "a dormant crystal wisp reigniting, light blooming from a crystal heart"
+  },
+  {
+   "index": 12,
+   "key": "riftchain",
+   "motif": "a spectral chain of glowing links lashing in a straight line through a rift"
+  },
+  {
+   "index": 13,
+   "key": "Astral_Soul_Rend",
+   "motif": "a tear in the astral with ghostly chains seizing several minds, mind-control tendrils"
+  },
+  {
+   "index": 14,
+   "key": "Astral_Windstorm_Barrier",
+   "motif": "a swirling astral windstorm barrier ring deflecting arrows, wind and frost"
+  },
+  {
+   "index": 15,
+   "key": "Astral_Wisp_Ambush",
+   "motif": "a timid wisp darting forward in a quick frost-charged streak with a fading afterimage"
+  },
+  {
+   "index": 16,
+   "key": "Backlash_Surge",
+   "motif": "a corruption shockwave erupting from an overloaded rune, jagged dark purple rings"
+  },
+  {
+   "index": 17,
+   "key": "Corruption_Burst",
+   "motif": "a small square burst of dark violet corruption with black veins and a disorienting swirl"
+  },
+  {
+   "index": 18,
+   "key": "Frosty_Trigger",
+   "motif": "a brief pulse of frost lashing out and turning into layered frostburn rings"
+  },
+  {
+   "index": 19,
+   "key": "MiniCyclone",
+   "motif": "a compact cyclone with a bright eye striking the target and the tiles beside it"
+  },
+  {
+   "index": 20,
+   "key": "Rupture_Spark_Chain",
+   "motif": "a shatterfrost spark rushing between foes leaving ice-blue arcs, a rebound"
+  },
+  {
+   "index": 21,
+   "key": "Rupture_Spark_Trigger",
+   "motif": "an icy frost pulse converting into stacked sparks pouring into a funnel"
+  },
+  {
+   "index": 22,
+   "key": "Shatterfrost_Collapse",
+   "motif": "a volatile frost burst imploding inward, ice shards pulled toward a spark"
+  },
+  {
+   "index": 23,
+   "key": "Shatterfrost_Surge",
+   "motif": "a flood of many tiny frost sparks torn out of the astral"
+  },
+  {
+   "index": 24,
+   "key": "Stamina_Burning_Light_Trigger",
+   "motif": "a small white-gold flame of burning light consuming a ring of stamina"
+  },
+  {
+   "index": 25,
+   "key": "Summon_Astral_Wisp_Swarm",
+   "motif": "a burst of light releasing a swarm of small glowing wisps"
+  },
+  {
+   "index": 26,
+   "key": "Wisp_Powered_Swap",
+   "motif": "a panicked wisp phasing two silhouettes into each other's place, splitting into fragments"
+  }
+ ],
+ "passives": [
+  {
+   "index": 0,
+   "key": "astral_analysis",
+   "motif": "an eye of star-sight reading a target with fine analysis glyph lines"
+  },
+  {
+   "index": 1,
+   "key": "astral_acuity",
+   "motif": "a crystalline frost needle converting a flash of damage into frostbite"
+  },
+  {
+   "index": 2,
+   "key": "astral_recovery",
+   "motif": "a glowing fountain of light refilling a well of stamina"
+  },
+  {
+   "index": 3,
+   "key": "astral_resonance",
+   "motif": "two tuning rings resonating together with parry sparks"
+  },
+  {
+   "index": 4,
+   "key": "astral_rupture",
+   "motif": "a frost spark swarm tearing out of a rift"
+  },
+  {
+   "index": 5,
+   "key": "cold_reclamation",
+   "motif": "a frozen skull releasing returning motes of light"
+  },
+  {
+   "index": 6,
+   "key": "astral_glide",
+   "motif": "a boot leaving a smooth trail of gliding astral light"
+  },
+  {
+   "index": 7,
+   "key": "astral_momentum",
+   "motif": "a swift streaking comet with wind lines"
+  },
+  {
+   "index": 8,
+   "key": "Astral_Echo",
+   "motif": "a rune repeating itself in a fading echo of ghost copies"
+  },
+  {
+   "index": 9,
+   "key": "Astral_Command_Nexus",
+   "motif": "a nexus of linked orbs on a many-armed star web with chains"
+  },
+  {
+   "index": 10,
+   "key": "Astral_Command",
+   "motif": "a crowned authority sigil above a small obedient wisp companion"
+  },
+  {
+   "index": 11,
+   "key": "Astral_Insight",
+   "motif": "an open third eye above a constellation map"
+  },
+  {
+   "index": 12,
+   "key": "empowered_shatterfrost",
+   "motif": "a larger, brighter shatterfrost shard crowned with sparks"
+  },
+  {
+   "index": 13,
+   "key": "Astral_Perception",
+   "motif": "a hand sensing ripples of nearby magic radiating outward"
+  },
+  {
+   "index": 14,
+   "key": "Civilized_Storm_Elemental_Crafting",
+   "motif": "a small storm cloud figure bound by a violet crafting ring"
+  },
+  {
+   "index": 15,
+   "key": "Civil_Animated_Mannequin_Crafting",
+   "motif": "a little animated mannequin held up by a violet crafting thread"
+  },
+  {
+   "index": 16,
+   "key": "Civilized_Air_Elemental_Crafting",
+   "motif": "a humanoid mass of swirling wind bound by a crafting ring"
+  },
+  {
+   "index": 17,
+   "key": "Civilized_Animated_Armor_Crafting",
+   "motif": "a floating suit of armor with a pale astral glow inside"
+  },
+  {
+   "index": 18,
+   "key": "Civilized_Fire_Elemental_Crafting",
+   "motif": "a humanoid mass of flame bound by a crafting ring"
+  },
+  {
+   "index": 19,
+   "key": "Civilized_Earth_Elemental_Crafting",
+   "motif": "a jagged stone golem bound by a crafting ring"
+  },
+  {
+   "index": 20,
+   "key": "Wild_Friendly_Astral_Wisp_Crafting",
+   "motif": "a friendly smiling wisp resting over a pink crystal"
+  },
+  {
+   "index": 21,
+   "key": "Civilized_Pixie_Crafting",
+   "motif": "a tiny winged pixie with butterfly wings holding a crafting thread"
+  },
+  {
+   "index": 22,
+   "key": "mastery",
+   "motif": "a crowned astral star surrounded by a full ring of small stars"
+  }
+ ],
+ "amplifiers": [
+  {
+   "index": 0,
+   "key": "astral_backstep",
+   "motif": "a footstep being pulled backward along displacement trails"
+  },
+  {
+   "index": 1,
+   "key": "Challenger_1",
+   "motif": "a dangerous astral flare with an enemy focus mark, a single fang"
+  },
+  {
+   "index": 2,
+   "key": "Challenger_2",
+   "motif": "a dangerous astral flare with an enemy focus mark, a double fang, fiercer"
+  },
+  {
+   "index": 3,
+   "key": "Amplifier_Charge",
+   "motif": "one bold arrow charging forward a single tile"
+  },
+  {
+   "index": 4,
+   "key": "Amplifier_Charge_5",
+   "motif": "five stacked chevrons charging far forward"
+  },
+  {
+   "index": 5,
+   "key": "Amplifier_Sidestep",
+   "motif": "a ghosted figure shifting sideways one tile, one afterimage"
+  },
+  {
+   "index": 6,
+   "key": "Amplifier_Sidestep_2",
+   "motif": "a ghosted figure shifting sideways two tiles, two afterimages"
+  },
+  {
+   "index": 7,
+   "key": "Amplifier_Sidestep_3",
+   "motif": "a ghosted figure shifting sideways three tiles, three afterimages"
+  },
+  {
+   "index": 8,
+   "key": "Amplifier_Sidestep_4",
+   "motif": "a ghosted figure shifting sideways four tiles, four afterimages"
+  },
+  {
+   "index": 9,
+   "key": "Amplifier_Burning_Light",
+   "motif": "a small astral light burning on a target, a lit flame mark"
+  },
+  {
+   "index": 10,
+   "key": "Amplifier_Burn_Stamina_5",
+   "motif": "five cracked stamina embers burning away"
+  },
+  {
+   "index": 11,
+   "key": "arendeth_astral_echo",
+   "motif": "a second weapon swing as a ghost echo of the first"
+  },
+  {
+   "index": 12,
+   "key": "Frostbite_Convergence",
+   "motif": "frost lines converging into a volatile spike surge"
+  },
+  {
+   "index": 13,
+   "key": "Frostburn_Nova_Amplifier",
+   "motif": "a frostburn star detonating as a pale nova"
+  },
+  {
+   "index": 14,
+   "key": "Astral_AoE_Expansion",
+   "motif": "a widened ring of geometric lines expanding outward"
+  },
+  {
+   "index": 15,
+   "key": "Astral_Clarity_Surge",
+   "motif": "a clear crystal lens with a fast clockwork ripple"
+  },
+  {
+   "index": 16,
+   "key": "Astral_Overdrawn",
+   "motif": "two overlapping cracked stars striking twice"
+  },
+  {
+   "index": 17,
+   "key": "Astral_Tempo_Break",
+   "motif": "a shattered hourglass releasing time shards"
+  }
+ ],
+ "stackers": [
+  {
+   "index": 0,
+   "key": "arendeth_astral_astral_fatigue",
+   "motif": "a stack of heavy glowing orbs sinking, a tired star"
+  },
+  {
+   "index": 1,
+   "key": "frostburn",
+   "motif": "layered flames of cold blue-white frost fire"
+  },
+  {
+   "index": 2,
+   "key": "astral_wisp_rupture_sparks_stacks",
+   "motif": "a tall column of stacked tiny sparks"
+  },
+  {
+   "index": 3,
+   "key": "Frosty_Trigger_Stacker",
+   "motif": "a frost target ring with a single pulse on it"
+  },
+  {
+   "index": 4,
+   "key": "arendeth_corruption",
+   "motif": "creeping dark violet corruption tendrils over a dim star"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 0.25,
+		"power": 2,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_shatterfrost_collapse_fx",
+	"ignore_roof": false,
+	"name": "Shatterfrost Collapse FX",
+	"particles": [
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1433
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1265
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 736
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1033
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 814
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 8,
+			"life": 200.0,
+			"tile_id": 1299
+		}
+	],
+	"sound": {
+		"id": "66",
+		"volume": 100
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 0.25,
+		"power": 2,
+		"type": 1
+	},
+	"chain_particles": true,
+	"id": "arendeth_astral_magic_astral_frost_charge_fx",
+	"ignore_roof": true,
+	"name": "Astral Frost Charge FX",
+	"particles": [
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 150.0,
+			"tile_id": 741
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 1394
+		},
+		{
+			"color": [
+				[
+					150,
+					225,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 100.0,
+			"tile_id": 513
+		},
+		{
+			"color": [
+				[
+					235,
+					242,
+					255,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 150.0,
+			"tile_id": 1026
+		}
+	],
+	"sound": {
+		"id": "90",
+		"volume": 100
+	}
+}

@@ -1,5 +1,5 @@
 {
-	"animation": "core_2_Soul_Rend",
+	"animation": "arendeth_astral_magic_astral_recrystallization_fx",
 	"cast_time": 1.0,
 	"cooldown": 130.0,
 	"cost": {
@@ -18,7 +18,7 @@
 		"summon": "arendeth_astral_magic_astral_wisp"
 	},
 	"id": "arendeth_astral_magic_Astral_Recrystallization",
-	"image": 0,
+	"image": 11,
 	"name": "Astral Recrystallization",
 	"range": 0,
 	"skill": "arendeth_astral_magic",
