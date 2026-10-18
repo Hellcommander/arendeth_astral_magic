@@ -1,15 +1,14 @@
 {
 	"author": "Arendeth",
 	"description": "A complete astral-themed magic focused on constructs, chain corruption, frost manipulation, and astral crafting.",
+	"game_required": "0.5.4",
 	"icon": "icon.png",
-	"id": "arendeth_astral_magic",
 	"mods_required": [
 		"core_2"
 	],
+	"id": "arendeth_astral_magic",
 	"name": "Astral Magic",
-	"steam_publish_id": 3821941586,
+	"steam_publish_id": 3821982372,
 	"thumbnail": "thumbnail.png",
-	"type": "mod",
-	"version": "0.1.0",
-	"version_name": "Astral Magic Experimental"
+	"version": "1.0.0"
 }
