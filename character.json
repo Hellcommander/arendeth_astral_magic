@@ -12,29 +12,35 @@
             "failure_message": "[{}%] You were unable to tame {}, it becomes enraged!"
 		}
 	],
-	
-	"magical_being": {
-		"names": {
-			"lifespan": 1200,
-			"female": "npc/names/magical_being_female.txt",
-			"male": "npc/names/magical_being_male.txt",
-			"settlements": "npc/settlements/magical_being_settlements.json",
-			"states": "npc/states/magical_being.json",
-			"surnames": "npc/surnames/magical_being.json"
-		}
-	},
-	
-	"tags": [
-		{
-			"id": "Shatterfrost_Spark",
-			"name": "Shatterfrost Spark",
-			"options": [
-				"ritual_birth",
-				"immune_to_fear",
-				"immune_to_control",
-				"crime_exempt",
-				"no_fatigue"
-			]
-		}
-	]
-}
+	{ 
+		"races": [ 
+			{
+				{
+					"magical_being": {
+						"names": {
+							"lifespan": 1200,
+							"female": "npc/names/magical_being_female.txt",
+							"male": "npc/names/magical_being_male.txt",
+							"settlements": "npc/settlements/magical_being_settlements.json",
+							"states": "npc/states/magical_being.json",
+							"surnames": "npc/surnames/magical_being.json"
+						}
+					}
+				}
+			}
+		},
+		"tags": [
+			{
+				"id": "Shatterfrost_Spark",
+				"name": "Shatterfrost Spark",
+				"options": [
+					"ritual_birth",
+					"immune_to_fear",
+					"immune_to_control",
+					"crime_exempt",
+					"no_fatigue"
+				]
+			}
+		]
+	}
+		
