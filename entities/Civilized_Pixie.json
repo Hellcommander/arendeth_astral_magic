@@ -105,7 +105,7 @@
 	},
 	"health": 115,
 	"humanoid": {
-		"race": "34"
+		"race": "arendeth_astral_civ_fae"
 	},
 	"id": "arendeth_astral_magic_Civilized_Pixie",
 	"minimap_pixel": [

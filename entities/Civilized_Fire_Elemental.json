@@ -79,7 +79,7 @@
 	},
 	"health": 410,
 	"humanoid": {
-		"race": "34"
+		"race": "arendeth_astral_fire_elementals"
 	},
 	"id": "arendeth_astral_magic_Civilized_Fire_Elemental",
 	"light_source": {

@@ -82,7 +82,7 @@
 	},
 	"health": 1200,
 	"humanoid": {
-		"race": "34"
+		"race": "arendeth_Civ_Animated_Items"
 	},
 	"id": "arendeth_astral_magic_Civil_Animated_Mannequin",
 	"minimap_pixel": [

@@ -84,7 +84,7 @@
 	},
 	"health": 500,
 	"humanoid": {
-		"race": "34"
+		"race": "arendeth_astral_earth_elementals"
 	},
 	"id": "arendeth_astral_magic_Civilized_Earth_Elemental",
 	"minimap_pixel": [

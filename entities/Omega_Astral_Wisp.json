@@ -128,7 +128,7 @@
 	},
 	"health": 400,
 	"humanoid": {
-		"race": "34"
+		"race": "arendeth_astral_wisp_race"
 	},
 	"id": "arendeth_astral_magic_Omega_Astral_Wisp",
 	"light_source": {

@@ -1,46 +1,429 @@
 {
-    "control_actions": [
-        {
-            "id": "arendeth_tame_magic",
-            "name": "Tame Magical Creature",
-            "description": "Use your willpower to attempt taming a magical creature. This action requires an empty companion slot and takes 2 turns.",
-            "image": 0,
-            "tags": ["3"],
-            "success_animation": "core_2_Tame_animal",
-            "success_message": "{} becomes your new companion!",
-            "failure_ability": "12",
-            "failure_message": "[{}%] You were unable to tame {}, it becomes enraged!"
+	"control_actions": [
+		{
+			"id": "arendeth_tame_magic",
+			"name": "Tame Magical Creature",
+			"description": "Use your willpower to attempt taming a magical creature. This action requires an empty companion slot and takes 2 turns.",
+			"image": 1,
+			"tags": ["3"],
+			"success_animation": "core_2_Take_Control",
+			"success_message": "{} becomes your new companion!",
+			"failure_ability": "",
+			"failure_message": "[{}%] You were unable to take control of {} beware of possible backlash."
 		}
 	],
-	{ 
-		"races": [ 
-			{
-				{
-					"magical_being": {
-						"names": {
-							"lifespan": 1200,
-							"female": "npc/names/magical_being_female.txt",
-							"male": "npc/names/magical_being_male.txt",
-							"settlements": "npc/settlements/magical_being_settlements.json",
-							"states": "npc/states/magical_being.json",
-							"surnames": "npc/surnames/magical_being.json"
-						}
-					}
-				}
-			}
+	"races": [ 
+		{
+			"ages": {
+				"adult": 25,
+				"child": 1,
+				"elder": 1200
+			},
+			"description": "",
+			"id": "arendeth_astral_air_elementals",
+			"image": 47,
+			"items": [],
+			"name": "Air Elementals",
+			"names": {
+				"female": "npc/names/magical_being_female.txt",
+				"male": "npc/names/magical_being_male.txt",
+				"settlements": "npc/settlements/magical_being_settlements.json",
+				"states": "npc/states/magical_being.json",
+				"surnames": "npc/surnames/magical_being.json"
+			},
+			"base_entities": {
+				"adult": "arendeth_astral_magic_Civilized_Air_Elemental",
+				"adventurer": "arendeth_astral_magic_Civilized_Air_Elemental",
+				"child": "arendeth_astral_magic_Civilized_Air_Elemental",
+				"leader": "arendeth_astral_magic_Civilized_Air_Elemental",
+				"rebel": "arendeth_astral_magic_Civilized_Air_Elemental",
+				"recruit": "arendeth_astral_magic_Civilized_Air_Elemental"
+			},
+			"orphan_surname": "of the Air",
+			"passives": [
+			],
+			"playable": false,
+			"recipes": [],
+			"settlement": {
+				"aggression_default": false,
+				"birth_cost": {
+					"amount": 40,
+					"max_population": 100,
+					"resource_type": 6
+				},
+				"buyout": false,
+				"caravan_image": 134,
+				"center_id": "204",
+				"collapse_on_leader_death": false,
+				"disabled_trading": false,
+				"max": 1,
+				"migration": false,
+				"single_family": true,
+				"start_spawn_rate": 0.0,
+				"war_causes": []
+			},
+			"statistics": {
+				"endurance": 2,
+				"strength": 2
+			},
+			"tags": [
+				"3"
+			]
+		},
+	{
+		"ages": {
+			"adult": 25,
+			"child": 1,
+			"elder": 1200
+		},
+		"description": "",
+		"id": "arendeth_astral_civ_fae",
+		"image": 47,
+		"items": [],
+		"name": "Fae",
+		"names": {
+			"female": "npc/names/magical_being_female.txt",
+			"male": "npc/names/magical_being_male.txt",
+			"settlements": "npc/settlements/magical_being_settlements.json",
+			"states": "npc/states/magical_being.json",
+			"surnames": "npc/surnames/magical_being.json"
+		},
+		"base_entities": {
+			"adult": "arendeth_astral_magic_Civilized_Pixie",
+			"adventurer": "arendeth_astral_magic_Civilized_Pixie",
+			"child": "arendeth_astral_magic_Civilized_Pixie",
+			"leader": "arendeth_astral_magic_Civilized_Pixie",
+			"rebel": "arendeth_astral_magic_Civilized_Pixie",
+			"recruit": "arendeth_astral_magic_Civilized_Pixie"
+		},
+		"orphan_surname": "of the Fae",
+		"passives": [
+		],
+		"playable": false,
+		"recipes": [],
+		"settlement": {
+			"aggression_default": false,
+			"birth_cost": {
+				"amount": 40,
+				"max_population": 100,
+				"resource_type": 6
+			},
+			"buyout": false,
+			"caravan_image": 134,
+			"center_id": "204",
+			"collapse_on_leader_death": false,
+			"disabled_trading": false,
+			"max": 1,
+			"migration": false,
+			"single_family": true,
+			"start_spawn_rate": 0.0,
+			"war_causes": []
+		},
+		"statistics": {
+			"endurance": 2,
+			"strength": 2
 		},
 		"tags": [
-			{
-				"id": "Shatterfrost_Spark",
-				"name": "Shatterfrost Spark",
-				"options": [
-					"ritual_birth",
-					"immune_to_fear",
-					"immune_to_control",
-					"crime_exempt",
-					"no_fatigue"
-				]
-			}
-		]
-	}
-		
+			"3"
+			]
+		},
+	{
+			"ages": {
+				"adult": 25,
+				"child": 1,
+				"elder": 1200
+			},
+			"description": "",
+			"id": "arendeth_astral_storm_elementals",
+			"image": 47,
+			"items": [],
+			"name": "Storm Elementals",
+			"names": {
+				"female": "npc/names/magical_being_female.txt",
+				"male": "npc/names/magical_being_male.txt",
+				"settlements": "npc/settlements/magical_being_settlements.json",
+				"states": "npc/states/magical_being.json",
+				"surnames": "npc/surnames/magical_being.json"
+			},
+			"base_entities": {
+				"adult": "arendeth_astral_magic_Civilized_Storm_Elemental",
+			"adventurer": "arendeth_astral_magic_Civilized_Storm_Elemental",
+			"child": "arendeth_astral_magic_Civilized_Storm_Elemental",
+			"leader": "arendeth_astral_magic_Civilized_Storm_Elemental",
+			"rebel": "arendeth_astral_magic_Civilized_Storm_Elemental",
+			"recruit": "arendeth_astral_magic_Civilized_Storm_Elemental"
+		},
+		"orphan_surname": "of the Storm",
+		"passives": [
+		],
+		"playable": false,
+		"recipes": [],
+		"settlement": {
+			"aggression_default": false,
+			"birth_cost": {
+				"amount": 40,
+				"max_population": 100,
+				"resource_type": 6
+			},
+			"buyout": false,
+			"caravan_image": 134,
+			"center_id": "204",
+			"collapse_on_leader_death": false,
+			"disabled_trading": false,
+			"max": 1,
+			"migration": false,
+			"single_family": true,
+			"start_spawn_rate": 0.0,
+			"war_causes": []
+		},
+		"statistics": {
+			"endurance": 2,
+			"strength": 2
+		},
+			"tags": [
+					"3"
+			]
+		},
+		{
+			"ages": {
+				"adult": 25,
+				"child": 1,
+				"elder": 1200
+			},
+			"description": "",
+			"id": "arendeth_astral_earth_elementals",
+			"image": 47,
+			"items": [],
+			"name": "Earth Elementals",
+			"names": {
+				"female": "npc/names/magical_being_female.txt",
+				"male": "npc/names/magical_being_male.txt",
+				"settlements": "npc/settlements/magical_being_settlements.json",
+				"states": "npc/states/magical_being.json",
+				"surnames": "npc/surnames/magical_being.json"
+			},
+			"base_entities": {
+				"adult": "arendeth_astral_magic_Civilized_Earth_Elemental",
+				"adventurer": "arendeth_astral_magic_Civilized_Earth_Elemental",
+				"child": "arendeth_astral_magic_Civilized_Earth_Elemental",
+				"leader": "arendeth_astral_magic_Civilized_Earth_Elemental",
+				"rebel": "arendeth_astral_magic_Civilized_Earth_Elemental",
+				"recruit": "arendeth_astral_magic_Civilized_Earth_Elemental"
+			},
+			"orphan_surname": "of the Earth",
+			"passives": [
+			],
+			"playable": false,
+			"recipes": [],
+			"settlement": {
+			"aggression_default": false,
+			"birth_cost": {
+				"amount": 40,
+				"max_population": 100,
+				"resource_type": 6
+			},
+			"buyout": false,
+			"caravan_image": 134,
+			"center_id": "204",
+			"collapse_on_leader_death": false,
+			"disabled_trading": false,
+			"max": 1,
+			"migration": false,
+			"single_family": true,
+			"start_spawn_rate": 0.0,
+			"war_causes": []
+		},
+			"statistics": {
+				"endurance": 2,
+				"strength": 2
+				},
+			"tags": [
+				"3"
+			]
+		},
+		{
+			"ages": {
+				"adult": 25,
+				"child": 1,
+				"elder": 1200
+			},
+			"description": "",
+			"id": "arendeth_astral_fire_elementals",
+			"image": 47,
+			"items": [],
+			"name": "Earth Elementals",
+			"names": {
+				"female": "npc/names/magical_being_female.txt",
+				"male": "npc/names/magical_being_male.txt",
+				"settlements": "npc/settlements/magical_being_settlements.json",
+				"states": "npc/states/magical_being.json",
+				"surnames": "npc/surnames/magical_being.json"
+			},
+			"base_entities": {
+				"adult": "arendeth_astral_magic_Civilized_Fire_Elemental",
+				"adventurer": "arendeth_astral_magic_Civilized_Fire_Elemental",
+				"child": "arendeth_astral_magic_Civilized_Fire_Elemental",
+				"leader": "arendeth_astral_magic_Civilized_Fire_Elemental",
+			"rebel": "arendeth_astral_magic_Civilized_Fire_Elemental",
+			"recruit": "arendeth_astral_magic_Civilized_Fire_Elemental"
+			},
+			"orphan_surname": "of the Fire",
+			"passives": [
+			],
+			"playable": false,
+			"recipes": [],
+			"settlement": {
+				"aggression_default": false,
+				"birth_cost": {
+					"amount": 40,
+					"max_population": 100,
+					"resource_type": 6
+				},
+				"buyout": false,
+				"caravan_image": 134,
+				"center_id": "204",
+				"collapse_on_leader_death": false,
+				"disabled_trading": false,
+			"max": 1,
+			"migration": false,
+			"single_family": true,
+			"start_spawn_rate": 0.0,
+			"war_causes": []
+			},
+			"statistics": {
+				"endurance": 2,
+				"strength": 2
+			},
+			"tags": [
+				"3"
+			]
+		},
+		{
+			"ages": {
+				"adult": 25,
+				"child": 1,
+				"elder": 1200
+		},
+			"description": "",
+			"id": "arendeth_astral_wisp_race",
+			"image": 47,
+			"items": [],
+			"name": "Astral Wisps",
+			"names": {
+				"female": "npc/names/magical_being_female.txt",
+				"male": "npc/names/magical_being_male.txt",
+				"settlements": "npc/settlements/magical_being_settlements.json",
+				"states": "npc/states/magical_being.json",
+				"surnames": "npc/surnames/magical_being.json"
+			},
+			"base_entities": {
+				"adult": "arendeth_astral_magic_Wild_Friendly_Astral_Wisp",
+				"adventurer": "arendeth_astral_magic_Omega_Astral_Wisp",
+				"child": "arendeth_astral_magic_Wild_Friendly_Astral_Wisp",
+				"leader": "arendeth_astral_magic_Omega_Astral_Wisp",
+				"rebel": "arendeth_astral_magic_Omega_Astral_Wisp",
+				"recruit": "arendeth_astral_magic_Wild_Friendly_Astral_Wisp"
+			},
+			"orphan_surname": "of the Magic",
+			"passives": [
+			],
+			"playable": false,
+			"recipes": [],
+			"settlement": {
+				"aggression_default": false,
+				"birth_cost": {
+				"amount": 40,
+				"max_population": 100,
+				"resource_type": 6
+			},
+			"buyout": false,
+			"caravan_image": 134,
+			"center_id": "204",
+			"collapse_on_leader_death": false,
+			"disabled_trading": false,
+			"max": 1,
+			"migration": false,
+			"single_family": true,
+			"start_spawn_rate": 0.0,
+			"war_causes": []
+			},
+			"statistics": {
+				"endurance": 2,
+				"strength": 2
+			},
+			"tags": [
+				"3"
+			]
+		},
+		{
+			"ages": {
+				"adult": 25,
+				"child": 1,
+				"elder": 1200
+			},
+			"description": "",
+			"id": "arendeth_Civ_Animated_Items",
+			"image": 47,
+			"items": [],
+			"name": "Animated Items",
+			"names": {
+			"female": "npc/names/magical_being_female.txt",
+			"male": "npc/names/magical_being_male.txt",
+			"settlements": "npc/settlements/magical_being_settlements.json",
+			"states": "npc/states/magical_being.json",
+			"surnames": "npc/surnames/magical_being.json"
+		},
+			"base_entities": {
+				"adult": "arendeth_astral_magic_Civilized_Animated_Armor",
+				"adventurer": "arendeth_astral_magic_Civilized_Animated_Armor",
+				"child": "arendeth_astral_magic_Civilized_Animated_Armor",
+				"leader": "arendeth_astral_magic_Civilized_Animated_Armor",
+				"rebel": "arendeth_astral_magic_Civilized_Animated_Armor",
+				"recruit": "arendeth_astral_magic_Civilized_Animated_Armor"
+			},
+			"orphan_surname": "of the Magic Items",
+			"passives": [
+			],
+			"playable": false,
+			"recipes": [],
+			"settlement": {
+				"aggression_default": false,
+				"birth_cost": {
+					"amount": 40,
+					"max_population": 100,
+					"resource_type": 6
+			},
+				"buyout": false,
+				"caravan_image": 134,
+				"center_id": "204",
+				"collapse_on_leader_death": false,
+				"disabled_trading": false,
+				"max": 1,
+				"migration": false,
+				"single_family": true,
+				"start_spawn_rate": 0.0,
+				"war_causes": []
+			},
+			"statistics": {
+				"endurance": 2,
+				"strength": 2
+			},
+			"tags": [
+				"3"
+			]
+		}
+	],
+	"tags": [
+		{
+			"id": "Shatterfrost_Spark",
+			"name": "Shatterfrost Spark",
+			"options": [
+				"ritual_birth",
+				"immune_to_fear",
+				"immune_to_control",
+				"crime_exempt",
+				"no_fatigue"
+			]
+		}
+	]
+}

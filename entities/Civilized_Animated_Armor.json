@@ -170,7 +170,7 @@
 	},
 	"health": 400,
 	"humanoid": {
-		"race": "34"
+		"race": "arendeth_Civ_Animated_Items"
 	},
 	"id": "arendeth_astral_magic_Civilized_Animated_Armor",
 	"minimap_pixel": [
