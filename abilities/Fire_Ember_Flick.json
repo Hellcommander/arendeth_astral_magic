@@ -1,0 +1,25 @@
+{
+	"animation": "38",
+	"cast_time": 1.0,
+	"cooldown": 2.0,
+	"cost": {
+		"health": 0,
+		"stamina": 2
+	},
+	"description": "Flick a small ember at a target dealing ::damage ::damage_type damage.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			3,
+			6
+		],
+		"damage_type": "fire",
+		"magic_power_damage": 0.5
+	},
+	"id": "arendeth_astral_magic_Fire_Ember_Flick",
+	"image": 24,
+	"name": "Ember Flick",
+	"range": 5,
+	"skill": "",
+	"target": "line"
+}

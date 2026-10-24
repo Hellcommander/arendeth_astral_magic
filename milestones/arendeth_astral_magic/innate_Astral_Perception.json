@@ -1,0 +1,14 @@
+{
+	"id": "arendeth_astral_magic_Astral_Perception",
+	"innate": true,
+	"name": "Astral Perception",
+	"requirements": {},
+	"rewards": [
+		{
+			"passive": "arendeth_astral_magic_Astral_Perception"
+		}
+	],
+	"skill_id": "",
+	"steps": [],
+	"steps_type": 0
+}

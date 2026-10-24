@@ -1,0 +1,14 @@
+{
+	"id": "arendeth_astral_magic_Fire_Elemental_Nature",
+	"innate": true,
+	"name": "Living Flame",
+	"requirements": {},
+	"rewards": [
+		{
+			"passive": "arendeth_astral_magic_Fire_Elemental_Nature"
+		}
+	],
+	"skill_id": "",
+	"steps": [],
+	"steps_type": 0
+}

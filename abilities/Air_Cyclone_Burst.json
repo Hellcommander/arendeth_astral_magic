@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 5
 	},
-	"description": "Deal ::damage ::damage_type damage Unleashes a compressed mini cyclone that strikes the target with rapid, low-intensity lightning impacts.",
+	"description": "Unleash a crackling mini cyclone that deals ::damage ::damage_type damage, knocks the target back ::knockback tiles and stuns for ::stun turns.",
 	"duration": 0.0,
 	"effects": {
 		"ability_can_crit": 1,
@@ -23,7 +23,7 @@
 	},
 	"id": "arendeth_astral_magic_Air_Cyclone_Burst",
 	"image": 1,
-	"name": "Air Cyclone Burst",
+	"name": "Storm Cyclone Burst",
 	"range": 7,
 	"skill": "",
 	"target": "health"

@@ -1,19 +1,31 @@
 {
 	"id": "astral_magic_hall",
 	"image": 39,
+	"enables": [
+		"arendeth_astral_magic"
+	],
 	"max": 1,
-	"name": "Astral Laboratory",
+	"name": "Astral Magic Hall",
 	"occupation_image": 74,
 	"occupation": "arendeth_astral_magic_Astral_Adept",
 	"race": "-1",
 	"tier": 3,
+	"produces": [
+		{
+			"entities": [
+				{
+					"daily": 0.2,
+					"id": "arendeth_astral_magic_book_of_astral_magic"
+				}
+			],
+			"takes": "craftable"
+		}
+	],
 	"workers": [
 		1,
 		6
 	],
 	"allow_player": true,
-	"min_area": 30,
-	"group": "military",
 	"type": "military",
 	"occupation_per_race": {
 		"2": "arendeth_astral_magic_Astral_Adept",

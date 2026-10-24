@@ -1,0 +1,72 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"light_source",
+		"name",
+		"position_2d",
+		"tags",
+		"value",
+		"weight"
+	],
+	"corpse": [],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 0,
+		"resource_types": [],
+		"resources": [
+			{
+				"amount": 1,
+				"id": "166"
+			},
+			{
+				"amount": 1,
+				"id": "169"
+			},
+			{
+				"amount": 1,
+				"id": "439"
+			},
+			{
+				"amount": 1,
+				"id": "arendeth_astral_magic_Crystalized_Astral_Wisp"
+			}
+		],
+		"time": 60,
+		"tools": [
+			15
+		]
+	},
+	"description": "a Breastplate, a Helmet and Greaves, strapped together around a Crystalized Astral Wisp. Used to awaken an Animated Armor for your settlement.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					200,
+					200,
+					210
+				],
+				"delay": 0,
+				"index": 11
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_astral_magic_Astral_Bound_Iron_Armor",
+	"item": {
+		"image": 1,
+		"type": 16
+	},
+	"light_source": {
+		"finish": -1,
+		"range": 2
+	},
+	"name": "Astral-Bound Iron Armor",
+	"tags": [
+		"3"
+	],
+	"value": 2000,
+	"weight": 20.0
+}

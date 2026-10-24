@@ -1,0 +1,14 @@
+{
+	"id": "arendeth_astral_magic_Storm_Elemental_Nature",
+	"innate": true,
+	"name": "Living Storm",
+	"requirements": {},
+	"rewards": [
+		{
+			"passive": "arendeth_astral_magic_Storm_Elemental_Nature"
+		}
+	],
+	"skill_id": "",
+	"steps": [],
+	"steps_type": 0
+}

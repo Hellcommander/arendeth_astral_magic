@@ -1,0 +1,72 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"light_source",
+		"name",
+		"position_2d",
+		"tags",
+		"value",
+		"weight"
+	],
+	"corpse": [],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 0,
+		"resource_types": [],
+		"resources": [
+			{
+				"amount": 1,
+				"id": "175"
+			},
+			{
+				"amount": 1,
+				"id": "389"
+			},
+			{
+				"amount": 1,
+				"id": "571"
+			},
+			{
+				"amount": 1,
+				"id": "arendeth_astral_magic_Crystalized_Astral_Wisp"
+			}
+		],
+		"time": 60,
+		"tools": [
+			15
+		]
+	},
+	"description": "Chainmail, a Chainmail Coif and Chainmail Pants, strapped together around a Crystalized Astral Wisp. Used to awaken an Animated Armor for your settlement.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					170,
+					185,
+					200
+				],
+				"delay": 0,
+				"index": 11
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_astral_magic_Astral_Bound_Chain_Armor",
+	"item": {
+		"image": 1,
+		"type": 16
+	},
+	"light_source": {
+		"finish": -1,
+		"range": 2
+	},
+	"name": "Astral-Bound Chainmail Armor",
+	"tags": [
+		"3"
+	],
+	"value": 6500,
+	"weight": 20.0
+}

@@ -1,0 +1,64 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"light_source",
+		"name",
+		"position_2d",
+		"tags",
+		"value",
+		"weight"
+	],
+	"corpse": [],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 0,
+		"resource_types": [],
+		"resources": [
+			{
+				"amount": 1,
+				"id": "arendeth_astral_magic_Crystalized_Astral_Wisp"
+			},
+			{
+				"amount": 1,
+				"id": "2532"
+			}
+		],
+		"time": 40,
+		"tools": [
+			15
+		]
+	},
+	"description": "An astral wisp fused around a water core, charged until it crackles. Used to call a Storm Elemental into your settlement.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					140,
+					170,
+					255
+				],
+				"delay": 0,
+				"index": 8
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_astral_magic_Wisp_Bound_Storm_Core",
+	"item": {
+		"image": 1,
+		"type": 16
+	},
+	"light_source": {
+		"finish": -1,
+		"range": 3
+	},
+	"name": "Wisp-Bound Water Core",
+	"tags": [
+		"3"
+	],
+	"value": 12000,
+	"weight": 0.2
+}

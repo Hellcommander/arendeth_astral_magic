@@ -251,7 +251,7 @@
 			"id": "arendeth_astral_fire_elementals",
 			"image": 47,
 			"items": [],
-			"name": "Earth Elementals",
+			"name": "Fire Elementals",
 			"names": {
 				"female": "npc/names/magical_being_female.txt",
 				"male": "npc/names/magical_being_male.txt",

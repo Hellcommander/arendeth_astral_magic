@@ -331,7 +331,7 @@
 			},
 			{
 				"effect": "stacker",
-				"value": "arendeth_astral_magic_Astral_Overdrawn",
+				"value": "arendeth_astral_astral_fatigue",
 				"secondary_value": 10
 			}
 		],

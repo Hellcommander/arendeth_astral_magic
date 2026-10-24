@@ -1,0 +1,72 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"light_source",
+		"name",
+		"position_2d",
+		"tags",
+		"value",
+		"weight"
+	],
+	"corpse": [],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 0,
+		"resource_types": [],
+		"resources": [
+			{
+				"amount": 1,
+				"id": "398"
+			},
+			{
+				"amount": 1,
+				"id": "393"
+			},
+			{
+				"amount": 1,
+				"id": "452"
+			},
+			{
+				"amount": 1,
+				"id": "arendeth_astral_magic_Crystalized_Astral_Wisp"
+			}
+		],
+		"time": 60,
+		"tools": [
+			15
+		]
+	},
+	"description": "Noble Armor, a Great Helmet and Plate Greaves, strapped together around a Crystalized Astral Wisp. Used to awaken an Animated Armor for your settlement.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					215,
+					140
+				],
+				"delay": 0,
+				"index": 11
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_astral_magic_Astral_Bound_Noble_Armor",
+	"item": {
+		"image": 1,
+		"type": 16
+	},
+	"light_source": {
+		"finish": -1,
+		"range": 2
+	},
+	"name": "Astral-Bound Noble Armor",
+	"tags": [
+		"3"
+	],
+	"value": 16000,
+	"weight": 20.0
+}

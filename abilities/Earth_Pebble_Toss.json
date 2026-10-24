@@ -1,0 +1,25 @@
+{
+	"animation": "core_2_Boulder_Spit",
+	"cast_time": 1.0,
+	"cooldown": 2.0,
+	"cost": {
+		"health": 0,
+		"stamina": 2
+	},
+	"description": "Hurl a chunk of stone at a target dealing ::damage ::damage_type damage.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			3,
+			6
+		],
+		"damage_type": "physical",
+		"damage_weapon": 0.5
+	},
+	"id": "arendeth_astral_magic_Earth_Pebble_Toss",
+	"image": 4,
+	"name": "Pebble Toss",
+	"range": 5,
+	"skill": "",
+	"target": "line"
+}

@@ -8,6 +8,9 @@
   "rewards": [
     {
       "passive": "arendeth_astral_magic_Civilized_Fire_Elemental_Crafting"
+    },
+    {
+      "recipe": "arendeth_astral_magic_Wisp_Bound_Fire_Core"
     }
   ],
   "skill_id": "arendeth_astral_magic",

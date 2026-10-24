@@ -4,7 +4,7 @@
 		"summon_count": 150
 	},
 	"effects_keys": {
-		"summon": "arendeth_astral_magic_astral_wisp_rupture_sparks"
+		"summon": "arendeth_astral_magic_Astral_Wisp_Rupture_Spark"
 	},
 	"id": "arendeth_astral_magic_Shatterfrost_Surge",
 	"image": 23,

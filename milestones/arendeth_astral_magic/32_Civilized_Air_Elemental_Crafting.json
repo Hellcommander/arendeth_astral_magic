@@ -8,6 +8,9 @@
   "rewards": [
     {
       "passive": "arendeth_astral_magic_Civilized_Air_Elemental_Crafting"
+    },
+    {
+      "recipe": "arendeth_astral_magic_Wisp_Bound_Wind_Core"
     }
   ],
   "skill_id": "arendeth_astral_magic",

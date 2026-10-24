@@ -1,5 +1,5 @@
 {
-  "id": "arendeth_astral_magic_Amplifier_Charge",
+  "id": "arendeth_astral_magic_Amplifier_Burning_Light",
   "name": "Astral Burning Light",
   "requirements": {
     "milestones": [],
@@ -7,7 +7,7 @@
   },
   "rewards": [
     {
-      "amplifier": "arendeth_astral_magic_Amplifier_Charge"
+      "amplifier": "arendeth_astral_magic_Amplifier_Burning_Light"
     }
   ],
   "skill_id": "arendeth_astral_magic",

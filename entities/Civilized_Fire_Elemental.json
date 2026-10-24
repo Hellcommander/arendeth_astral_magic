@@ -2,7 +2,8 @@
 	"ability_user": [
 		"66",
 		"core_2_Magma_Spit",
-		"136"
+		"136",
+		"arendeth_astral_magic_Fire_Ember_Flick"
 	],
 	"armor": {
 		"acid": 0,
@@ -107,6 +108,7 @@
 	"skills": {
 		"max_skill": 0,
 		"milestones": [
+			"arendeth_astral_magic_Fire_Elemental_Nature",
 			"core_2_disable_consumption",
 			"core_2_carry_capacity",
 			"core_2_Druid_Rod",

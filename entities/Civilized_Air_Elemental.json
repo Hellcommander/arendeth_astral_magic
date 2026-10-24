@@ -1,7 +1,7 @@
 {
 	"ability_user": [
-		"arendeth_astral_magic_Air_Burst_Charge",
-		"arendeth_astral_magic_Air_Cyclone_Burst"
+		"arendeth_astral_magic_Air_Gale_Thrust",
+		"arendeth_astral_magic_Air_Gust_Cut"
 	],
 	"armor": {
 		"acid": 0,
@@ -121,6 +121,7 @@
 	},
 	"skills": {
 		"milestones": [
+			"arendeth_astral_magic_Air_Elemental_Nature",
 			"core_2_titanium_ingot",
 			"core_2_alchemic_fire",
 			"core_2_antidote_vial",
@@ -202,7 +203,7 @@
 			{
 				"dmg_max": 8,
 				"dmg_min": 2,
-				"dmg_type": "electricity"
+				"dmg_type": "physical"
 			}
 		],
 		"hands": 1,

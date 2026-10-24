@@ -1,0 +1,26 @@
+{
+	"animation": "core_2_Wind_Thrust",
+	"cast_time": 1.0,
+	"cooldown": 12.0,
+	"cost": {
+		"health": 0,
+		"stamina": 8
+	},
+	"description": "Compress the air into a force blast dealing ::damage ::damage_type damage in a long line.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			8,
+			14
+		],
+		"damage_type": "physical",
+		"damage_weapon": 1.2,
+		"pierce": 1
+	},
+	"id": "arendeth_astral_magic_Air_Gale_Thrust",
+	"image": 14,
+	"name": "Gale Thrust",
+	"range": 8,
+	"skill": "",
+	"target": "line"
+}

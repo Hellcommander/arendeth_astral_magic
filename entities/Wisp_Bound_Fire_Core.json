@@ -1,0 +1,64 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"light_source",
+		"name",
+		"position_2d",
+		"tags",
+		"value",
+		"weight"
+	],
+	"corpse": [],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 0,
+		"resource_types": [],
+		"resources": [
+			{
+				"amount": 1,
+				"id": "arendeth_astral_magic_Crystalized_Astral_Wisp"
+			},
+			{
+				"amount": 1,
+				"id": "2531"
+			}
+		],
+		"time": 40,
+		"tools": [
+			15
+		]
+	},
+	"description": "An astral wisp fused around a fire core. Its flame has learned to think. Used to call a Fire Elemental into your settlement.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					150,
+					90
+				],
+				"delay": 0,
+				"index": 8
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_astral_magic_Wisp_Bound_Fire_Core",
+	"item": {
+		"image": 1,
+		"type": 16
+	},
+	"light_source": {
+		"finish": -1,
+		"range": 3
+	},
+	"name": "Wisp-Bound Fire Core",
+	"tags": [
+		"3"
+	],
+	"value": 12000,
+	"weight": 0.2
+}

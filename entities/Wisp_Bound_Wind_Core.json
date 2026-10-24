@@ -1,0 +1,64 @@
+{
+	"components": [
+		"craftable",
+		"glyph",
+		"item",
+		"light_source",
+		"name",
+		"position_2d",
+		"tags",
+		"value",
+		"weight"
+	],
+	"corpse": [],
+	"craftable": {
+		"backgrounds": [],
+		"biomes": [],
+		"magic_slots": 0,
+		"resource_types": [],
+		"resources": [
+			{
+				"amount": 1,
+				"id": "arendeth_astral_magic_Crystalized_Astral_Wisp"
+			},
+			{
+				"amount": 1,
+				"id": "2533"
+			}
+		],
+		"time": 40,
+		"tools": [
+			15
+		]
+	},
+	"description": "An astral wisp fused around a wind core. The breeze inside it has learned to think. Used to call an Air Elemental into your settlement.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					200,
+					235,
+					255
+				],
+				"delay": 0,
+				"index": 8
+			}
+		],
+		"random_frame_start": false
+	},
+	"id": "arendeth_astral_magic_Wisp_Bound_Wind_Core",
+	"item": {
+		"image": 1,
+		"type": 16
+	},
+	"light_source": {
+		"finish": -1,
+		"range": 3
+	},
+	"name": "Wisp-Bound Wind Core",
+	"tags": [
+		"3"
+	],
+	"value": 12000,
+	"weight": 0.2
+}

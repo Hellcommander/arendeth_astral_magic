@@ -261,7 +261,7 @@
 		"description": "Each Shatterfrost Spark adds to your Magic Power."
 	},
 	{
-		"id": "Astral_Perception",
+		"id": "arendeth_astral_magic_Astral_Perception",
 		"name": "Astral Perception",
 		"image": 13,
 		"effects": [
@@ -280,10 +280,10 @@
 			{
 				"effect": "craft_persona",
 				"value": "arendeth_astral_magic_Civilized_Storm_Elemental",
-				"secondary_value": "2532"
+				"secondary_value": "arendeth_astral_magic_Wisp_Bound_Storm_Core"
 			}
 		],
-		"description": "Learn to craft a Storm Elemental persona for your settlement."
+		"description": "Learn to craft a Storm Elemental persona from a Wisp-Bound Water Core."
 	},
 	{
 		"id": "arendeth_astral_magic_Civil_Animated_Mannequin_Crafting",
@@ -306,10 +306,10 @@
 			{
 				"effect": "craft_persona",
 				"value": "arendeth_astral_magic_Civilized_Air_Elemental",
-				"secondary_value": "2533"
+				"secondary_value": "arendeth_astral_magic_Wisp_Bound_Wind_Core"
 			}
 		],
-		"description": "Learn to craft an Air Elemental persona for your settlement."
+		"description": "Learn to craft an Air Elemental persona from a Wisp-Bound Wind Core."
 	},
 	{
 		"id": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting",
@@ -319,10 +319,62 @@
 			{
 				"effect": "craft_persona",
 				"value": "arendeth_astral_magic_Civilized_Animated_Armor",
-				"secondary_value": "398"
+				"secondary_value": "arendeth_astral_magic_Astral_Bound_Noble_Armor"
 			}
 		],
-		"description": "Learn to craft an Animated Armor persona for your settlement."
+		"description": "Learn to craft an Animated Armor persona from Astral-Bound Noble Armor."
+	},
+	{
+		"id": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting_Iron",
+		"name": "Animated Armor Crafting (Iron)",
+		"image": 17,
+		"effects": [
+			{
+				"effect": "craft_persona",
+				"value": "arendeth_astral_magic_Civilized_Animated_Armor",
+				"secondary_value": "arendeth_astral_magic_Astral_Bound_Iron_Armor"
+			}
+		],
+		"description": "Learn to craft an Animated Armor persona from Astral-Bound Iron Armor."
+	},
+	{
+		"id": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting_Chain",
+		"name": "Animated Armor Crafting (Chainmail)",
+		"image": 17,
+		"effects": [
+			{
+				"effect": "craft_persona",
+				"value": "arendeth_astral_magic_Civilized_Animated_Armor",
+				"secondary_value": "arendeth_astral_magic_Astral_Bound_Chain_Armor"
+			}
+		],
+		"description": "Learn to craft an Animated Armor persona from Astral-Bound Chainmail Armor."
+	},
+	{
+		"id": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting_Bone",
+		"name": "Animated Armor Crafting (Bone)",
+		"image": 17,
+		"effects": [
+			{
+				"effect": "craft_persona",
+				"value": "arendeth_astral_magic_Civilized_Animated_Armor",
+				"secondary_value": "arendeth_astral_magic_Astral_Bound_Bone_Armor"
+			}
+		],
+		"description": "Learn to craft an Animated Armor persona from Astral-Bound Bone Armor."
+	},
+	{
+		"id": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting_Scale",
+		"name": "Animated Armor Crafting (Scale)",
+		"image": 17,
+		"effects": [
+			{
+				"effect": "craft_persona",
+				"value": "arendeth_astral_magic_Civilized_Animated_Armor",
+				"secondary_value": "arendeth_astral_magic_Astral_Bound_Scale_Armor"
+			}
+		],
+		"description": "Learn to craft an Animated Armor persona from Astral-Bound Scale Armor."
 	},
 	{
 		"id": "arendeth_astral_magic_Civilized_Fire_Elemental_Crafting",
@@ -332,10 +384,10 @@
 			{
 				"effect": "craft_persona",
 				"value": "arendeth_astral_magic_Civilized_Fire_Elemental",
-				"secondary_value": "2531"
+				"secondary_value": "arendeth_astral_magic_Wisp_Bound_Fire_Core"
 			}
 		],
-		"description": "Learn to craft a Fire Elemental persona for your settlement."
+		"description": "Learn to craft a Fire Elemental persona from a Wisp-Bound Fire Core."
 	},
 	{
 		"id": "arendeth_astral_magic_Civilized_Earth_Elemental_Crafting",
@@ -345,10 +397,10 @@
 			{
 				"effect": "craft_persona",
 				"value": "arendeth_astral_magic_Civilized_Earth_Elemental",
-				"secondary_value": "2534"
+				"secondary_value": "arendeth_astral_magic_Wisp_Bound_Earth_Core"
 			}
 		],
-		"description": "Learn to craft an Earth Elemental persona for your settlement."
+		"description": "Learn to craft an Earth Elemental persona from a Wisp-Bound Earth Core."
 	},
 	{
 		"id": "arendeth_astral_magic_Wild_Friendly_Astral_Wisp_Crafting",
@@ -408,5 +460,58 @@
 			}
 		],
 		"description": "+10% to all attributes. Stacks with other combat-branch masteries."
+	},
+	{
+		"id": "arendeth_astral_magic_Fire_Elemental_Nature",
+		"name": "Living Flame",
+		"image": 18,
+		"effects": [
+			{
+				"effect": "immunity",
+				"value": "burn"
+			},
+			{
+				"effect": "damage_type_reduction",
+				"value": "fire",
+				"secondary_value": 0.1
+			}
+		],
+		"description": "Immune to burn and takes 10% less fire damage."
+	},
+	{
+		"id": "arendeth_astral_magic_Air_Elemental_Nature",
+		"name": "Living Wind",
+		"image": 16,
+		"effects": [
+			{
+				"effect": "immunity",
+				"value": "frostbite"
+			}
+		],
+		"description": "Immune to frostbite."
+	},
+	{
+		"id": "arendeth_astral_magic_Storm_Elemental_Nature",
+		"name": "Living Storm",
+		"image": 14,
+		"effects": [
+			{
+				"effect": "immunity",
+				"value": "stun"
+			}
+		],
+		"description": "Immune to stun."
+	},
+	{
+		"id": "arendeth_astral_magic_Earth_Elemental_Nature",
+		"name": "Living Stone",
+		"image": 19,
+		"effects": [
+			{
+				"effect": "immunity",
+				"value": "knockback"
+			}
+		],
+		"description": "Immune to knockback."
 	}
 ]

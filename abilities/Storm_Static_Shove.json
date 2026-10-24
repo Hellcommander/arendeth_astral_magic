@@ -1,0 +1,26 @@
+{
+	"animation": "core_2_Lightning_2",
+	"cast_time": 1.0,
+	"cooldown": 2.0,
+	"cost": {
+		"health": 0,
+		"stamina": 2
+	},
+	"description": "A crackling jolt deals ::damage ::damage_type damage and shoves the target back ::knockback tile.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			2,
+			5
+		],
+		"damage_type": "electricity",
+		"knockback": 1,
+		"magic_power_damage": 0.5
+	},
+	"id": "arendeth_astral_magic_Storm_Static_Shove",
+	"image": 0,
+	"name": "Static Shove",
+	"range": 3,
+	"skill": "",
+	"target": "health"
+}

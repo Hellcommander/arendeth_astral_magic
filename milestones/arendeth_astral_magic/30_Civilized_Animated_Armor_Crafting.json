@@ -8,6 +8,33 @@
   "rewards": [
     {
       "passive": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting"
+    },
+    {
+      "passive": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting_Iron"
+    },
+    {
+      "passive": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting_Chain"
+    },
+    {
+      "passive": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting_Bone"
+    },
+    {
+      "passive": "arendeth_astral_magic_Civilized_Animated_Armor_Crafting_Scale"
+    },
+    {
+      "recipe": "arendeth_astral_magic_Astral_Bound_Noble_Armor"
+    },
+    {
+      "recipe": "arendeth_astral_magic_Astral_Bound_Iron_Armor"
+    },
+    {
+      "recipe": "arendeth_astral_magic_Astral_Bound_Chain_Armor"
+    },
+    {
+      "recipe": "arendeth_astral_magic_Astral_Bound_Bone_Armor"
+    },
+    {
+      "recipe": "arendeth_astral_magic_Astral_Bound_Scale_Armor"
     }
   ],
   "skill_id": "arendeth_astral_magic",

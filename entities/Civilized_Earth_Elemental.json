@@ -1,7 +1,8 @@
 {
 	"ability_user": [
 		"59",
-		"92"
+		"92",
+		"arendeth_astral_magic_Earth_Pebble_Toss"
 	],
 	"armor": {
 		"acid": -5,
@@ -107,6 +108,7 @@
 	},
 	"skills": {
 		"milestones": [
+			"arendeth_astral_magic_Earth_Elemental_Nature",
 			"core_2_feather_spear",
 			"core_2_disable_consumption",
 			"core_2_executioners_axe",

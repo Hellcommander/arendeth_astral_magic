@@ -1,0 +1,25 @@
+{
+	"animation": "core_2_Wind_Thrust",
+	"cast_time": 1.0,
+	"cooldown": 2.0,
+	"cost": {
+		"health": 0,
+		"stamina": 2
+	},
+	"description": "Slash the air into a thin cutting gust dealing ::damage ::damage_type damage.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			3,
+			6
+		],
+		"damage_type": "physical",
+		"damage_weapon": 0.5
+	},
+	"id": "arendeth_astral_magic_Air_Gust_Cut",
+	"image": 19,
+	"name": "Gust Cut",
+	"range": 5,
+	"skill": "",
+	"target": "line"
+}

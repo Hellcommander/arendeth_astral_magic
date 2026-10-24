@@ -1,6 +1,9 @@
 {
 	"ability_user": [
-		"core_2_Lightning_Bolt"
+		"core_2_Lightning_Bolt",
+		"arendeth_astral_magic_Air_Burst_Charge",
+		"arendeth_astral_magic_Air_Cyclone_Burst",
+		"arendeth_astral_magic_Storm_Static_Shove"
 	],
 	"artificial_intelligence": {
 		"allies": [
@@ -97,6 +100,7 @@
 	},
 	"skills": {
 		"milestones": [
+			"arendeth_astral_magic_Storm_Elemental_Nature",
 			"core_2_disable_consumption",
 			"core_2_extra_pockets",
 			"core_2_first_aid",
